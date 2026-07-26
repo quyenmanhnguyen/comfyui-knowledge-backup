@@ -1,0 +1,28 @@
+# secrets / sessions
+secrets/
+*.session
+*token*
+*TOKEN*
+*.env
+
+# large model/runtime files
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.bin
+python_embeded/
+ComfyUI/
+models/
+output/
+
+# local caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS/editor
+Thumbs.db
+.DS_Store
