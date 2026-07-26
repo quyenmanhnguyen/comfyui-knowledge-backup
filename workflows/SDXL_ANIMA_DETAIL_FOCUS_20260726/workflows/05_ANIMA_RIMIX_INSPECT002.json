@@ -1,0 +1,144 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "aMixIllustrious_aMix.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "masterwork, masterpiece, best quality, detailed, high detail, very aesthetic, depth of field, dynamic angle, adult, aged up, one clearly adult woman age 30, mature female, solo, NSFW semi-real anime glamour, bright white hotel room, curvy voluptuous body, natural detailed nipples, lower body visible, clean intimate anatomy detail, soft round hips and abdomen, one hand on white sheet, other hand behind hair, separated fingers, clean symmetrical eyes, glossy black hair, warm daylight, satin sheet folds, elegant sensual expression, no text"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "lowres, worst quality, low quality, bad anatomy, bad hands, extra fingers, fused fingers, missing fingers, extra limbs, deformed face, asymmetrical eyes, cross-eye, lazy eye, dull eyes, muddy skin, grey skin, metallic skin, chrome skin, liquid metal skin, waxy plastic skin, oil paint smear, blurry, over-smoothed skin, fake text, watermark, signature, logo, child, teen, loli, underage"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "22",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 72429105,
+      "steps": 30,
+      "cfg": 6.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "XAD-05_ANIMA_RIMIX_INSPECT002"
+    }
+  },
+  "10": {
+    "class_type": "CLIPSetLastLayer",
+    "inputs": {
+      "clip": [
+        "22",
+        1
+      ],
+      "stop_at_clip_layer": -2
+    }
+  },
+  "20": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ],
+      "lora_name": "rimixxO2.safetensors",
+      "strength_model": 0.65,
+      "strength_clip": 0.65
+    }
+  },
+  "21": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "20",
+        0
+      ],
+      "clip": [
+        "20",
+        1
+      ],
+      "lora_name": "exposure_Lighting-step00000300.safetensors",
+      "strength_model": 0.22,
+      "strength_clip": 0.22
+    }
+  },
+  "22": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "21",
+        0
+      ],
+      "clip": [
+        "21",
+        1
+      ],
+      "lora_name": "civitai_nsfw_detail_20260726\\Hentai_Pussy_inspection_Anima_V01.safetensors",
+      "strength_model": 0.02,
+      "strength_clip": 0.02
+    }
+  }
+}

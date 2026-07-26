@@ -1,0 +1,92 @@
+[
+  {
+    "workflow": "01_ONEOBS_WIDE_LOWER_DETAIL.json",
+    "prefix": "XAD-01_ONEOBS_WIDE_LOWER_DETAIL",
+    "state": "done",
+    "elapsed": 30.1,
+    "images": [
+      "XAD-01_ONEOBS_WIDE_LOWER_DETAIL_00001_.png"
+    ]
+  },
+  {
+    "workflow": "02_ONEOBS_CHEST_SOFA_CLEAN.json",
+    "prefix": "XAD-02_ONEOBS_CHEST_SOFA_CLEAN",
+    "state": "done",
+    "elapsed": 22.1,
+    "images": [
+      "XAD-02_ONEOBS_CHEST_SOFA_CLEAN_00001_.png"
+    ]
+  },
+  {
+    "workflow": "06_AMIX_RIMIX_CLEAN_KNEEL.json",
+    "prefix": "XAD-06_AMIX_RIMIX_CLEAN_KNEEL",
+    "state": "done",
+    "elapsed": 28.1,
+    "images": [
+      "XAD-06_AMIX_RIMIX_CLEAN_KNEEL_00001_.png"
+    ]
+  },
+  {
+    "workflow": "03_ANIMA_RIMIX_STUDIO006.json",
+    "prefix": "XAD-03_ANIMA_RIMIX_STUDIO006",
+    "state": "done",
+    "elapsed": 20.1,
+    "images": [
+      "XAD-03_ANIMA_RIMIX_STUDIO006_00001_.png"
+    ]
+  },
+  {
+    "workflow": "04_ANIMA_RIMIX_NIPPLE004.json",
+    "prefix": "XAD-04_ANIMA_RIMIX_NIPPLE004",
+    "state": "done",
+    "elapsed": 18.1,
+    "images": [
+      "XAD-04_ANIMA_RIMIX_NIPPLE004_00001_.png"
+    ]
+  },
+  {
+    "workflow": "05_ANIMA_RIMIX_INSPECT002.json",
+    "prefix": "XAD-05_ANIMA_RIMIX_INSPECT002",
+    "state": "done",
+    "elapsed": 20.0,
+    "images": [
+      "XAD-05_ANIMA_RIMIX_INSPECT002_00001_.png"
+    ]
+  },
+  {
+    "workflow": "07_ONEOBS_FULLBODY_PULLBACK.json",
+    "prefix": "XAD-07_ONEOBS_FULLBODY_PULLBACK",
+    "state": "done",
+    "elapsed": 28.2,
+    "images": [
+      "XAD-07_ONEOBS_FULLBODY_PULLBACK_00001_.png"
+    ]
+  },
+  {
+    "workflow": "08_ONEOBS_SEATED_LOWER_CLEAR.json",
+    "prefix": "XAD-08_ONEOBS_SEATED_LOWER_CLEAR",
+    "state": "done",
+    "elapsed": 22.1,
+    "images": [
+      "XAD-08_ONEOBS_SEATED_LOWER_CLEAR_00001_.png"
+    ]
+  },
+  {
+    "workflow": "09_ANIMA_STUDIO004_FULLBODY.json",
+    "prefix": "XAD-09_ANIMA_STUDIO004_FULLBODY",
+    "state": "done",
+    "elapsed": 30.1,
+    "images": [
+      "XAD-09_ANIMA_STUDIO004_FULLBODY_00001_.png"
+    ]
+  },
+  {
+    "workflow": "10_ANIMA_NIPPLE0025_SOFT.json",
+    "prefix": "XAD-10_ANIMA_NIPPLE0025_SOFT",
+    "state": "done",
+    "elapsed": 20.1,
+    "images": [
+      "XAD-10_ANIMA_NIPPLE0025_SOFT_00001_.png"
+    ]
+  }
+]

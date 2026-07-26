@@ -1,0 +1,42 @@
+{
+  "01_ONEOBS_WIDE_LOWER_DETAIL.json": {
+    "decision": "keep-secondary",
+    "note": "bright chest/nipple direction; face hidden/eyes closed and lower detail not visible enough"
+  },
+  "02_ONEOBS_CHEST_SOFA_CLEAN.json": {
+    "decision": "keep-main-close",
+    "note": "best high-impact anime close-up; eyes/face strong, chest detail strong; very glossy"
+  },
+  "03_ANIMA_RIMIX_STUDIO006.json": {
+    "decision": "keep-secondary",
+    "note": "Studio 0.06 works without chrome; clean face/chest; still doll/gloss and simple hand"
+  },
+  "04_ANIMA_RIMIX_NIPPLE004.json": {
+    "decision": "keep-niche",
+    "note": "clearest nipple emphasis; hands hidden, face generic; use only for chest-specific tests"
+  },
+  "05_ANIMA_RIMIX_INSPECT002.json": {
+    "decision": "reject-main",
+    "note": "Inspection even at 0.02 shifts eyes red/generic and does not beat OneObs lower framing"
+  },
+  "06_AMIX_RIMIX_CLEAN_KNEEL.json": {
+    "decision": "keep-clean",
+    "note": "balanced aMix/Ri-mix clean control; less dramatic but usable and coherent"
+  },
+  "07_ONEOBS_FULLBODY_PULLBACK.json": {
+    "decision": "reject",
+    "note": "prompt says fullbody but model cropped face; too glossy; do not promote"
+  },
+  "08_ONEOBS_SEATED_LOWER_CLEAR.json": {
+    "decision": "keep-main-lower",
+    "note": "best lower/framing candidate in this batch; strong face/body; hands partly hidden and glossy"
+  },
+  "09_ANIMA_STUDIO004_FULLBODY.json": {
+    "decision": "keep-main-anima",
+    "note": "best Anima face/eyes; Studio 0.04 better than 0.06; still not true fullbody"
+  },
+  "10_ANIMA_NIPPLE0025_SOFT.json": {
+    "decision": "keep-main-soft",
+    "note": "best softer full-body-ish Anima/Nipple micro; face, feet and pose acceptable; glossy but clean"
+  }
+}

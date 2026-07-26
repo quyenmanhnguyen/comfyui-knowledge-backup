@@ -1,0 +1,176 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "aMixIllustrious_aMix.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "masterwork, masterpiece, best quality, detailed, high detail, very aesthetic, depth of field, dynamic angle, adult, aged up, one clearly adult woman age 30, mature female, solo, wide full-body NSFW semi-real anime, full body from head to knees visible, kneeling on white bed, curvy voluptuous adult body, natural detailed nipples, clean lower intimate anatomy, both hands flat on bed apart, separated fingers, youthful adult face, clear symmetrical brown eyes, soft fair skin, black hair, bright white daylight, no chrome, no fake text"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "lowres, worst quality, low quality, bad anatomy, bad hands, extra fingers, fused fingers, missing fingers, extra limbs, deformed face, asymmetrical eyes, cross-eye, lazy eye, dull eyes, muddy skin, grey skin, metallic skin, chrome skin, liquid metal skin, waxy plastic skin, oil paint smear, blurry, over-smoothed skin, cropped head, cropped feet, close-up only, fake text, watermark, signature, logo, child, teen, loli, underage"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "32",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 72429109,
+      "steps": 32,
+      "cfg": 6.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "XAD-09_ANIMA_STUDIO004_FULLBODY"
+    }
+  },
+  "10": {
+    "class_type": "CLIPSetLastLayer",
+    "inputs": {
+      "clip": [
+        "32",
+        1
+      ],
+      "stop_at_clip_layer": -2
+    }
+  },
+  "20": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ],
+      "lora_name": "rimixxO2.safetensors",
+      "strength_model": 0.65,
+      "strength_clip": 0.65
+    }
+  },
+  "21": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "20",
+        0
+      ],
+      "clip": [
+        "20",
+        1
+      ],
+      "lora_name": "exposure_Lighting-step00000300.safetensors",
+      "strength_model": 0.22,
+      "strength_clip": 0.22
+    }
+  },
+  "30": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ],
+      "lora_name": "rimixxO2.safetensors",
+      "strength_model": 0.65,
+      "strength_clip": 0.65
+    }
+  },
+  "31": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "30",
+        0
+      ],
+      "clip": [
+        "30",
+        1
+      ],
+      "lora_name": "exposure_Lighting-step00000300.safetensors",
+      "strength_model": 0.18,
+      "strength_clip": 0.18
+    }
+  },
+  "32": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "31",
+        0
+      ],
+      "clip": [
+        "31",
+        1
+      ],
+      "lora_name": "civitai_nsfw_detail_20260726\\Hentai_Studio_Quality_Anima-step00001300.safetensors",
+      "strength_model": 0.04,
+      "strength_clip": 0.04
+    }
+  }
+}

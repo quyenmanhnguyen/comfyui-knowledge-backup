@@ -1,0 +1,96 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "oneObsession_v23.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "masterwork, masterpiece, best quality, very aesthetic, high detail, adult, aged up, one clearly adult woman age 30, mature female, solo, full-body NSFW anime glamour figure study, standing three-quarter pose in bright private studio, head to upper thighs visible, natural breasts and lower anatomy visible, detailed nipples, soft abdominal and hip detail, one hand resting on curtain and the other relaxed away from body, separated fingers, calm confident expression, clear symmetrical eyes, glossy dark hair, warm white window light, luminous skin not metallic, crisp satin drape, no text"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "lowres, worst quality, low quality, bad anatomy, bad hands, extra fingers, fused fingers, missing fingers, extra limbs, deformed face, asymmetrical eyes, cross-eye, lazy eye, dull eyes, muddy skin, grey skin, metallic skin, chrome skin, liquid metal skin, waxy plastic skin, oil paint smear, blurry, over-smoothed skin, fake text, watermark, signature, logo, child, teen, loli, underage"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 832,
+      "height": 1216,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 72429101,
+      "steps": 32,
+      "cfg": 5.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "XAD-01_ONEOBS_WIDE_LOWER_DETAIL"
+    }
+  },
+  "10": {
+    "class_type": "CLIPSetLastLayer",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "stop_at_clip_layer": -2
+    }
+  }
+}
