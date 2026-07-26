@@ -1,0 +1,123 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "moodyProMix_zitV13.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen_3_4b.safetensors",
+      "type": "lumina2",
+      "device": "cpu"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "ae.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "text": "Premium bright fine-art photograph, one clearly adult East Asian woman age 30, full NSFW adult figure study, medium three-quarter pose by white curtains, soft curvy body, exposed breasts and lower body, natural intimate anatomy detail, both hands visible and separated, bright diffused daylight, white bounce fill, 85mm lens, luminous neutral-warm skin with fine pores and subtle blush, crisp dark hair, no grey skin, no waxy blur, no chrome skin, adult only"
+    }
+  },
+  "5": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "4",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 576,
+      "height": 800,
+      "batch_size": 1
+    }
+  },
+  "7": {
+    "class_type": "ModelSamplingAuraFlow",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "shift": 3
+    }
+  },
+  "8": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "11",
+        0
+      ],
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "6",
+        0
+      ],
+      "seed": 7229652,
+      "steps": 12,
+      "cfg": 1,
+      "sampler_name": "res_2s",
+      "scheduler": "beta57",
+      "denoise": 1
+    }
+  },
+  "9": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "8",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    }
+  },
+  "10": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "9",
+        0
+      ],
+      "filename_prefix": "FNSFW-06_Z_FEMALEANAT0055"
+    }
+  },
+  "11": {
+    "class_type": "ZImageTurboLoraLoader",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "lora_name": "civitai_nsfw_detail_20260726\\female_anatomy_zib-000085-comfy.safetensors",
+      "strength_model": 0.055,
+      "auto_convert_qkv": true,
+      "layer_strengths": "{}"
+    }
+  }
+}

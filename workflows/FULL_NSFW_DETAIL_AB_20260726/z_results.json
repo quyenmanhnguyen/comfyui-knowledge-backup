@@ -1,0 +1,76 @@
+[
+  {
+    "elapsed": 307.2,
+    "outputs": [
+      "FNSFW-06_Z_FEMALEANAT0055_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "d7ce4b76-d2e6-4e5c-90ad-0384b3287c02",
+            "timestamp": 1785072122350
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "d7ce4b76-d2e6-4e5c-90ad-0384b3287c02",
+            "timestamp": 1785072122351
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "d7ce4b76-d2e6-4e5c-90ad-0384b3287c02",
+            "timestamp": 1785072428704
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_NSFW_DETAIL_AB_20260726\\workflows\\06_Z_FEMALEANAT0055.json"
+  },
+  {
+    "elapsed": 287.2,
+    "outputs": [
+      "FNSFW-07_Z_POSE004_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "33328ce3-60fa-4388-b44e-d2b9fc777718",
+            "timestamp": 1785072429534
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "6"
+            ],
+            "prompt_id": "33328ce3-60fa-4388-b44e-d2b9fc777718",
+            "timestamp": 1785072429534
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "33328ce3-60fa-4388-b44e-d2b9fc777718",
+            "timestamp": 1785072715557
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_NSFW_DETAIL_AB_20260726\\workflows\\07_Z_POSE004.json"
+  }
+]

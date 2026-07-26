@@ -1,0 +1,96 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "oneObsession_v23.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "masterwork, masterpiece, best quality, very aesthetic, high detail, adult, aged up, one clearly adult woman age 30, mature female, solo, full NSFW adult anime glamour, ivory sofa by bright window and warm lamp, voluptuous curvy body, exposed breasts and lower body, detailed nipples and natural intimate anatomy, sheer white satin drape, beautiful expressive face, clear symmetrical eyes, glossy dark hair, separated relaxed hands, luminous skin not metallic, crisp satin folds"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "lowres, worst quality, low quality, bad anatomy, bad hands, extra fingers, fused fingers, missing fingers, extra limbs, deformed face, asymmetrical eyes, cross-eye, lazy eye, muddy skin, grey skin, metallic skin, chrome skin, liquid metal skin, waxy plastic skin, oil paint smear, blurry, english text, character profile, radar chart, multiple layers, fake text, watermark, signature, logo, child, teen, loli, underage"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 832,
+      "height": 1216,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 72428062,
+      "steps": 32,
+      "cfg": 5.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "FNSFW-05_ONEOBS_CONTROL_FULL"
+    }
+  },
+  "10": {
+    "class_type": "CLIPSetLastLayer",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "stop_at_clip_layer": -2
+    }
+  }
+}

@@ -1,0 +1,195 @@
+[
+  {
+    "elapsed": 68.4,
+    "outputs": [
+      "FNSFW-01_ANIMA_CONTROL_FULL_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "d361637c-8744-445a-adcc-c8a96bd25c5b",
+            "timestamp": 1785071763074
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "d361637c-8744-445a-adcc-c8a96bd25c5b",
+            "timestamp": 1785071763075
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "d361637c-8744-445a-adcc-c8a96bd25c5b",
+            "timestamp": 1785071830036
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_NSFW_DETAIL_AB_20260726\\workflows\\01_ANIMA_CONTROL_FULL.json"
+  },
+  {
+    "elapsed": 62.4,
+    "outputs": [
+      "FNSFW-02_ANIMA_STUDIO008_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "45ece64d-6f6c-4cc1-8ddc-5d510fecd9f5",
+            "timestamp": 1785071831480
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "6",
+              "11"
+            ],
+            "prompt_id": "45ece64d-6f6c-4cc1-8ddc-5d510fecd9f5",
+            "timestamp": 1785071831481
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "45ece64d-6f6c-4cc1-8ddc-5d510fecd9f5",
+            "timestamp": 1785071892052
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_NSFW_DETAIL_AB_20260726\\workflows\\02_ANIMA_STUDIO008.json"
+  },
+  {
+    "elapsed": 62.3,
+    "outputs": [
+      "FNSFW-03_ANIMA_NIPPLE006_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "5d2fa9a2-f954-4c13-8ef7-7056f22977d2",
+            "timestamp": 1785071893922
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "6",
+              "11"
+            ],
+            "prompt_id": "5d2fa9a2-f954-4c13-8ef7-7056f22977d2",
+            "timestamp": 1785071893923
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "5d2fa9a2-f954-4c13-8ef7-7056f22977d2",
+            "timestamp": 1785071954244
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_NSFW_DETAIL_AB_20260726\\workflows\\03_ANIMA_NIPPLE006.json"
+  },
+  {
+    "elapsed": 60.3,
+    "outputs": [
+      "FNSFW-04_ANIMA_LOWER0035_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "fbd5a6bf-cc6c-4794-80c2-95e38ed258cc",
+            "timestamp": 1785071956255
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "6",
+              "11"
+            ],
+            "prompt_id": "fbd5a6bf-cc6c-4794-80c2-95e38ed258cc",
+            "timestamp": 1785071956256
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "fbd5a6bf-cc6c-4794-80c2-95e38ed258cc",
+            "timestamp": 1785072015543
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_NSFW_DETAIL_AB_20260726\\workflows\\04_ANIMA_LOWER0035.json"
+  },
+  {
+    "elapsed": 28.1,
+    "outputs": [
+      "FNSFW-05_ONEOBS_CONTROL_FULL_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "1eca38e8-0a6d-44df-a339-c128a3197091",
+            "timestamp": 1785072016577
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "1eca38e8-0a6d-44df-a339-c128a3197091",
+            "timestamp": 1785072016578
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "1eca38e8-0a6d-44df-a339-c128a3197091",
+            "timestamp": 1785072044119
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_NSFW_DETAIL_AB_20260726\\workflows\\05_ONEOBS_CONTROL_FULL.json"
+  }
+]

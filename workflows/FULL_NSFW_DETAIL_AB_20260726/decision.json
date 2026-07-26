@@ -1,0 +1,58 @@
+[
+  {
+    "idx": "01",
+    "title": "Anima control full",
+    "file": "FNSFW-01_ANIMA_CONTROL_FULL_00001_.png",
+    "time": "68.4s",
+    "verdict": "REJECT main",
+    "note": "T?ng th? ?n nh?ng anatomy ng?c l?i r?; ch?ng minh kh?ng ch? prompt l? ??."
+  },
+  {
+    "idx": "02",
+    "title": "Anima + Hentai Studio 0.08",
+    "file": "FNSFW-02_ANIMA_STUDIO008_00001_.png",
+    "time": "62.4s",
+    "verdict": "KEEP secondary",
+    "note": "C?i thi?n nipple/chest, m?t ??p h?n control; v?n h?i plastic/tay m?m."
+  },
+  {
+    "idx": "03",
+    "title": "Anima + Nipple Pull 0.06",
+    "file": "FNSFW-03_ANIMA_NIPPLE006_00001_.png",
+    "time": "62.3s",
+    "verdict": "KEEP niche chest-detail",
+    "note": "Chi ti?t chest/nipple r? h?n; m?t gi?/t?y h?n, tay ch?a t?t."
+  },
+  {
+    "idx": "04",
+    "title": "Anima + Lower Inspection 0.035",
+    "file": "FNSFW-04_ANIMA_LOWER0035_00001_.png",
+    "time": "60.3s",
+    "verdict": "REJECT",
+    "note": "Kh?ng c?i thi?n lower-detail r?; l?m m?t/t?ng gi? v? body plastic."
+  },
+  {
+    "idx": "05",
+    "title": "OneObsession full NSFW control",
+    "file": "FNSFW-05_ONEOBS_CONTROL_FULL_00001_.png",
+    "time": "28.1s warm",
+    "verdict": "MAIN WINNER",
+    "note": "??p/?n t??ng nh?t cho anime full NSFW: m?t, s?ng, nipple, t?ng th? t?t. Lower-detail kh?ng hi?n nhi?u do crop."
+  },
+  {
+    "idx": "06",
+    "title": "Z female anatomy 0.055",
+    "file": "FNSFW-06_Z_FEMALEANAT0055_00001_.png",
+    "time": "307.2s",
+    "verdict": "KEEP research only",
+    "note": "Photoreal soft s?ch nh?ng qu? ch?m v? kh?ng l?m lower-detail m?nh."
+  },
+  {
+    "idx": "07",
+    "title": "Z better pose 0.04",
+    "file": "FNSFW-07_Z_POSE004_00001_.png",
+    "time": "287.2s",
+    "verdict": "DUP/REJECT",
+    "note": "G?n y h?t #06, kh?ng ??ng gi? ri?ng."
+  }
+]
