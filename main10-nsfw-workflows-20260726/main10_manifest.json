@@ -1,0 +1,112 @@
+[
+  {
+    "rank": 1,
+    "name": "01_ONEOBSESSION_HIGH_IMPACT_SOFA",
+    "family": "SDXL / Illustrious checkpoint",
+    "source": "C:\\AI\\workflows\\CIVITAI_ANIMA_NSFW_POSES_20260726\\CANP-05_ONEOBS_LOCKED_SOFA.json",
+    "image": "CANP-05_ONEOBS_LOCKED_SOFA_00001_.png",
+    "role": "Main high-impact glossy curvy adult-anime NSFW. Best current hở/căng/ấn tượng branch.",
+    "why": "OneObsession v23 + DPM++ 2M/Karras keeps the approved S4 sofa/rain/lamp look with strongest body impact.",
+    "workflow_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\workflows\\01_ONEOBSESSION_HIGH_IMPACT_SOFA.json",
+    "reference_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\reference_images\\CANP-05_ONEOBS_LOCKED_SOFA_00001_.png"
+  },
+  {
+    "rank": 2,
+    "name": "02_ANIMA_RIMIX_WINDOW_CHAISE",
+    "family": "Anima / Qwen diffusion",
+    "source": "C:\\AI\\workflows\\CIVITAI_ANIMA_NSFW_POSES_20260726\\CANP-01_ANIMA_WINDOW_CHAISE.json",
+    "image": "CANP-01_ANIMA_WINDOW_CHAISE_00001_.png",
+    "role": "Cinematic Anima chaise/window NSFW.",
+    "why": "Ri-mix alpha Anima + exposure lighting has strong blue rain / warm lamp depth and polished anime rendering.",
+    "workflow_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\workflows\\02_ANIMA_RIMIX_WINDOW_CHAISE.json",
+    "reference_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\reference_images\\CANP-01_ANIMA_WINDOW_CHAISE_00001_.png"
+  },
+  {
+    "rank": 3,
+    "name": "03_ANIMA_RIMIX_MIRROR_STAND",
+    "family": "Anima / Qwen diffusion",
+    "source": "C:\\AI\\workflows\\CIVITAI_ANIMA_NSFW_POSES_20260726\\CANP-03_ANIMA_MIRROR_STAND.json",
+    "image": "CANP-03_ANIMA_MIRROR_STAND_00001_.png",
+    "role": "Standing/mirror-room premium Anima NSFW.",
+    "why": "Different pose/framing from sofa branch while keeping premium room light and crisp fabric/hair.",
+    "workflow_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\workflows\\03_ANIMA_RIMIX_MIRROR_STAND.json",
+    "reference_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\reference_images\\CANP-03_ANIMA_MIRROR_STAND_00001_.png"
+  },
+  {
+    "rank": 4,
+    "name": "04_AMIX_RIMIX_BALANCED_SILK",
+    "family": "SDXL / Illustrious checkpoint + Ri-mix LoRA",
+    "source": "C:\\AI\\workflows\\CIVITAI_ANIMA_NSFW_POSES_20260726\\CANP-06_AMIX_RIMIX_SILK_SOFA.json",
+    "image": "CANP-06_AMIX_RIMIX_SILK_SOFA_00001_.png",
+    "role": "Balanced clean semi-real anime NSFW.",
+    "why": "aMix + rimixxO2 0.65 is the stable clean branch when OneObsession is too glossy/extreme.",
+    "workflow_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\workflows\\04_AMIX_RIMIX_BALANCED_SILK.json",
+    "reference_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\reference_images\\CANP-06_AMIX_RIMIX_SILK_SOFA_00001_.png"
+  },
+  {
+    "rank": 5,
+    "name": "05_HASSAKU_BRIGHT_CURVY_LOUNGE",
+    "family": "SDXL / Illustrious checkpoint",
+    "source": "C:\\AI\\workflows\\CIVITAI_ANIMA_NSFW_POSES_20260726\\CANP-07_HASSAKU_BRIGHT_LOUNGE.json",
+    "image": "CANP-07_HASSAKU_BRIGHT_LOUNGE_00001_.png",
+    "role": "Bright clean curvy anime secondary.",
+    "why": "Hassaku v3.4 is a distinct bright anime checkpoint; useful variation, less premium than top 4.",
+    "workflow_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\workflows\\05_HASSAKU_BRIGHT_CURVY_LOUNGE.json",
+    "reference_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\reference_images\\CANP-07_HASSAKU_BRIGHT_LOUNGE_00001_.png"
+  },
+  {
+    "rank": 6,
+    "name": "06_ANIMA_RIMIX_EXPOSURE_TELEGRAM",
+    "family": "Anima / Qwen diffusion",
+    "source": "C:\\AI\\workflows\\TELEGRAM_MODEL_EXPAND_20260726\\TME-05_ANIMA_RIMIXA_EXPOSURE_LIGHT.json",
+    "image": "TME-05_ANIMA_RIMIXA_EXPOSURE_LIGHT_00001_.png",
+    "role": "Telegram-style polished rainy-window Anima baseline.",
+    "why": "Earlier best Telegram/model-expansion Anima output; keep as canonical not-overedited source graph.",
+    "workflow_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\workflows\\06_ANIMA_RIMIX_EXPOSURE_TELEGRAM.json",
+    "reference_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\reference_images\\TME-05_ANIMA_RIMIXA_EXPOSURE_LIGHT_00001_.png"
+  },
+  {
+    "rank": 7,
+    "name": "07_ANIMA_MOODY_MYTH_PORTRAIT",
+    "family": "Anima / Moody Anima + portrait LoRA",
+    "source": "C:\\AI\\workflows\\TELEGRAM_MODEL_EXPAND_20260726\\TME-04_ANIMA_MOODY_PLUS_MYTHPORTRAIT.json",
+    "image": "TME-04_ANIMA_MOODY_PLUS_MYTHPORTRAIT_00001_.png",
+    "role": "Fast brighter Anima portrait/beauty branch.",
+    "why": "Different Anima base/style from Ri-mix alpha; useful when wanting softer Moody/portrait character.",
+    "workflow_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\workflows\\07_ANIMA_MOODY_MYTH_PORTRAIT.json",
+    "reference_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\reference_images\\TME-04_ANIMA_MOODY_PLUS_MYTHPORTRAIT_00001_.png"
+  },
+  {
+    "rank": 8,
+    "name": "08_INTOREALISM_PHOTOREAL_ADULT_STUDY",
+    "family": "SDXL photoreal checkpoint",
+    "source": "C:\\AI\\workflows\\SDXL_REAL5_ANIME5_RETEST_20260723\\FIX_01_REAL02_INTO_AUTHOR_NSFW.json",
+    "image": "SDXL10-FIX-01_REAL02_INTO_AUTHOR_NSFW_00001_.png",
+    "role": "Photoreal adult figure-study fallback.",
+    "why": "IntoRealism Author remains the most reliable natural-human SDXL branch; avoid anime CLIP/tag grammar here.",
+    "workflow_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\workflows\\08_INTOREALISM_PHOTOREAL_ADULT_STUDY.json",
+    "reference_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\reference_images\\SDXL10-FIX-01_REAL02_INTO_AUTHOR_NSFW_00001_.png"
+  },
+  {
+    "rank": 9,
+    "name": "09_ZIMAGE_MOODY_RES2S_PHOTOREAL",
+    "family": "Z-Image / MoodyPro diffusion",
+    "source": "C:\\AI\\workflows\\ZIMAGE_FINAL10_MAIN_20260725\\MAIN_ZIMAGE_MOODY_RES2S_NSFW.json",
+    "image": "ZFINAL10-06_Z3_MOODY_RES2S_NSFW_00001_.png",
+    "role": "Z-Image photoreal youthful bright NSFW.",
+    "why": "Main proven Z workflow: MoodyPro v13.2 res_2s/beta57, no LoRA/detail/upscale.",
+    "workflow_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\workflows\\09_ZIMAGE_MOODY_RES2S_PHOTOREAL.json",
+    "reference_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\reference_images\\ZFINAL10-06_Z3_MOODY_RES2S_NSFW_00001_.png"
+  },
+  {
+    "rank": 10,
+    "name": "10_WAI_CLEAN_MIRROR_ANIME",
+    "family": "SDXL / WAI Illustrious checkpoint",
+    "source": "C:\\AI\\workflows\\CIVITAI_ANIMA_NSFW_POSES_20260726\\CANP-08_WAI_CLEAN_MIRROR.json",
+    "image": "CANP-08_WAI_CLEAN_MIRROR_00001_.png",
+    "role": "Clean simple anime mirror variation.",
+    "why": "Not top-tier premium, but clearly distinct, fast, clean and stable; useful as a lightweight alternate style.",
+    "workflow_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\workflows\\10_WAI_CLEAN_MIRROR_ANIME.json",
+    "reference_path": "C:\\AI\\workflows\\MAIN10_NSFW_WORKFLOWS_20260726\\reference_images\\CANP-08_WAI_CLEAN_MIRROR_00001_.png"
+  }
+]

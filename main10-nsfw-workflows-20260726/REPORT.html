@@ -1,0 +1,103 @@
+<!doctype html>
+<html><head><meta charset='utf-8'><title>MAIN10 NSFW workflows</title>
+<style>
+body{background:#101113;color:#eee;font-family:Segoe UI,Arial;margin:24px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(380px,1fr));gap:18px}
+.card{background:#1a1d22;border:1px solid #333;border-radius:12px;padding:16px}
+img{max-width:100%;border-radius:8px;background:#000}
+code{font-size:12px;color:#aee}
+</style></head><body>
+<h1>MAIN10 NSFW workflow pack — 2026-07-26</h1>
+<p>10 rõ ràng khác biệt theo model/loader/style. Không upscale mặc định.</p>
+<div class='grid'>
+    <section class='card'>
+      <h2>1. 01_ONEOBSESSION_HIGH_IMPACT_SOFA</h2>
+      <p><b>SDXL / Illustrious checkpoint</b></p>
+      <p>Main high-impact glossy curvy adult-anime NSFW. Best current hở/căng/ấn tượng branch.</p>
+      <p>OneObsession v23 + DPM++ 2M/Karras keeps the approved S4 sofa/rain/lamp look with strongest body impact.</p>
+      <img src="file:///C:/AI/workflows/MAIN10_NSFW_WORKFLOWS_20260726/reference_images/CANP-05_ONEOBS_LOCKED_SOFA_00001_.png">
+      <p><code>C:\AI\workflows\MAIN10_NSFW_WORKFLOWS_20260726\workflows\01_ONEOBSESSION_HIGH_IMPACT_SOFA.json</code></p>
+    </section>
+    
+    <section class='card'>
+      <h2>2. 02_ANIMA_RIMIX_WINDOW_CHAISE</h2>
+      <p><b>Anima / Qwen diffusion</b></p>
+      <p>Cinematic Anima chaise/window NSFW.</p>
+      <p>Ri-mix alpha Anima + exposure lighting has strong blue rain / warm lamp depth and polished anime rendering.</p>
+      <img src="file:///C:/AI/workflows/MAIN10_NSFW_WORKFLOWS_20260726/reference_images/CANP-01_ANIMA_WINDOW_CHAISE_00001_.png">
+      <p><code>C:\AI\workflows\MAIN10_NSFW_WORKFLOWS_20260726\workflows\02_ANIMA_RIMIX_WINDOW_CHAISE.json</code></p>
+    </section>
+    
+    <section class='card'>
+      <h2>3. 03_ANIMA_RIMIX_MIRROR_STAND</h2>
+      <p><b>Anima / Qwen diffusion</b></p>
+      <p>Standing/mirror-room premium Anima NSFW.</p>
+      <p>Different pose/framing from sofa branch while keeping premium room light and crisp fabric/hair.</p>
+      <img src="file:///C:/AI/workflows/MAIN10_NSFW_WORKFLOWS_20260726/reference_images/CANP-03_ANIMA_MIRROR_STAND_00001_.png">
+      <p><code>C:\AI\workflows\MAIN10_NSFW_WORKFLOWS_20260726\workflows\03_ANIMA_RIMIX_MIRROR_STAND.json</code></p>
+    </section>
+    
+    <section class='card'>
+      <h2>4. 04_AMIX_RIMIX_BALANCED_SILK</h2>
+      <p><b>SDXL / Illustrious checkpoint + Ri-mix LoRA</b></p>
+      <p>Balanced clean semi-real anime NSFW.</p>
+      <p>aMix + rimixxO2 0.65 is the stable clean branch when OneObsession is too glossy/extreme.</p>
+      <img src="file:///C:/AI/workflows/MAIN10_NSFW_WORKFLOWS_20260726/reference_images/CANP-06_AMIX_RIMIX_SILK_SOFA_00001_.png">
+      <p><code>C:\AI\workflows\MAIN10_NSFW_WORKFLOWS_20260726\workflows\04_AMIX_RIMIX_BALANCED_SILK.json</code></p>
+    </section>
+    
+    <section class='card'>
+      <h2>5. 05_HASSAKU_BRIGHT_CURVY_LOUNGE</h2>
+      <p><b>SDXL / Illustrious checkpoint</b></p>
+      <p>Bright clean curvy anime secondary.</p>
+      <p>Hassaku v3.4 is a distinct bright anime checkpoint; useful variation, less premium than top 4.</p>
+      <img src="file:///C:/AI/workflows/MAIN10_NSFW_WORKFLOWS_20260726/reference_images/CANP-07_HASSAKU_BRIGHT_LOUNGE_00001_.png">
+      <p><code>C:\AI\workflows\MAIN10_NSFW_WORKFLOWS_20260726\workflows\05_HASSAKU_BRIGHT_CURVY_LOUNGE.json</code></p>
+    </section>
+    
+    <section class='card'>
+      <h2>6. 06_ANIMA_RIMIX_EXPOSURE_TELEGRAM</h2>
+      <p><b>Anima / Qwen diffusion</b></p>
+      <p>Telegram-style polished rainy-window Anima baseline.</p>
+      <p>Earlier best Telegram/model-expansion Anima output; keep as canonical not-overedited source graph.</p>
+      <img src="file:///C:/AI/workflows/MAIN10_NSFW_WORKFLOWS_20260726/reference_images/TME-05_ANIMA_RIMIXA_EXPOSURE_LIGHT_00001_.png">
+      <p><code>C:\AI\workflows\MAIN10_NSFW_WORKFLOWS_20260726\workflows\06_ANIMA_RIMIX_EXPOSURE_TELEGRAM.json</code></p>
+    </section>
+    
+    <section class='card'>
+      <h2>7. 07_ANIMA_MOODY_MYTH_PORTRAIT</h2>
+      <p><b>Anima / Moody Anima + portrait LoRA</b></p>
+      <p>Fast brighter Anima portrait/beauty branch.</p>
+      <p>Different Anima base/style from Ri-mix alpha; useful when wanting softer Moody/portrait character.</p>
+      <img src="file:///C:/AI/workflows/MAIN10_NSFW_WORKFLOWS_20260726/reference_images/TME-04_ANIMA_MOODY_PLUS_MYTHPORTRAIT_00001_.png">
+      <p><code>C:\AI\workflows\MAIN10_NSFW_WORKFLOWS_20260726\workflows\07_ANIMA_MOODY_MYTH_PORTRAIT.json</code></p>
+    </section>
+    
+    <section class='card'>
+      <h2>8. 08_INTOREALISM_PHOTOREAL_ADULT_STUDY</h2>
+      <p><b>SDXL photoreal checkpoint</b></p>
+      <p>Photoreal adult figure-study fallback.</p>
+      <p>IntoRealism Author remains the most reliable natural-human SDXL branch; avoid anime CLIP/tag grammar here.</p>
+      <img src="file:///C:/AI/workflows/MAIN10_NSFW_WORKFLOWS_20260726/reference_images/SDXL10-FIX-01_REAL02_INTO_AUTHOR_NSFW_00001_.png">
+      <p><code>C:\AI\workflows\MAIN10_NSFW_WORKFLOWS_20260726\workflows\08_INTOREALISM_PHOTOREAL_ADULT_STUDY.json</code></p>
+    </section>
+    
+    <section class='card'>
+      <h2>9. 09_ZIMAGE_MOODY_RES2S_PHOTOREAL</h2>
+      <p><b>Z-Image / MoodyPro diffusion</b></p>
+      <p>Z-Image photoreal youthful bright NSFW.</p>
+      <p>Main proven Z workflow: MoodyPro v13.2 res_2s/beta57, no LoRA/detail/upscale.</p>
+      <img src="file:///C:/AI/workflows/MAIN10_NSFW_WORKFLOWS_20260726/reference_images/ZFINAL10-06_Z3_MOODY_RES2S_NSFW_00001_.png">
+      <p><code>C:\AI\workflows\MAIN10_NSFW_WORKFLOWS_20260726\workflows\09_ZIMAGE_MOODY_RES2S_PHOTOREAL.json</code></p>
+    </section>
+    
+    <section class='card'>
+      <h2>10. 10_WAI_CLEAN_MIRROR_ANIME</h2>
+      <p><b>SDXL / WAI Illustrious checkpoint</b></p>
+      <p>Clean simple anime mirror variation.</p>
+      <p>Not top-tier premium, but clearly distinct, fast, clean and stable; useful as a lightweight alternate style.</p>
+      <img src="file:///C:/AI/workflows/MAIN10_NSFW_WORKFLOWS_20260726/reference_images/CANP-08_WAI_CLEAN_MIRROR_00001_.png">
+      <p><code>C:\AI\workflows\MAIN10_NSFW_WORKFLOWS_20260726\workflows\10_WAI_CLEAN_MIRROR_ANIME.json</code></p>
+    </section>
+    </div>
+</body></html>

@@ -1,5 +1,22 @@
 # Local workflow evidence
 
+## MAIN10 NSFW workflow pack -- 2026-07-26
+
+- Curated pack: `C:\AI\workflows\MAIN10_NSFW_WORKFLOWS_20260726`. It contains 10 copied workflow JSONs under `workflows\`, 10 reference images under `reference_images\`, `main10_manifest.json`, `README.md`, `REPORT.html`, and `CONTACT_SHEET.jpg`.
+- Selection principle: workflows must be materially different by model family, loader, sampler/style role, or visual target. Seed-only or tiny prompt/strength variations were not allowed.
+- Main rank order:
+  1. `01_ONEOBSESSION_HIGH_IMPACT_SOFA` — SDXL/Illustrious OneObsession v23, strongest high-impact glossy curvy adult-anime NSFW; start here for "hở/căng/ấn tượng".
+  2. `02_ANIMA_RIMIX_WINDOW_CHAISE` — Ri-mix alpha Anima + exposure lighting; cinematic rain/window chaise.
+  3. `03_ANIMA_RIMIX_MIRROR_STAND` — same Anima family but distinct standing/mirror-room premium pose.
+  4. `04_AMIX_RIMIX_BALANCED_SILK` — aMix + rimixxO2 0.65, clean balanced semi-real anime.
+  5. `05_HASSAKU_BRIGHT_CURVY_LOUNGE` — Hassaku v3.4 bright curvy anime secondary.
+  6. `06_ANIMA_RIMIX_EXPOSURE_TELEGRAM` — earlier Telegram/model-expansion Ri-mix alpha Anima baseline.
+  7. `07_ANIMA_MOODY_MYTH_PORTRAIT` — Moody Anima + Myth Portrait; faster/brighter Anima portrait branch.
+  8. `08_INTOREALISM_PHOTOREAL_ADULT_STUDY` — IntoRealism Author SDXL photoreal adult figure-study branch.
+  9. `09_ZIMAGE_MOODY_RES2S_PHOTOREAL` — MoodyPro v13.2 Z-Image res_2s/beta57 photoreal branch; no Z LoRA/detail/upscale.
+  10. `10_WAI_CLEAN_MIRROR_ANIME` — WAI v17 clean mirror anime; useful lightweight distinct style, but weaker than rank 1–9.
+- For future work, treat ranks 1–4 as the first-call main anime/Anima choices. Use rank 8/9 only when the user specifically asks for real-person/photoreal. Rank 10 is optional/filler, not a visual leader.
+
 ## Civitai/Telegram adult Anima + SDXL pose batch -- 2026-07-26
 
 - Evidence/report: `C:\AI\workflows\CIVITAI_ANIMA_NSFW_POSES_20260726\REPORT.html`; selected outputs copied to `C:\AI\workflows\CIVITAI_ANIMA_NSFW_POSES_20260726\SELECTED`.
