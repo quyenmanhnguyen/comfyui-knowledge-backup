@@ -1,0 +1,132 @@
+[
+  {
+    "state": "complete",
+    "elapsed": 88.2,
+    "images": [
+      "MRB8-01_Z_MOODY_SOFA_BLUE_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "b6159121-8e37-45c2-8c08-0d44ac81349d",
+            "timestamp": 1785044272692
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "b6159121-8e37-45c2-8c08-0d44ac81349d",
+            "timestamp": 1785044272694
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "b6159121-8e37-45c2-8c08-0d44ac81349d",
+            "timestamp": 1785044359394
+          }
+        ]
+      ]
+    },
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-01_Z_MOODY_SOFA_BLUE.json",
+    "prefix": "MRB8-01_Z_MOODY_SOFA_BLUE",
+    "prompt_id": "b6159121-8e37-45c2-8c08-0d44ac81349d"
+  },
+  {
+    "state": "complete",
+    "elapsed": 66.1,
+    "images": [
+      "MRB8-02_Z_MOODY_WHITE_BED_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "6cafb0fa-c5e2-499b-b572-f422c7f5edbc",
+            "timestamp": 1785044360932
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "6",
+              "7"
+            ],
+            "prompt_id": "6cafb0fa-c5e2-499b-b572-f422c7f5edbc",
+            "timestamp": 1785044360932
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "6cafb0fa-c5e2-499b-b572-f422c7f5edbc",
+            "timestamp": 1785044425146
+          }
+        ]
+      ]
+    },
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-02_Z_MOODY_WHITE_BED.json",
+    "prefix": "MRB8-02_Z_MOODY_WHITE_BED",
+    "prompt_id": "6cafb0fa-c5e2-499b-b572-f422c7f5edbc"
+  },
+  {
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-03_Z_DIVING_WINDOW_WRAP.json",
+    "prefix": "MRB8-03_Z_DIVING_WINDOW_WRAP",
+    "state": "error",
+    "elapsed": 0,
+    "images": [],
+    "error": "ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host"
+  },
+  {
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-04_Z_BEYOND_NATURAL_SOFA.json",
+    "prefix": "MRB8-04_Z_BEYOND_NATURAL_SOFA",
+    "state": "error",
+    "elapsed": 0,
+    "images": [],
+    "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-05_SDXL_RIMIX_BLUE_SOFA.json",
+    "prefix": "MRB8-05_SDXL_RIMIX_BLUE_SOFA",
+    "state": "error",
+    "elapsed": 0,
+    "images": [],
+    "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-06_SDXL_RIMIX_CHAISE.json",
+    "prefix": "MRB8-06_SDXL_RIMIX_CHAISE",
+    "state": "error",
+    "elapsed": 0,
+    "images": [],
+    "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-07_ONEOBS_LOCKED_VARIANT.json",
+    "prefix": "MRB8-07_ONEOBS_LOCKED_VARIANT",
+    "state": "error",
+    "elapsed": 0,
+    "images": [],
+    "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-08_ANIMA_RIMIX_ALPHA.json",
+    "prefix": "MRB8-08_ANIMA_RIMIX_ALPHA",
+    "state": "error",
+    "elapsed": 0,
+    "images": [],
+    "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  }
+]

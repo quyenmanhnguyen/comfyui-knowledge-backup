@@ -1,0 +1,31 @@
+{"event": "starting", "index": 1, "name": "A1_GOTHIC_NEON"}
+All ComfyUI processes stopped
+Started PID=25472 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~8s
+{"index": 1, "name": "A1_GOTHIC_NEON", "source": "Civitai model 888231/version 3022620 + local Telegram neon/CCD lighting grammar", "elapsed_s": 66.2, "image": "STYLEX-A1_GOTHIC_NEON_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 62.1, \"contrast\": 63.51, \"edge_score\": 3082.85, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\A1_GOTHIC_NEON.json"}
+{"event": "starting", "index": 2, "name": "A2_DARK_ART"}
+Stopping PID=25472
+All ComfyUI processes stopped
+Started PID=34576 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~6s
+{"index": 2, "name": "A2_DARK_ART", "source": "Civitai model 1380736/version 2817661; author trigger and weight 1.0", "elapsed_s": 64.1, "image": "STYLEX-A2_DARK_ART_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 28.25, \"contrast\": 35.49, \"edge_score\": 1064.9, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\A2_DARK_ART.json"}
+{"event": "starting", "index": 3, "name": "A3_MYTHIC_COLORLINES"}
+Stopping PID=34576
+All ComfyUI processes stopped
+Started PID=19828 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~6s
+{"index": 3, "name": "A3_MYTHIC_COLORLINES", "source": "Civitai model 599757/version 3016131; author colorful-lines Anima style", "elapsed_s": 64.1, "image": "STYLEX-A3_MYTHIC_COLORLINES_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 122.46, \"contrast\": 76.86, \"edge_score\": 4383.06, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\A3_MYTHIC_COLORLINES.json"}
+{"event": "starting", "index": 4, "name": "A4_DRAMATIC_DAPPLED"}
+Stopping PID=19828
+All ComfyUI processes stopped
+Started PID=13792 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~6s
+{"index": 4, "name": "A4_DRAMATIC_DAPPLED", "source": "Civitai model 661736/version 3126711 (Anima V2); s1_dram + dappled light", "elapsed_s": 62.2, "image": "STYLEX-A4_DRAMATIC_DAPPLED_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 70.8, \"contrast\": 65.25, \"edge_score\": 1595.61, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\A4_DRAMATIC_DAPPLED.json"}
+{"event": "starting", "index": 5, "name": "A5_WAI17_CLEAN_ADULT"}
+Stopping PID=13792
+All ComfyUI processes stopped
+Started PID=23276 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~6s
+{"index": 5, "name": "A5_WAI17_CLEAN_ADULT", "source": "Civitai model 827184/version 2883731; author v17 settings", "elapsed_s": 26.1, "image": "STYLEX-A5_WAI17_CLEAN_ADULT_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 98.86, \"contrast\": 79.19, \"edge_score\": 1231.93, \"size\": [896, 1216]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\A5_WAI17_CLEAN_ADULT.json"}
+Stopping PID=23276
+All ComfyUI processes stopped

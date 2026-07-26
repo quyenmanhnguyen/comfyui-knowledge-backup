@@ -1,0 +1,27 @@
+BENCH_SAGE_20260719 — Attention backend A/B on RX 7800 XT (gfx1101, 16 GB, torch 2.9.1+rocm7.2.1, ComfyUI v0.28.0)
+
+Workflow: 07_BEYOND_RES2S_BASIC.json (Beyond Reality v3 BF16, res_2s/beta57, 12 steps, 576x800, fixed seed pairs, fresh hidden process per backend, API-only)
+
+RESULTS
+- pytorch cross-attention (baseline): 1.97-1.99 s/it, warm 30.7-32.2 s  -> LEADER, unchanged
+- sage-attention (triton-windows 3.6.0.post25 + sageattention 1.0.6 ROCm7 wheel): 2.09-2.37 s/it, warm 34.1-34.4 s -> ~11-15% SLOWER at 576x800. Same-seed image visually identical to baseline (no NaN/black/degradation). REJECTED for current Z-Image still leaders.
+- 1024x1024 Z-Image BF16: pathological on BOTH backends (pytorch ~65 s/it, sage ~46 s/it, >240 s timeouts, VRAM thrash). Do not bench 1K stills with 12 GB BF16 on 16 GB; use 576x800-class or tiling.
+- Triton presence alone (pytorch flag kept): warm 32.2 s = no regression. Packages left installed for future long-sequence/video tests.
+- bitsandbytes ROCm7 wheel NOT installed: built for gfx1100/1102/1103 only; this GPU is gfx1101.
+- ComfyUI core: v0.28.0 is the latest stable on GitHub releases (checked 2026-07-19); docs-only v0.28.1/.2 are partner-node changes. No update applied.
+
+KEY FIX REQUIRED FOR TRITON ON THIS MACHINE
+Embedded python lacked CPython dev headers: triton's tcc launcher compile failed with "Python.h not found" and ComfyUI silently fell back to pytorch attention.
+Fix applied: copied Include\ and libs\ from CPython 3.12.10 (nuget package python/3.12.10) into C:\AI\python_embeded. Triton GPU smoke test then passed (triton_smoke.py, max err 0.0).
+
+DECISION
+START_COMFYUI.ps1 unchanged: --use-pytorch-cross-attention remains the default. --use-sage-attention available for future long-sequence/video experiments only.
+
+CORRECTION (2026-07-19, per reviewer feedback)
+The ~2x faster reproduction of the DIVING_CYBER report winners was caused by WARM/RESIDENT-MODEL conditions (model kept in VRAM between runs in one process), NOT by Triton or the header fix. Attention backend was still pytorch cross-attention in both runs. Sampler ~2.07 s/it is consistent with the 1.97 s/it baseline (same workload family, run-to-run variance). Correct wording: 'warm/resident-model runs are faster than the report's reload-dominated runs'. Triton itself has shown no speed benefit on this machine's Z-Image still workloads so far. All future A/B claims must compare identical cache states (cold vs cold, warm vs warm).
+
+Artifacts: bench_run.py, bench_start.ps1, bench_stop.ps1, triton_smoke.py
+Logs: C:\AI\logs\bench_pytorch.*.log, C:\AI\logs\bench_sage.*.log
+Outputs: C:\AI\ComfyUI\output\BENCH-*.png
+Backup: C:\AI\logs\pip_freeze_backup_20260719.txt
+ComfyUI left stopped at completion.

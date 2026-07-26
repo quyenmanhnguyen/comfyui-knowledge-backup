@@ -1,0 +1,31 @@
+{"event": "starting", "index": 1, "name": "B1_MYTHIC_PORTRAIT"}
+All ComfyUI processes stopped
+Started PID=16992 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~8s
+{"index": 1, "name": "B1_MYTHIC_PORTRAIT", "source": "Civitai model 599757/version 3084665; author trigger mythp0rt, 0.6-1.0", "elapsed_s": 68.2, "image": "STYLEX2-B1_MYTHIC_PORTRAIT_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 127.0, \"contrast\": 62.89, \"edge_score\": 1793.98, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\B1_MYTHIC_PORTRAIT.json"}
+{"event": "starting", "index": 2, "name": "B2_ANIMA_REALISM_V2"}
+Stopping PID=16992
+All ComfyUI processes stopped
+Started PID=25952 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~8s
+{"index": 2, "name": "B2_ANIMA_REALISM_V2", "source": "Civitai model 2643318/version 2995972; realism enhancer v2", "elapsed_s": 64.2, "image": "STYLEX2-B2_ANIMA_REALISM_V2_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 154.25, \"contrast\": 62.53, \"edge_score\": 409.18, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\B2_ANIMA_REALISM_V2.json"}
+{"event": "starting", "index": 3, "name": "B3_BUNNYSLOP_V404"}
+Stopping PID=25952
+All ComfyUI processes stopped
+Started PID=27000 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~6s
+{"index": 3, "name": "B3_BUNNYSLOP_V404", "source": "Civitai model 2613391/version 3126430; author @sl0p, Euler A/simple 32 CFG4", "elapsed_s": 64.2, "image": "STYLEX2-B3_BUNNYSLOP_V404_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 172.96, \"contrast\": 68.71, \"edge_score\": 827.92, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\B3_BUNNYSLOP_V404.json"}
+{"event": "starting", "index": 4, "name": "B4_HASSAKU_V34"}
+Stopping PID=27000
+All ComfyUI processes stopped
+Started PID=34356 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~8s
+{"index": 4, "name": "B4_HASSAKU_V34", "source": "Civitai model 140272/version 2615702; author Euler A CFG6, 832x1216", "elapsed_s": 30.1, "image": "STYLEX2-B4_HASSAKU_V34_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 123.92, \"contrast\": 76.38, \"edge_score\": 1106.87, \"size\": [832, 1216]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\B4_HASSAKU_V34.json"}
+{"event": "starting", "index": 5, "name": "B5_COMIX_B3"}
+Stopping PID=34356
+All ComfyUI processes stopped
+Started PID=37384 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~6s
+{"index": 5, "name": "B5_COMIX_B3", "source": "Civitai model 2173364/version 2907004; western comic/cel-shaded Illustrious merge", "elapsed_s": 28.1, "image": "STYLEX2-B5_COMIX_B3_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 135.05, \"contrast\": 72.16, \"edge_score\": 1825.79, \"size\": [832, 1216]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\B5_COMIX_B3.json"}
+Stopping PID=37384
+All ComfyUI processes stopped

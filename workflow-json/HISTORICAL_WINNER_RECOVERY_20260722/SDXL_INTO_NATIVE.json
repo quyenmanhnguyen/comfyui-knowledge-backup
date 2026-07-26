@@ -1,0 +1,86 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "intorealismUltra_sdxlV1NoLightning.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "RAW fine-art studio photograph of one clearly adult Vietnamese woman age 29, solo, completely nude nonsexual full-body figure study, standing relaxed contrapposto, both complete hands visible and separated, both feet fully visible on the floor, natural adult anatomy and proportions, youthful soft oval face, long dark hair, bright diffused north-window light with white bounce fill, evenly exposed neutral-warm skin, fine pores and subtle tonal variation, 85mm lens, seamless warm grey background, restrained elegant museum photography, no props, no clothing"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "child, teen, underage, elderly, gaunt, masculine jaw, grey skin, orange skin, underexposed, harsh shadow, waxy, plastic, airbrushed, deformed hands, extra fingers, fused fingers, missing fingers, extra limbs, malformed feet, duplicate, text, logo, watermark, worst quality, low quality"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 896,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 7212602,
+      "steps": 35,
+      "cfg": 4.5,
+      "sampler_name": "dpmpp_sde",
+      "scheduler": "karras",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "RECOVER-SDXL_INTO_NATIVE"
+    }
+  }
+}

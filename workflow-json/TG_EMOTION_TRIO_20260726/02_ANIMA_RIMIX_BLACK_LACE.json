@@ -1,0 +1,73 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "riMixIllustriousAnima_riMixAnima.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen_3_06b_base.safetensors",
+      "type": "stable_diffusion",
+      "device": "default"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": ["2", 0],
+      "text": "masterpiece, best quality, very aesthetic, detailed cinematic anime illustration, semi-real 3D anime finish, one clearly adult East Asian woman age 28, solo, kneeling sideways on a pale cream velvet chaise and turning her face back toward camera, elegant youthful oval adult face with natural asymmetry, coherent warm brown eyes, half-lidded affectionate gaze, faint blush, small knowing smile and slightly parted lips, long flowing black hair kept clear of her hands. Very full soft curvy mature proportions, large natural breasts, rounded hips and thick thighs, tasteful nude adult figure wearing only delicate black lace thigh-high stockings and fine sapphire-and-gold body jewelry, non-explicit glamour presentation. Her left hand rests open on the chaise cushion in front of her and her right hand touches her own shoulder, exactly two complete separated hands, coherent wrists and fingers. Foreground lace edge and pearl chain, woman in the midground, abstract wall art, warm lamp and rainy blue window bokeh in the layered background, soft amber side key, broad pearl face fill, restrained cool rim, luminous smooth skin shading with subtle texture, crisp expressive eyes, individual hair strands, lace transparency and jewelry reflections, gentle depth of field, no painterly smears, no text, no watermark, adult, aged up"
+    }
+  },
+  "5": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": ["4", 0]
+    }
+  },
+  "6": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "7": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": ["1", 0],
+      "positive": ["4", 0],
+      "negative": ["5", 0],
+      "latent_image": ["6", 0],
+      "seed": 72626122,
+      "steps": 32,
+      "cfg": 3,
+      "sampler_name": "er_sde",
+      "scheduler": "simple",
+      "denoise": 1
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": ["7", 0],
+      "vae": ["3", 0]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": ["8", 0],
+      "filename_prefix": "TGTRIO-02-ANIMA-BLACKLACE"
+    }
+  }
+}

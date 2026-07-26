@@ -1,0 +1,21 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Historical Winner Recovery 2026-07-22</title>
+<style>body{font:16px system-ui;background:#111;color:#eee;margin:32px}h1,h2{color:#fff}.lead{max-width:1050px;color:#ccc}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}.card{background:#1b1b1b;border:1px solid #333;border-radius:12px;padding:14px}.winner{border-color:#39d98a}.card img{width:100%;border-radius:8px;background:#000}.meta{color:#8ddcff}.good{color:#76e6a3}.warn{color:#ffc66d}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{border:1px solid #444;padding:8px;text-align:left}</style>
+<h1>Phục hồi workflow thắng lịch sử</h1>
+<p class="lead">Chạy lại nguyên prompt, seed, canvas, sampler và graph cũ; chỉ đổi tiền tố SaveImage. Không upscale, không thêm detail node. 7/7 hoàn thành, không crash/timeout. Kết quả xác nhận sự sa sút của vòng trước là do thay công thức đầu vào, không phải do checkpoint SDXL hay kho tài nguyên của máy.</p>
+<table><tr><th>Workflow</th><th>Thời gian</th><th>Kết luận</th></tr>
+<tr><td>IntoRealism Author</td><td>40.2 s</td><td>Đẹp tự nhiên nhất, bố cục toàn thân và ánh sáng tốt</td></tr>
+<tr><td>IntoRealism Native</td><td>42.2 s</td><td>Toàn thân sạch, da và tỷ lệ ổn; nền hơi trống</td></tr>
+<tr><td>IntoRealism Fixed</td><td>42.2 s</td><td>Cận cảnh ấn tượng; tư thế khó nhưng chân/tay còn chấp nhận được</td></tr>
+<tr><td>RealVis SDE</td><td>42.2 s</td><td>Chi tiết da rõ nhất; crop nửa người và dáng trưởng thành hơn</td></tr>
+<tr><td>Moody res_2s</td><td>80.3 s</td><td>Studio cân đối; mặt/da hơi mịn và tối hơn SDXL</td></tr>
+<tr><td>Diving res_2s</td><td>68.3 s</td><td>Z-Image trẻ, sáng và toàn thân sạch nhất</td></tr>
+<tr><td>Beyond res_2s</td><td>56.9 s</td><td>Da tự nhiên, hình thể đầy đặn; tay phải hơi căng</td></tr></table>
+<h2>Ảnh</h2><div class="grid">
+<div class="card winner"><h3>1. IntoRealism Author <span class="meta">40.2 s</span></h3><img src="../../ComfyUI/output/RECOVER-SDXL_INTO_AUTHOR_00001_.png"><p class="good">SDXL tổng thể tốt nhất.</p></div>
+<div class="card winner"><h3>2. Diving res_2s <span class="meta">68.3 s</span></h3><img src="../../ComfyUI/output/RECOVER-Z_DIVING_RES2S_00001_.png"><p class="good">Z-Image trẻ/sáng tốt nhất.</p></div>
+<div class="card winner"><h3>3. IntoRealism Fixed <span class="meta">42.2 s</span></h3><img src="../../ComfyUI/output/RECOVER-SDXL_INTO_FIXED_00001_.png"><p class="good">Cận cảnh và da đẹp; giữ làm preset tư thế.</p></div>
+<div class="card"><h3>4. RealVis SDE <span class="meta">42.2 s</span></h3><img src="../../ComfyUI/output/RECOVER-SDXL_REALVIS_SDE_00001_.png"><p>Chi tiết da mạnh, hợp bán thân.</p></div>
+<div class="card"><h3>5. Beyond res_2s <span class="meta">56.9 s</span></h3><img src="../../ComfyUI/output/RECOVER-Z_BEYOND_RES2S_00001_.png"><p>Da tự nhiên và hình thể đầy đặn.</p></div>
+<div class="card"><h3>6. IntoRealism Native <span class="meta">42.2 s</span></h3><img src="../../ComfyUI/output/RECOVER-SDXL_INTO_NATIVE_00001_.png"><p>Baseline toàn thân sạch, ổn định.</p></div>
+<div class="card"><h3>7. Moody res_2s <span class="meta">80.3 s</span></h3><img src="../../ComfyUI/output/RECOVER-Z_MOODY_RES2S_00001_.png"><p class="warn">Đẹp nhưng chậm và da mịn hơn mong muốn.</p></div>
+</div></html>

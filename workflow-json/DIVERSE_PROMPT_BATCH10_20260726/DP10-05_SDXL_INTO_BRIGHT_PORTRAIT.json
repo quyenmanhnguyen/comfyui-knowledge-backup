@@ -1,0 +1,86 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "intorealismUltra_sdxlV1NoLightning.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "Premium bright editorial photograph of one clearly adult Vietnamese woman age 30 in a sunlit white apartment, head-to-thigh portrait, soft oval youthful face, natural brown eyes, relaxed confident smile, long black hair, healthy full curvy proportions, ivory satin blouse open at collar and fitted cream skirt, left hand resting on window frame, right hand holding a pearl necklace, separated natural fingers, luminous neutral-warm skin with visible fine pores, peach fuzz, subtle blush, crisp fabric, 85mm lens, clean background"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "child, teen, underage, elderly, gaunt face, grey skin, dark tan cast, harsh shadow, underexposed, waxy skin, plastic skin, blur, extra fingers, fused fingers, missing fingers, extra limbs, duplicate person, malformed feet, text, logo, watermark, worst quality, low quality, bad anatomy, child, teen, loli, young-looking, old face, grey skin, muddy skin, oily blur, waxy skin, plastic skin, smeared skin, bad eyes, crossed eyes, malformed face, bad hands, fused fingers, extra fingers, extra hands, disembodied hands, pov hands, fake text, watermark"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 1024,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 72629105,
+      "steps": 35,
+      "cfg": 4.5,
+      "sampler_name": "dpmpp_sde",
+      "scheduler": "karras",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "DP10-05_SDXL_INTO_BRIGHT_PORTRAIT"
+    }
+  }
+}

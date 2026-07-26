@@ -1,0 +1,112 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "aMixIllustrious_aMix.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ],
+      "lora_name": "rimixxO2.safetensors",
+      "strength_model": 0.65,
+      "strength_clip": 0.65
+    }
+  },
+  "3": {
+    "class_type": "CLIPSetLastLayer",
+    "inputs": {
+      "clip": [
+        "2",
+        1
+      ],
+      "stop_at_clip_layer": -2
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "text": "masterwork, masterpiece, best quality, detailed, high detail, very aesthetic, adult woman age 29, bright semi-real anime glamour portrait, soft oval face, brown eyes, warm confident smile, long black hair with airy strands, voluptuous soft-curvy figure, ivory satin blouse and cream skirt, sunlit white apartment, pearl earrings, left hand at waist, right hand touching hair, separated fingers, luminous skin, crisp hair and fabric, clean daylight, shallow depth of field"
+    }
+  },
+  "5": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "text": "lowres, worst quality, low quality, bad anatomy, bad hands, extra hands, extra fingers, fused fingers, missing fingers, extra limbs, duplicate person, disembodied limbs, crossed eyes, mismatched eyes, glowing eyes, plastic skin, waxy skin, oil painting, smeared brush strokes, blurry body, harsh orange skin, fake text, signature, watermark, logo, child, teen, loli, child, teen, loli, young-looking, lowres, bad anatomy, bad hands, extra hands, pov hands, disembodied hands, malformed eyes, dead eyes, waxy skin, muddy color, oil painting smear, fake text, watermark"
+    }
+  },
+  "6": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "7": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "6",
+        0
+      ],
+      "seed": 72629107,
+      "steps": 30,
+      "cfg": 7,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "7",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "DP10-07_RIMIX_DAYLIGHT_CHARM"
+    }
+  }
+}

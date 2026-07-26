@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "comfyui": {
+      "command": "C:\\AI\\python_embeded\\python.exe",
+      "args": ["C:\\AI\\mcp\\comfyui_mcp.py"]
+    }
+  }
+}

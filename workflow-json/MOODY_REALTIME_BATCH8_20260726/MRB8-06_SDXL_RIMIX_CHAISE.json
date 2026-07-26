@@ -1,0 +1,112 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "aMixIllustrious_aMix.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ],
+      "lora_name": "rimixxO2.safetensors",
+      "strength_model": 0.65,
+      "strength_clip": 0.65
+    }
+  },
+  "3": {
+    "class_type": "CLIPSetLastLayer",
+    "inputs": {
+      "clip": [
+        "2",
+        1
+      ],
+      "stop_at_clip_layer": -2
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "text": "masterwork, masterpiece, best quality, detailed, high detail, very aesthetic, adult woman age 29, bright elegant semi-real anime portrait, full soft-curvy body, youthful mature face, long black hair with bangs, brown expressive eyes, kneeling sideways on a white chaise lounge, black lace and pale silk fabric, pearl earrings, rain bokeh window, warm lamp, cool rim light, one hand rests on the chaise arm, the other hand holds a silk edge near her hip, separated fingers, smooth glossy skin, rich hair detail"
+    }
+  },
+  "5": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "text": "lowres, worst quality, low quality, bad anatomy, bad hands, extra hands, extra fingers, fused fingers, missing fingers, extra limbs, duplicate person, disembodied limbs, crossed eyes, mismatched eyes, glowing eyes, plastic skin, waxy skin, oil painting, smeared brush strokes, blurry body, harsh orange skin, fake text, signature, watermark, logo, child, teen, loli, child, teen, loli, young-looking, extra hands, disembodied hands, pov hands, extra limbs, fused fingers, malformed eyes, crossed eyes, bad face, waxy skin, oil painting, smeared skin, fake text"
+    }
+  },
+  "6": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "7": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "6",
+        0
+      ],
+      "seed": 72627106,
+      "steps": 30,
+      "cfg": 7,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "7",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "MRB8-06_SDXL_RIMIX_CHAISE"
+    }
+  }
+}

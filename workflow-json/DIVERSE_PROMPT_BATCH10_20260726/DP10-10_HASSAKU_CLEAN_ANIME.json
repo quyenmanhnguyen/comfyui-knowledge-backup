@@ -1,0 +1,96 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "hassakuXLIllustrious_v34.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "masterpiece, best quality, very aesthetic, adult woman age 29, clean bright anime fashion portrait, soft pretty mature face, brown eyes, long black hair, healthy curvy body, white blouse and black pencil skirt, standing in a sunny modern boutique, left hand holding handbag strap, right hand relaxed at side, separated fingers, glossy hair, clean skin, crisp fabric, warm daylight, shallow depth of field"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "lowres, bad quality, worst quality, bad anatomy, bad hands, extra hands, extra fingers, fused fingers, missing fingers, extra limbs, duplicate person, disembodied limbs, text, watermark, logo, signature, child, teen, loli, flat lighting, muddy colors, blurry face, child, teen, loli, young-looking, lowres, bad anatomy, bad hands, extra hands, pov hands, disembodied hands, malformed eyes, dead eyes, waxy skin, muddy color, oil painting smear, fake text, watermark"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 832,
+      "height": 1216,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 72629110,
+      "steps": 30,
+      "cfg": 6,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "DP10-10_HASSAKU_CLEAN_ANIME"
+    }
+  },
+  "10": {
+    "class_type": "CLIPSetLastLayer",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "stop_at_clip_layer": -2
+    }
+  }
+}

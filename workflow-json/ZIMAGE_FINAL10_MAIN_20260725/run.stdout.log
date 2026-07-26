@@ -1,0 +1,62 @@
+{"event": "starting", "index": 1, "name": "Z1_DIVING_RES2S_SFW"}
+Stopping PID=14064
+All ComfyUI processes stopped
+Started PID=9696 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~8s
+{"index": 1, "name": "Z1_DIVING_RES2S_SFW", "state": "ok", "elapsed_s": 80.3, "image": "ZFINAL10-01_Z1_DIVING_RES2S_SFW_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 142.2, \"contrast\": 79.62, \"edge_score\": 517.89, \"size\": [576, 800]}", "workflow": "C:\\AI\\workflows\\ZIMAGE_FINAL10_MAIN_20260725\\01_Z1_DIVING_RES2S_SFW.json"}
+{"event": "starting", "index": 2, "name": "Z1_DIVING_RES2S_NSFW"}
+Stopping PID=9696
+All ComfyUI processes stopped
+Started PID=40256 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{"index": 2, "name": "Z1_DIVING_RES2S_NSFW", "state": "ok", "elapsed_s": 84.3, "image": "ZFINAL10-02_Z1_DIVING_RES2S_NSFW_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 168.15, \"contrast\": 56.33, \"edge_score\": 379.45, \"size\": [576, 800]}", "workflow": "C:\\AI\\workflows\\ZIMAGE_FINAL10_MAIN_20260725\\02_Z1_DIVING_RES2S_NSFW.json"}
+{"event": "starting", "index": 3, "name": "Z2_BEYOND_RES2S_SFW"}
+Stopping PID=40256
+All ComfyUI processes stopped
+Started PID=41352 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{"index": 3, "name": "Z2_BEYOND_RES2S_SFW", "state": "ok", "elapsed_s": 87.8, "image": "ZFINAL10-03_Z2_BEYOND_RES2S_SFW_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 147.8, \"contrast\": 82.24, \"edge_score\": 611.55, \"size\": [576, 800]}", "workflow": "C:\\AI\\workflows\\ZIMAGE_FINAL10_MAIN_20260725\\03_Z2_BEYOND_RES2S_SFW.json"}
+{"event": "starting", "index": 4, "name": "Z2_BEYOND_RES2S_NSFW"}
+Stopping PID=41352
+All ComfyUI processes stopped
+Started PID=40636 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{"index": 4, "name": "Z2_BEYOND_RES2S_NSFW", "state": "ok", "elapsed_s": 84.4, "image": "ZFINAL10-04_Z2_BEYOND_RES2S_NSFW_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 169.68, \"contrast\": 53.91, \"edge_score\": 459.16, \"size\": [576, 800]}", "workflow": "C:\\AI\\workflows\\ZIMAGE_FINAL10_MAIN_20260725\\04_Z2_BEYOND_RES2S_NSFW.json"}
+{"event": "starting", "index": 5, "name": "Z3_MOODY_RES2S_SFW"}
+Stopping PID=40636
+All ComfyUI processes stopped
+Started PID=25056 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{"index": 5, "name": "Z3_MOODY_RES2S_SFW", "state": "ok", "elapsed_s": 82.3, "image": "ZFINAL10-05_Z3_MOODY_RES2S_SFW_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 147.42, \"contrast\": 81.01, \"edge_score\": 474.92, \"size\": [576, 800]}", "workflow": "C:\\AI\\workflows\\ZIMAGE_FINAL10_MAIN_20260725\\05_Z3_MOODY_RES2S_SFW.json"}
+{"event": "starting", "index": 6, "name": "Z3_MOODY_RES2S_NSFW"}
+Stopping PID=25056
+All ComfyUI processes stopped
+Started PID=11140 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{"index": 6, "name": "Z3_MOODY_RES2S_NSFW", "state": "ok", "elapsed_s": 86.3, "image": "ZFINAL10-06_Z3_MOODY_RES2S_NSFW_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 173.61, \"contrast\": 67.6, \"edge_score\": 408.61, \"size\": [576, 800]}", "workflow": "C:\\AI\\workflows\\ZIMAGE_FINAL10_MAIN_20260725\\06_Z3_MOODY_RES2S_NSFW.json"}
+{"event": "starting", "index": 7, "name": "Z4_MOODY_EULER_H4_SFW"}
+Stopping PID=11140
+All ComfyUI processes stopped
+Started PID=19968 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{"index": 7, "name": "Z4_MOODY_EULER_H4_SFW", "state": "ok", "elapsed_s": 68.2, "image": "ZFINAL10-07_Z4_MOODY_EULER_H4_SFW_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 153.78, \"contrast\": 81.99, \"edge_score\": 496.19, \"size\": [576, 800]}", "workflow": "C:\\AI\\workflows\\ZIMAGE_FINAL10_MAIN_20260725\\07_Z4_MOODY_EULER_H4_SFW.json"}
+{"event": "starting", "index": 8, "name": "Z4_MOODY_EULER_H4_NSFW"}
+Stopping PID=19968
+All ComfyUI processes stopped
+Started PID=18252 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{"index": 8, "name": "Z4_MOODY_EULER_H4_NSFW", "state": "ok", "elapsed_s": 66.4, "image": "ZFINAL10-08_Z4_MOODY_EULER_H4_NSFW_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 178.97, \"contrast\": 53.28, \"edge_score\": 367.19, \"size\": [576, 800]}", "workflow": "C:\\AI\\workflows\\ZIMAGE_FINAL10_MAIN_20260725\\08_Z4_MOODY_EULER_H4_NSFW.json"}
+{"event": "starting", "index": 9, "name": "Z5_BEYOND_X21_SFW"}
+Stopping PID=18252
+All ComfyUI processes stopped
+Started PID=39456 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{"index": 9, "name": "Z5_BEYOND_X21_SFW", "state": "ok", "elapsed_s": 72.3, "image": "ZFINAL10-09_Z5_BEYOND_X21_SFW_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 168.33, \"contrast\": 72.61, \"edge_score\": 572.87, \"size\": [576, 800]}", "workflow": "C:\\AI\\workflows\\ZIMAGE_FINAL10_MAIN_20260725\\09_Z5_BEYOND_X21_SFW.json"}
+{"event": "starting", "index": 10, "name": "Z5_BEYOND_X21_NSFW"}
+Stopping PID=39456
+All ComfyUI processes stopped
+Started PID=23616 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~8s
+{"index": 10, "name": "Z5_BEYOND_X21_NSFW", "state": "ok", "elapsed_s": 70.3, "image": "ZFINAL10-10_Z5_BEYOND_X21_NSFW_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 179.84, \"contrast\": 46.01, \"edge_score\": 486.07, \"size\": [576, 800]}", "workflow": "C:\\AI\\workflows\\ZIMAGE_FINAL10_MAIN_20260725\\10_Z5_BEYOND_X21_NSFW.json"}
+Stopping PID=23616
+All ComfyUI processes stopped

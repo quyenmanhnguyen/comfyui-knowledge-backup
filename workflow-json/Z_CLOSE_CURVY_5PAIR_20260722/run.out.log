@@ -1,0 +1,15 @@
+All ComfyUI processes stopped
+Started PID=13360 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{'candidate': 'Z1_DIVING_RES2S', 'variant': 'SFW', 'state': 'ok', 'elapsed_s': 78.2, 'image': 'ZC5-01_Z1_DIVING_RES2S-SFW_00001_.png', 'workflow': 'C:\\AI\\workflows\\Z_CLOSE_CURVY_5PAIR_20260722\\Z1_DIVING_RES2S_SFW.json', 'source': 'C:\\AI\\workflows\\FINAL_SFW_NSFW_20260722\\Z03_DIVING_SFW.json', 'note': ''}
+{'candidate': 'Z1_DIVING_RES2S', 'variant': 'NSFW', 'state': 'timeout', 'elapsed_s': 240, 'image': '', 'workflow': 'C:\\AI\\workflows\\Z_CLOSE_CURVY_5PAIR_20260722\\Z1_DIVING_RES2S_NSFW.json', 'source': 'C:\\AI\\workflows\\FINAL_SFW_NSFW_20260722\\Z03_DIVING_SFW.json', 'note': 'four-minute limit'}
+Stopping PID=13360
+All ComfyUI processes stopped
+Started PID=33144 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{'candidate': 'Z2_BEYOND_RES2S', 'variant': 'SFW', 'state': 'ok', 'elapsed_s': 80.1, 'image': 'ZC5-02_Z2_BEYOND_RES2S-SFW_00001_.png', 'workflow': 'C:\\AI\\workflows\\Z_CLOSE_CURVY_5PAIR_20260722\\Z2_BEYOND_RES2S_SFW.json', 'source': 'C:\\AI\\workflows\\FINAL_SFW_NSFW_20260722\\Z01_BEYOND_SFW.json', 'note': ''}
+{'candidate': 'Z2_BEYOND_RES2S', 'variant': 'NSFW', 'state': 'timeout', 'elapsed_s': 240, 'image': '', 'workflow': 'C:\\AI\\workflows\\Z_CLOSE_CURVY_5PAIR_20260722\\Z2_BEYOND_RES2S_NSFW.json', 'source': 'C:\\AI\\workflows\\FINAL_SFW_NSFW_20260722\\Z01_BEYOND_SFW.json', 'note': 'four-minute limit'}
+Stopping PID=33144
+All ComfyUI processes stopped
+Started PID=19928 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s

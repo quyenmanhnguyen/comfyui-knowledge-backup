@@ -1,0 +1,16 @@
+{'workflow': 'Z01_BEYOND', 'family': 'z', 'mode': 'SFW', 'state': 'ok', 'elapsed_s': 80.5, 'image': 'FINAL-Z01_BEYOND-SFW_00001_.png', 'note': ''}
+{'workflow': 'Z01_BEYOND', 'family': 'z', 'mode': 'NSFW', 'state': 'ok', 'elapsed_s': 76.2, 'image': 'FINAL-Z01_BEYOND-NSFW_00001_.png', 'note': ''}
+{'workflow': 'Z02_MOODY', 'family': 'z', 'mode': 'SFW', 'state': 'ok', 'elapsed_s': 76.3, 'image': 'FINAL-Z02_MOODY-SFW_00001_.png', 'note': ''}
+{'workflow': 'Z02_MOODY', 'family': 'z', 'mode': 'NSFW', 'state': 'ok', 'elapsed_s': 210.6, 'image': 'FINAL-Z02_MOODY-NSFW_00001_.png', 'note': ''}
+{'workflow': 'Z03_DIVING', 'family': 'z', 'mode': 'SFW', 'state': 'ok', 'elapsed_s': 74.2, 'image': 'FINAL-Z03_DIVING-SFW_00001_.png', 'note': ''}
+{'workflow': 'Z03_DIVING', 'family': 'z', 'mode': 'NSFW', 'state': 'ok', 'elapsed_s': 70.1, 'image': 'FINAL-Z03_DIVING-NSFW_00001_.png', 'note': ''}
+{'workflow': 'R04_INTO', 'family': 'real', 'mode': 'SFW', 'state': 'ok', 'elapsed_s': 50.1, 'image': 'FINAL-R04_INTO-SFW_00001_.png', 'note': ''}
+{'workflow': 'R04_INTO', 'family': 'real', 'mode': 'NSFW', 'state': 'ok', 'elapsed_s': 42.1, 'image': 'FINAL-R04_INTO-NSFW_00001_.png', 'note': ''}
+{'workflow': 'A05_RIMIX', 'family': 'anime', 'mode': 'SFW', 'state': 'ok', 'elapsed_s': 28.0, 'image': 'FINAL-A05_RIMIX-SFW_00001_.png', 'note': ''}
+{'workflow': 'A05_RIMIX', 'family': 'anime', 'mode': 'NSFW', 'state': 'ok', 'elapsed_s': 16.0, 'image': 'FINAL-A05_RIMIX-NSFW_00001_.png', 'note': ''}
+{'workflow': 'A06_FAB', 'family': 'anime', 'mode': 'SFW', 'state': 'ok', 'elapsed_s': 24.1, 'image': 'FINAL-A06_FAB-SFW_00001_.png', 'note': ''}
+{'workflow': 'A06_FAB', 'family': 'anime', 'mode': 'NSFW', 'state': 'ok', 'elapsed_s': 16.0, 'image': 'FINAL-A06_FAB-NSFW_00001_.png', 'note': ''}
+{'workflow': 'N07_YUME', 'family': 'anima', 'mode': 'SFW', 'state': 'ok', 'elapsed_s': 20.1, 'image': 'FINAL-N07_YUME-SFW_00001_.png', 'note': ''}
+{'workflow': 'N07_YUME', 'family': 'anima', 'mode': 'NSFW', 'state': 'ok', 'elapsed_s': 10.1, 'image': 'FINAL-N07_YUME-NSFW_00001_.png', 'note': ''}
+{'workflow': 'N08_NIJI', 'family': 'anima', 'mode': 'SFW', 'state': 'ok', 'elapsed_s': 20.0, 'image': 'FINAL-N08_NIJI-SFW_00001_.png', 'note': ''}
+{'workflow': 'N08_NIJI', 'family': 'anima', 'mode': 'NSFW', 'state': 'ok', 'elapsed_s': 10.1, 'image': 'FINAL-N08_NIJI-NSFW_00001_.png', 'note': ''}

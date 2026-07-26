@@ -1,0 +1,120 @@
+{
+  "1": {
+    "inputs": {
+      "weight_dtype": "default",
+      "unet_name": "moodyProMix_zitV13.safetensors"
+    },
+    "class_type": "UNETLoader"
+  },
+  "2": {
+    "inputs": {
+      "device": "cpu",
+      "clip_name": "qwen_3_4b.safetensors",
+      "type": "lumina2"
+    },
+    "class_type": "CLIPLoader"
+  },
+  "3": {
+    "inputs": {
+      "vae_name": "ae.safetensors"
+    },
+    "class_type": "VAELoader"
+  },
+  "4": {
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "text": "Premium close three-quarter fine-art studio photograph, one clearly adult Vietnamese woman age 29, solo, nonsexual nude adult figure study, youthful soft oval adult face, gentle confident expression, long natural dark hair, naturally fuller curvy figure with soft healthy adult proportions, framed from head to mid-thigh, standing at a slight three-quarter angle, both complete hands relaxed, separated and clearly visible, natural adult anatomy, bright diffused window key light and clean white bounce fill, luminous neutral-warm skin, subtle natural blush, fine pores, peach fuzz and restrained microcontrast, 70mm portrait lens, shallow depth of field, simple warm-grey studio, no props, no writing or watermark"
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "6": {
+    "inputs": {
+      "batch_size": 1,
+      "width": 576,
+      "height": 800
+    },
+    "class_type": "EmptyLatentImage"
+  },
+  "10": {
+    "inputs": {
+      "images": [
+        "9",
+        0
+      ],
+      "filename_prefix": "ZC5-04_Z4_MOODY_EULER_H4-NSFW"
+    },
+    "class_type": "SaveImage"
+  },
+  "12": {
+    "inputs": {
+      "noise_seed": 7229652
+    },
+    "class_type": "RandomNoise"
+  },
+  "13": {
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "conditioning": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "BasicGuider"
+  },
+  "14": {
+    "inputs": {
+      "sampler_name": "euler_flow"
+    },
+    "class_type": "KSamplerSelect"
+  },
+  "15": {
+    "inputs": {
+      "steps": 8
+    },
+    "class_type": "ZImageTurboScheduler"
+  },
+  "16": {
+    "inputs": {
+      "sigmas": [
+        "15",
+        0
+      ],
+      "guider": [
+        "13",
+        0
+      ],
+      "noise": [
+        "12",
+        0
+      ],
+      "sampler": [
+        "14",
+        0
+      ],
+      "latent_image": [
+        "6",
+        0
+      ]
+    },
+    "class_type": "SamplerCustomAdvanced"
+  },
+  "9": {
+    "inputs": {
+      "samples": [
+        "16",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "VAEDecode"
+  }
+}

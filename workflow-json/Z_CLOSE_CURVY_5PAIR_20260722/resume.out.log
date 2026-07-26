@@ -1,0 +1,41 @@
+All ComfyUI processes stopped
+Started PID=23704 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~8s
+{'candidate': 'Z1_DIVING_RES2S', 'variant': 'NSFW', 'state': 'ok', 'elapsed_s': 78.4, 'image': 'ZC5-01_Z1_DIVING_RES2S-NSFW_00001_.png', 'workflow': 'C:\\AI\\workflows\\Z_CLOSE_CURVY_5PAIR_20260722\\Z1_DIVING_RES2S_NSFW.json', 'source': 'C:\\AI\\workflows\\FINAL_SFW_NSFW_20260722\\Z03_DIVING_SFW.json', 'note': ''}
+Stopping PID=23704
+All ComfyUI processes stopped
+Started PID=13656 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{'candidate': 'Z2_BEYOND_RES2S', 'variant': 'NSFW', 'state': 'ok', 'elapsed_s': 82.3, 'image': 'ZC5-02_Z2_BEYOND_RES2S-NSFW_00001_.png', 'workflow': 'C:\\AI\\workflows\\Z_CLOSE_CURVY_5PAIR_20260722\\Z2_BEYOND_RES2S_NSFW.json', 'source': 'C:\\AI\\workflows\\FINAL_SFW_NSFW_20260722\\Z01_BEYOND_SFW.json', 'note': ''}
+Stopping PID=13656
+All ComfyUI processes stopped
+Started PID=34680 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{'candidate': 'Z3_MOODY_RES2S', 'variant': 'SFW', 'state': 'ok', 'elapsed_s': 78.2, 'image': 'ZC5-03_Z3_MOODY_RES2S-SFW_00001_.png', 'workflow': 'C:\\AI\\workflows\\Z_CLOSE_CURVY_5PAIR_20260722\\Z3_MOODY_RES2S_SFW.json', 'source': 'C:\\AI\\workflows\\FINAL_SFW_NSFW_20260722\\Z02_MOODY_SFW.json', 'note': ''}
+Stopping PID=34680
+All ComfyUI processes stopped
+Started PID=30256 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{'candidate': 'Z3_MOODY_RES2S', 'variant': 'NSFW', 'state': 'ok', 'elapsed_s': 82.3, 'image': 'ZC5-03_Z3_MOODY_RES2S-NSFW_00001_.png', 'workflow': 'C:\\AI\\workflows\\Z_CLOSE_CURVY_5PAIR_20260722\\Z3_MOODY_RES2S_NSFW.json', 'source': 'C:\\AI\\workflows\\FINAL_SFW_NSFW_20260722\\Z02_MOODY_SFW.json', 'note': ''}
+Stopping PID=30256
+All ComfyUI processes stopped
+Started PID=4068 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{'candidate': 'Z4_MOODY_EULER_H4', 'variant': 'SFW', 'state': 'ok', 'elapsed_s': 64.2, 'image': 'ZC5-04_Z4_MOODY_EULER_H4-SFW_00001_.png', 'workflow': 'C:\\AI\\workflows\\Z_CLOSE_CURVY_5PAIR_20260722\\Z4_MOODY_EULER_H4_SFW.json', 'source': 'C:\\AI\\workflows\\OLD_WINNER_SLOW_20260722\\B1_H4_ORIGINAL.json', 'note': ''}
+Stopping PID=4068
+All ComfyUI processes stopped
+Started PID=40596 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{'candidate': 'Z4_MOODY_EULER_H4', 'variant': 'NSFW', 'state': 'ok', 'elapsed_s': 64.5, 'image': 'ZC5-04_Z4_MOODY_EULER_H4-NSFW_00001_.png', 'workflow': 'C:\\AI\\workflows\\Z_CLOSE_CURVY_5PAIR_20260722\\Z4_MOODY_EULER_H4_NSFW.json', 'source': 'C:\\AI\\workflows\\OLD_WINNER_SLOW_20260722\\B1_H4_ORIGINAL.json', 'note': ''}
+Stopping PID=40596
+All ComfyUI processes stopped
+Started PID=9672 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{'candidate': 'Z5_BEYOND_X21', 'variant': 'SFW', 'state': 'ok', 'elapsed_s': 66.4, 'image': 'ZC5-05_Z5_BEYOND_X21-SFW_00001_.png', 'workflow': 'C:\\AI\\workflows\\Z_CLOSE_CURVY_5PAIR_20260722\\Z5_BEYOND_X21_SFW.json', 'source': 'C:\\AI\\workflows\\COMMUNITY_TEST_20260717\\FINAL_TOP10_PAIR_20260719\\08_BEYOND_X21_NSFW.json', 'note': ''}
+Stopping PID=9672
+All ComfyUI processes stopped
+Started PID=18748 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~10s
+{'candidate': 'Z5_BEYOND_X21', 'variant': 'NSFW', 'state': 'ok', 'elapsed_s': 72.2, 'image': 'ZC5-05_Z5_BEYOND_X21-NSFW_00001_.png', 'workflow': 'C:\\AI\\workflows\\Z_CLOSE_CURVY_5PAIR_20260722\\Z5_BEYOND_X21_NSFW.json', 'source': 'C:\\AI\\workflows\\COMMUNITY_TEST_20260717\\FINAL_TOP10_PAIR_20260719\\08_BEYOND_X21_NSFW.json', 'note': ''}
+Stopping PID=18748
+All ComfyUI processes stopped

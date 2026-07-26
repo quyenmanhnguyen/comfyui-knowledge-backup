@@ -1,0 +1,90 @@
+{
+  "1": {
+    "inputs": {
+      "weight_dtype": "default",
+      "unet_name": "china_community\\beyondREALITY_V30_CIVITAI_BF16.safetensors"
+    },
+    "class_type": "UNETLoader"
+  },
+  "2": {
+    "inputs": {
+      "device": "cpu",
+      "clip_name": "qwen_3_4b.safetensors",
+      "type": "lumina2"
+    },
+    "class_type": "CLIPLoader"
+  },
+  "3": {
+    "inputs": {
+      "vae_name": "ae.safetensors"
+    },
+    "class_type": "VAELoader"
+  },
+  "4": {
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "text": "Premium close three-quarter fine-art studio photograph, one clearly adult Vietnamese woman age 29, solo, nonsexual nude adult figure study, youthful soft oval adult face, gentle confident expression, long natural dark hair, naturally fuller curvy figure with soft healthy adult proportions, framed from head to mid-thigh, standing at a slight three-quarter angle, both complete hands relaxed, separated and clearly visible, natural adult anatomy, bright diffused window key light and clean white bounce fill, luminous neutral-warm skin, subtle natural blush, fine pores, peach fuzz and restrained microcontrast, 70mm portrait lens, shallow depth of field, simple warm-grey studio, no props, no writing or watermark"
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "6": {
+    "inputs": {
+      "batch_size": 1,
+      "width": 576,
+      "height": 800
+    },
+    "class_type": "EmptyLatentImage"
+  },
+  "10": {
+    "inputs": {
+      "images": [
+        "9",
+        0
+      ],
+      "filename_prefix": "ZFINAL10-10_Z5_BEYOND_X21_NSFW"
+    },
+    "class_type": "SaveImage"
+  },
+  "8": {
+    "inputs": {
+      "seed": 719802,
+      "alternative_refiner": true,
+      "latent_input": [
+        "6",
+        0
+      ],
+      "disable_ibias": false,
+      "spectral_tilt": "stage3_H",
+      "ibias": 0,
+      "old_scheduler": false,
+      "model": [
+        "1",
+        0
+      ],
+      "divider1": null,
+      "turbo_creativity": false,
+      "steps": 8,
+      "positive": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "ZSamplerTurboX21 //ZImagePowerNodes"
+  },
+  "9": {
+    "inputs": {
+      "samples": [
+        "8",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "VAEDecode"
+  }
+}

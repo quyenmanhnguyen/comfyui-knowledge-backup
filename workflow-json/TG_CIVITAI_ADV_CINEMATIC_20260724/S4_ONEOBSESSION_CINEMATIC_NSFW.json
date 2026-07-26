@@ -1,0 +1,96 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "oneObsession_v23.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "masterwork, masterpiece, best quality, detailed, high detail, very aesthetic, sensual smooth cinematic anime film still, layered depth of field, adult, aged up, 1woman, solo, clearly adult East Asian woman age 28, completely nude adult figure, seated sideways on a white silk chaise beside a tall rain-streaked window, youthful oval adult face, long glossy black hair, voluptuous soft curvy adult body, large natural breasts and adult vulva visible, torso gently turned toward camera, both arms separated, exactly two complete hands resting visibly on different parts of the chaise, foreground sheer curtain edge, midground subject, warm practical lamps and rainy city bokeh in background, motivated amber side key, cool blue window rim, broad pearl-white face fill, smooth tonal roll-off, gentle halation, subtle 35mm film grain, controlled contrast, coherent adult anatomy, cinematic vertical frame"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "lowres, worst quality, low quality, bad anatomy, bad hands, extra hands, extra fingers, fused fingers, missing fingers, extra limbs, duplicate person, malformed feet, cropped hands, text, logo, watermark, fake lettering, child, teen, loli, flat lighting, crushed blacks, blown highlights, neon eyes, oversaturated skin, waxy skin, plastic skin, heavy sharpening, color bleed"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 832,
+      "height": 1216,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 72428022,
+      "steps": 32,
+      "cfg": 5.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "ADV8-S4_ONEOBSESSION_CINEMATIC_NSFW"
+    }
+  },
+  "10": {
+    "class_type": "CLIPSetLastLayer",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "stop_at_clip_layer": -2
+    }
+  }
+}

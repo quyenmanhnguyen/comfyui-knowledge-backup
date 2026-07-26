@@ -1,0 +1,312 @@
+[
+  {
+    "state": "complete",
+    "elapsed": 72.7,
+    "images": [
+      "NDISC-01_Z_RAW_EULER_BETA9_SHIFT5_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "8c25e145-a605-47c6-8d8d-a4f2246a2962",
+            "timestamp": 1785047383544
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "8c25e145-a605-47c6-8d8d-a4f2246a2962",
+            "timestamp": 1785047383546
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "8c25e145-a605-47c6-8d8d-a4f2246a2962",
+            "timestamp": 1785047455670
+          }
+        ]
+      ]
+    },
+    "workflow": "C:\\AI\\workflows\\NODE_DISCOVERY_20260726\\NDISC-01_Z_RAW_EULER_BETA9_SHIFT5.json",
+    "prefix": "NDISC-01_Z_RAW_EULER_BETA9_SHIFT5",
+    "path": "C:\\AI\\ComfyUI\\output\\NDISC-01_Z_RAW_EULER_BETA9_SHIFT5_00001_.png",
+    "metrics": {
+      "size": [
+        576,
+        800
+      ],
+      "luma": 137.66,
+      "contrast": 52.83,
+      "edge": 6.9
+    },
+    "note": "RAWDetailer-inspired core only: Euler + beta9 + shift5, no DD/upscale/LoRA."
+  },
+  {
+    "state": "complete",
+    "elapsed": 82.3,
+    "images": [
+      "NDISC-02_Z_RAW_EULER_DD018_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "c220058c-f25e-43ea-a165-e2f8daf78fdf",
+            "timestamp": 1785047456582
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "7",
+              "9",
+              "10",
+              "11"
+            ],
+            "prompt_id": "c220058c-f25e-43ea-a165-e2f8daf78fdf",
+            "timestamp": 1785047456583
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "c220058c-f25e-43ea-a165-e2f8daf78fdf",
+            "timestamp": 1785047538698
+          }
+        ]
+      ]
+    },
+    "workflow": "C:\\AI\\workflows\\NODE_DISCOVERY_20260726\\NDISC-02_Z_RAW_EULER_DD018.json",
+    "prefix": "NDISC-02_Z_RAW_EULER_DD018",
+    "path": "C:\\AI\\ComfyUI\\output\\NDISC-02_Z_RAW_EULER_DD018_00001_.png",
+    "metrics": {
+      "size": [
+        576,
+        800
+      ],
+      "luma": 137.9,
+      "contrast": 53.85,
+      "edge": 6.7
+    },
+    "note": "Same as 01 plus DetailDaemon 0.18. Tests extra texture without upscale."
+  },
+  {
+    "state": "complete",
+    "elapsed": 72.1,
+    "images": [
+      "NDISC-03_Z_EULERFLOW_DD012_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "995db3c4-2dca-41c7-8a60-19b7d8a66498",
+            "timestamp": 1785047539034
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "6"
+            ],
+            "prompt_id": "995db3c4-2dca-41c7-8a60-19b7d8a66498",
+            "timestamp": 1785047539035
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "995db3c4-2dca-41c7-8a60-19b7d8a66498",
+            "timestamp": 1785047609138
+          }
+        ]
+      ]
+    },
+    "workflow": "C:\\AI\\workflows\\NODE_DISCOVERY_20260726\\NDISC-03_Z_EULERFLOW_DD012.json",
+    "prefix": "NDISC-03_Z_EULERFLOW_DD012",
+    "path": "C:\\AI\\ComfyUI\\output\\NDISC-03_Z_EULERFLOW_DD012_00001_.png",
+    "metrics": {
+      "size": [
+        576,
+        800
+      ],
+      "luma": 141.83,
+      "contrast": 54.34,
+      "edge": 7.97
+    },
+    "note": "Known fast H4 EulerFlow plus DetailDaemon 0.12. Tests if DD can sharpen H4 safely."
+  },
+  {
+    "state": "complete",
+    "elapsed": 80.2,
+    "images": [
+      "NDISC-04_Z_REALSNAP_LORA012_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "9fc964f4-f954-4b6e-8f18-880db547414d",
+            "timestamp": 1785047611269
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "5",
+              "7"
+            ],
+            "prompt_id": "9fc964f4-f954-4b6e-8f18-880db547414d",
+            "timestamp": 1785047611271
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "9fc964f4-f954-4b6e-8f18-880db547414d",
+            "timestamp": 1785047689882
+          }
+        ]
+      ]
+    },
+    "workflow": "C:\\AI\\workflows\\NODE_DISCOVERY_20260726\\NDISC-04_Z_REALSNAP_LORA012.json",
+    "prefix": "NDISC-04_Z_REALSNAP_LORA012",
+    "path": "C:\\AI\\ComfyUI\\output\\NDISC-04_Z_REALSNAP_LORA012_00001_.png",
+    "metrics": {
+      "size": [
+        576,
+        800
+      ],
+      "luma": 147.98,
+      "contrast": 50.79,
+      "edge": 8.09
+    },
+    "note": "Moody + RealisticSnapshot Z LoRA 0.12. Tests low-strength Z LoRA."
+  },
+  {
+    "state": "complete",
+    "elapsed": 178.6,
+    "images": [
+      "NDISC-05_Z_RENDERDETAIL_LORA010_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "182a5f74-71cb-467e-a0e3-e5c50d49c81b",
+            "timestamp": 1785047691668
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "182a5f74-71cb-467e-a0e3-e5c50d49c81b",
+            "timestamp": 1785047691669
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "182a5f74-71cb-467e-a0e3-e5c50d49c81b",
+            "timestamp": 1785047869370
+          }
+        ]
+      ]
+    },
+    "workflow": "C:\\AI\\workflows\\NODE_DISCOVERY_20260726\\NDISC-05_Z_RENDERDETAIL_LORA010.json",
+    "prefix": "NDISC-05_Z_RENDERDETAIL_LORA010",
+    "path": "C:\\AI\\ComfyUI\\output\\NDISC-05_Z_RENDERDETAIL_LORA010_00001_.png",
+    "metrics": {
+      "size": [
+        576,
+        800
+      ],
+      "luma": 145.32,
+      "contrast": 50.62,
+      "edge": 6.95
+    },
+    "note": "Moody + rendering_detailer_base10 0.10. Tests detail LoRA risk on Z path."
+  },
+  {
+    "state": "complete",
+    "elapsed": 38.1,
+    "images": [
+      "NDISC-06_SDXL_RIMIX_CINDETAIL025_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "452eae79-c38e-48ae-b00b-f53e5d725e09",
+            "timestamp": 1785047870525
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "452eae79-c38e-48ae-b00b-f53e5d725e09",
+            "timestamp": 1785047870527
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "452eae79-c38e-48ae-b00b-f53e5d725e09",
+            "timestamp": 1785047908334
+          }
+        ]
+      ]
+    },
+    "workflow": "C:\\AI\\workflows\\NODE_DISCOVERY_20260726\\NDISC-06_SDXL_RIMIX_CINDETAIL025.json",
+    "prefix": "NDISC-06_SDXL_RIMIX_CINDETAIL025",
+    "path": "C:\\AI\\ComfyUI\\output\\NDISC-06_SDXL_RIMIX_CINDETAIL025_00001_.png",
+    "metrics": {
+      "size": [
+        768,
+        1152
+      ],
+      "luma": 169.94,
+      "contrast": 75.63,
+      "edge": 10.14
+    },
+    "note": "aMix+Ri-mix 0.65 plus cinematic detail Illustrious LoRA 0.25."
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "anima_baseV10.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "5": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen_3_06b_base.safetensors",
+      "type": "stable_diffusion",
+      "device": "default"
+    }
+  },
+  "6": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "5",
+        0
+      ],
+      "text": "masterpiece, best quality, very aesthetic, semi-real anime editorial portrait, one clearly adult East Asian woman age 29, solo, soft oval adult face, long natural black hair, warm brown eyes, confident relaxed expression, voluptuous balanced adult proportions, full natural bust, defined waist, rounded hips and full shapely buttocks, luminous neutral-warm skin with fine pores, peach fuzz, subtle tonal variation and natural blush, realistic hair strands, clean bright diffused window key, broad white bounce fill, restrained warm rim light, smooth highlight roll-off, detailed satin texture, coherent anatomy, exactly two hands, elegant side kneeling pose on a wide ivory daybed, upright torso, hips resting naturally above the heels, both hands separated on her thighs, pale rose satin wrap dress with open neckline and fitted waist, side three-quarter view, head-to-knee framing, 70mm lens, clean breast waist hip and buttock silhouette, soft curtains and pearl-white room, no text. Exclude: lowres, worst quality, blurry, soft focus, waxy skin, plastic skin, airbrushed skin, beauty filter, over-smoothed face, flat skin, oily highlights, overexposed skin, bad anatomy, malformed chest, asymmetrical breasts, deformed hips, malformed buttocks, bad hands, extra hands, extra fingers, fused fingers, missing fingers, extra limbs, duplicate person, cropped head, cropped torso, disembodied limbs, text, watermark, logo, child, teen, underage, loli"
+    }
+  },
+  "8": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "14": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "17",
+        0
+      ],
+      "vae": [
+        "6",
+        0
+      ]
+    }
+  },
+  "15": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "14",
+        0
+      ],
+      "filename_prefix": "ARUP6-05_KNEELING_SIDE"
+    }
+  },
+  "2": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "lora_name": "realism-anima-v2.safetensors",
+      "strength_model": 0.5
+    }
+  },
+  "16": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "7",
+        0
+      ]
+    }
+  },
+  "17": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "positive": [
+        "7",
+        0
+      ],
+      "negative": [
+        "16",
+        0
+      ],
+      "latent_image": [
+        "8",
+        0
+      ],
+      "seed": 72429305,
+      "steps": 32,
+      "cfg": 3,
+      "sampler_name": "er_sde",
+      "scheduler": "simple",
+      "denoise": 1
+    }
+  }
+}

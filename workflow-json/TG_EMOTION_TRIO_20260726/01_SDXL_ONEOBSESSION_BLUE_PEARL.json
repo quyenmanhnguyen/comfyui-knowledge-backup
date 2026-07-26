@@ -1,0 +1,96 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "oneObsession_v23.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "masterwork, masterpiece, best quality, detailed, high detail, very aesthetic, sensual smooth cinematic semi-real anime film still, layered depth of field, adult, aged up, 1woman, solo, clearly adult East Asian woman age 28, close three-quarter seated pose on an ornate pearl-white sofa beside a tall rain-streaked night window, youthful oval adult face, long glossy black hair with soft bangs, luminous fair skin and subtle blush, half-lidded direct gaze, slightly parted lips, an intimate confident and quietly inviting expression. Voluptuous soft curvy adult body, very full natural breasts and rounded hips, tasteful nude adult figure with a translucent deep-blue silk veil loosely draped across her shoulders and lap, pearl drop earrings, layered pearl and fine gold jewelry. Her left hand rests open on her upper thigh and her right hand lightly holds one edge of the veil near her collarbone, exactly two complete separated hands with five elegant fingers. Foreground blue curtain edge, midground subject, warm ivory lamp and rainy cyan city bokeh in the background, amber side key, cool blue window rim, broad pearl-white face fill, glossy but softly textured skin, silk translucency, jewelry reflections, smooth tonal roll-off, gentle halation, subtle 35mm film grain, controlled contrast, coherent adult anatomy, cinematic vertical frame"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "10",
+        0
+      ],
+      "text": "lowres, worst quality, low quality, bad anatomy, bad hands, extra hands, extra fingers, fused fingers, missing fingers, extra limbs, duplicate person, malformed feet, cropped hands, tangled veil and fingers, glassy eyes, cross-eyed, text, logo, watermark, fake lettering, child, teen, loli, flat lighting, crushed blacks, blown highlights, neon eyes, oversaturated skin, waxy skin, plastic skin, heavy sharpening, color bleed"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 832,
+      "height": 1216,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 72626111,
+      "steps": 32,
+      "cfg": 5.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "TGTRIO-01-SDXL-BLUEPEARL"
+    }
+  },
+  "10": {
+    "class_type": "CLIPSetLastLayer",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "stop_at_clip_layer": -2
+    }
+  }
+}

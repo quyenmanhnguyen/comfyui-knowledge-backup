@@ -1,0 +1,99 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "RealVisXL_V5.0_fp16.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "RAW fine-art studio photograph of one clearly adult Vietnamese woman age 29, solo, tasteful nonsexual full-body nude figure study, relaxed contrapposto, both complete hands and both feet visible, natural adult anatomy, youthful oval face, luminous neutral-warm skin with visible fine pores and tonal variation, long dark hair, soft window daylight and white fill, evenly exposed, 85mm lens, seamless warm-grey background"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "child, teen, underage, elderly, gaunt face, grey skin, dark tan cast, harsh shadow, underexposed, waxy skin, plastic skin, blur, extra fingers, fused fingers, missing fingers, extra limbs, duplicate person, malformed feet, text, logo, watermark, worst quality, low quality, bad anatomy"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 1024,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "5",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 26072251,
+      "steps": 36,
+      "cfg": 4,
+      "sampler_name": "dpmpp_sde",
+      "scheduler": "karras",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "RECOVER-SDXL_REALVIS_SDE"
+    }
+  },
+  "5": {
+    "class_type": "FreeU_V2",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "b1": 1.08,
+      "b2": 1.12,
+      "s1": 0.95,
+      "s2": 0.35
+    }
+  }
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Ri-mix Style LoRA — bản sửa đúng tài liệu</title>
+<style>
+body{margin:0;background:#101214;color:#eee;font:16px/1.55 system-ui;max-width:1080px;padding:32px;margin:auto}
+h1{color:#7ee0b8}.card{background:#1a1e22;border:1px solid #343a40;border-radius:14px;padding:22px;margin:18px 0}
+img{width:min(100%,768px);display:block;border-radius:10px}code{color:#8ed8ff}th,td{padding:8px 12px;text-align:left;border-bottom:1px solid #343a40}
+.ok{color:#7ee0b8}.warn{color:#ffd37e}
+</style>
+</head>
+<body>
+<h1>Ri-mix Style LoRA — sửa đúng resource</h1>
+<div class="card">
+<p><strong>Kết luận:</strong> <code>rimixxO2.safetensors</code> là LoRA SDXL/Illustrious 663,98 MiB, không phải checkpoint Ri-mix α Anima.</p>
+<table>
+<tr><th>Kiểm tra</th><th>Kết quả</th></tr>
+<tr><td>SHA256</td><td><code>E612482B4DD8ED43466BD12C0E4DB33F469B88F4FF85D83A154B7AEAC458F624</code></td></tr>
+<tr><td>Kiến trúc metadata</td><td><code>stable-diffusion-xl-v1-base/lora</code></td></tr>
+<tr><td>Tensor</td><td>2.250 tensor UNet SDXL; 0 tensor text encoder</td></tr>
+<tr><td>Downloads ↔ models/loras</td><td class="ok">Cùng hash, không tải/copy trùng</td></tr>
+</table>
+</div>
+<div class="card">
+<h2>Author 1.2 — native test</h2>
+<p>aMix Illustrious · Ri-mix Style 1.2 · Clip Skip 2 · Euler a/normal · 30 steps · CFG 6 · 768×1152 · không upscale/detailer.</p>
+<p>ComfyUI: <strong>34,16 giây</strong>; sampler khoảng 13,3 giây. Technical gate: <span class="ok">PASS</span>.</p>
+<img src="../../ComfyUI/output/RIMIXSTYLE-AUTHOR12-NATIVE_00001_.png" alt="Ri-mix Style LoRA author 1.2">
+<p>Nhận xét: mặt và tay sạch, ánh sáng/vải satin nổi bật, style anime-semi-real rõ. Strength 1.2 mạnh và bóng hơn preset 0.65 đã thắng lịch sử; dùng 0.65 khi muốn tự nhiên/cân bằng hơn.</p>
+</div>
+<div class="card">
+<p class="warn">Dòng “Settings for Anima” trên trang không chứng minh file LoRA này tương thích Anima. File thực tế là SDXL LoRA. Nhánh Anima phải dùng checkpoint Ri-mix α hoặc LoRA <code>rimixao5050</code> riêng.</p>
+</div>
+</body>
+</html>

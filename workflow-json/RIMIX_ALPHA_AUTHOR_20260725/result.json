@@ -1,0 +1,16 @@
+{
+  "elapsed_s": 68.2,
+  "image": "RIMIXA-AUTHOR32-SFW_00001_.png",
+  "gate": {
+    "pass": true,
+    "reasons": [],
+    "mean_luma": 108.59,
+    "contrast": 69.66,
+    "edge_score": 727.12,
+    "size": [
+      768,
+      1152
+    ]
+  },
+  "workflow": "C:\\AI\\workflows\\RIMIX_ALPHA_AUTHOR_20260725\\RIMIX_ALPHA_ANIMA_AUTHOR32.json"
+}

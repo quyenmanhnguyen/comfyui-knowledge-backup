@@ -1,0 +1,242 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "intorealismUltra_sdxlV1NoLightning.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "Premium intimate fashion editorial photograph, one clearly adult Vietnamese woman age 27, solo, reclining in a gentle three-quarter pose on a pale ivory linen chaise, head-to-knee framing, soft oval adult face with natural asymmetry, clear coherent eyes, long dark hair kept separate from both hands, calm confident direct gaze, full soft curvy feminine proportions with realistic gravity. Tasteful nude adult figure study with a loosely draped ivory satin sheet around the hips, natural breasts and waist, non-explicit elegant presentation. Left forearm rests along the upper cushion with the complete open hand visible; right hand rests separately on the outer thigh, palm relaxed, five distinct fingers, coherent wrists and elbows. Airy bright apartment beside a sheer-curtain window, broad diffused daylight key, clean white bounce fill across the face and chest, restrained warm practical lamp and subtle cool rim, luminous neutral-warm human skin with fine pores, peach fuzz, natural blush and tonal variation, realistic hair strands, linen and satin weave, 70mm lens at f/4, layered foreground and softly blurred background, no text, no watermark"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "child, teen, underage, elderly, old-looking, doll face, waxy skin, plastic skin, airbrushed skin, over-smoothed face, grey skin, orange skin, oil painting, illustration, CGI, harsh microcontrast, asymmetrical eyes, cross-eyed, bad anatomy, bad hands, extra hands, extra fingers, fused fingers, missing fingers, extra limbs, duplicate person, tangled hair and fingers, hidden hands, fake text, logo, watermark, worst quality, low quality"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 896,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 72626041,
+      "steps": 35,
+      "cfg": 4.5,
+      "sampler_name": "dpmpp_sde",
+      "scheduler": "karras",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "ADVNSFW-SDXL-INTO-BASE"
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "25",
+        0
+      ],
+      "filename_prefix": "ADVNSFW-SDXL-INTO-FACEHAND"
+    }
+  },
+  "20": {
+    "class_type": "UltralyticsDetectorProvider",
+    "inputs": {
+      "model_name": "bbox/face_yolov8m.pt"
+    }
+  },
+  "21": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "beautiful natural adult Vietnamese face, soft oval proportions, natural asymmetry, coherent almond-shaped eyes with matching catchlights, realistic nose and lips, fine pores, peach fuzz, subtle tonal variation, clean hairline, direct calm gaze"
+    }
+  },
+  "22": {
+    "class_type": "FaceDetailer",
+    "inputs": {
+      "image": [
+        "7",
+        0
+      ],
+      "model": [
+        "1",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ],
+      "vae": [
+        "1",
+        2
+      ],
+      "positive": [
+        "21",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "bbox_detector": [
+        "20",
+        0
+      ],
+      "guide_size": 512,
+      "guide_size_for": true,
+      "max_size": 896,
+      "seed": 72429501,
+      "steps": 14,
+      "cfg": 4.2,
+      "sampler_name": "dpmpp_sde",
+      "scheduler": "karras",
+      "denoise": 0.2,
+      "feather": 10,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "bbox_threshold": 0.5,
+      "bbox_dilation": 8,
+      "bbox_crop_factor": 2.8,
+      "sam_detection_hint": "center-1",
+      "sam_dilation": 0,
+      "sam_threshold": 0.93,
+      "sam_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7,
+      "sam_mask_hint_use_negative": "False",
+      "drop_size": 10,
+      "wildcard": "",
+      "cycle": 1
+    }
+  },
+  "23": {
+    "class_type": "UltralyticsDetectorProvider",
+    "inputs": {
+      "model_name": "bbox/hand_yolov9c.pt"
+    }
+  },
+  "24": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "anatomically correct adult hand, exactly five distinct natural fingers, realistic joints and short natural nails, relaxed open gesture, coherent wrist and forearm, fingers separated from hair and fabric"
+    }
+  },
+  "25": {
+    "class_type": "FaceDetailer",
+    "inputs": {
+      "image": [
+        "22",
+        0
+      ],
+      "model": [
+        "1",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ],
+      "vae": [
+        "1",
+        2
+      ],
+      "positive": [
+        "24",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "bbox_detector": [
+        "23",
+        0
+      ],
+      "guide_size": 384,
+      "guide_size_for": true,
+      "max_size": 768,
+      "seed": 72429601,
+      "steps": 16,
+      "cfg": 4.2,
+      "sampler_name": "dpmpp_sde",
+      "scheduler": "karras",
+      "denoise": 0.24,
+      "feather": 12,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "bbox_threshold": 0.35,
+      "bbox_dilation": 12,
+      "bbox_crop_factor": 2.2,
+      "sam_detection_hint": "center-1",
+      "sam_dilation": 0,
+      "sam_threshold": 0.93,
+      "sam_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7,
+      "sam_mask_hint_use_negative": "False",
+      "drop_size": 10,
+      "wildcard": "",
+      "cycle": 1
+    }
+  }
+}

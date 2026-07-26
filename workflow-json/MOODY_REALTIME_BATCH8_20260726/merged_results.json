@@ -1,0 +1,226 @@
+[
+  {
+    "state": "complete",
+    "elapsed": 88.2,
+    "images": [
+      "MRB8-01_Z_MOODY_SOFA_BLUE_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "b6159121-8e37-45c2-8c08-0d44ac81349d",
+            "timestamp": 1785044272692
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "b6159121-8e37-45c2-8c08-0d44ac81349d",
+            "timestamp": 1785044272694
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "b6159121-8e37-45c2-8c08-0d44ac81349d",
+            "timestamp": 1785044359394
+          }
+        ]
+      ]
+    },
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-01_Z_MOODY_SOFA_BLUE.json",
+    "prefix": "MRB8-01_Z_MOODY_SOFA_BLUE",
+    "prompt_id": "b6159121-8e37-45c2-8c08-0d44ac81349d",
+    "metrics": {
+      "luma": 138.25,
+      "contrast": 52.1,
+      "edge": 7.21,
+      "size": [
+        576,
+        800
+      ]
+    },
+    "image_path": "C:\\AI\\ComfyUI\\output\\MRB8-01_Z_MOODY_SOFA_BLUE_00001_.png",
+    "note": "Moody Z native, best aligned with Telegram mood: rain-blue window, sofa, pearl/silk. Check face/hands full-size."
+  },
+  {
+    "state": "complete",
+    "elapsed": 66.1,
+    "images": [
+      "MRB8-02_Z_MOODY_WHITE_BED_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "6cafb0fa-c5e2-499b-b572-f422c7f5edbc",
+            "timestamp": 1785044360932
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "6",
+              "7"
+            ],
+            "prompt_id": "6cafb0fa-c5e2-499b-b572-f422c7f5edbc",
+            "timestamp": 1785044360932
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "6cafb0fa-c5e2-499b-b572-f422c7f5edbc",
+            "timestamp": 1785044425146
+          }
+        ]
+      ]
+    },
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-02_Z_MOODY_WHITE_BED.json",
+    "prefix": "MRB8-02_Z_MOODY_WHITE_BED",
+    "prompt_id": "6cafb0fa-c5e2-499b-b572-f422c7f5edbc",
+    "metrics": {
+      "luma": 189.29,
+      "contrast": 57.09,
+      "edge": 5.99,
+      "size": [
+        576,
+        800
+      ]
+    },
+    "image_path": "C:\\AI\\ComfyUI\\output\\MRB8-02_Z_MOODY_WHITE_BED_00001_.png",
+    "note": "Moody Z brighter white-bed variant; likely softer/cleaner, useful if 01 is too dark."
+  },
+  {
+    "state": "complete",
+    "elapsed": 84.3,
+    "images": [
+      "MRB8-03_Z_DIVING_WINDOW_WRAP_00001_.png"
+    ],
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-03_Z_DIVING_WINDOW_WRAP.json",
+    "prefix": "MRB8-03_Z_DIVING_WINDOW_WRAP",
+    "metrics": {
+      "luma": 133.94,
+      "contrast": 46.16,
+      "edge": 7.7,
+      "size": [
+        576,
+        800
+      ]
+    },
+    "image_path": "C:\\AI\\ComfyUI\\output\\MRB8-03_Z_DIVING_WINDOW_WRAP_00001_.png",
+    "note": "Diving Z natural skin alternative, slower but useful texture check."
+  },
+  {
+    "state": "complete",
+    "elapsed": 101.6,
+    "images": [
+      "MRB8-04_Z_BEYOND_NATURAL_SOFA_00001_.png"
+    ],
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-04_Z_BEYOND_NATURAL_SOFA.json",
+    "prefix": "MRB8-04_Z_BEYOND_NATURAL_SOFA",
+    "metrics": {
+      "luma": 134.03,
+      "contrast": 61.33,
+      "edge": 9.16,
+      "size": [
+        576,
+        800
+      ]
+    },
+    "image_path": "C:\\AI\\ComfyUI\\output\\MRB8-04_Z_BEYOND_NATURAL_SOFA_00001_.png",
+    "note": "Beyond Z natural/fuller alternative; tends older/natural, compare skin texture."
+  },
+  {
+    "state": "complete",
+    "elapsed": 32.0,
+    "images": [
+      "MRB8-05_SDXL_RIMIX_BLUE_SOFA_00001_.png"
+    ],
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-05_SDXL_RIMIX_BLUE_SOFA.json",
+    "prefix": "MRB8-05_SDXL_RIMIX_BLUE_SOFA",
+    "metrics": {
+      "luma": 163.47,
+      "contrast": 67.68,
+      "edge": 10.81,
+      "size": [
+        768,
+        1152
+      ]
+    },
+    "image_path": "C:\\AI\\ComfyUI\\output\\MRB8-05_SDXL_RIMIX_BLUE_SOFA_00001_.png",
+    "note": "aMix+Ri-mix 0.65 balanced semi-real anime, fast and graph-stable."
+  },
+  {
+    "state": "complete",
+    "elapsed": 22.1,
+    "images": [
+      "MRB8-06_SDXL_RIMIX_CHAISE_00001_.png"
+    ],
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-06_SDXL_RIMIX_CHAISE.json",
+    "prefix": "MRB8-06_SDXL_RIMIX_CHAISE",
+    "metrics": {
+      "luma": 117.25,
+      "contrast": 78.69,
+      "edge": 11.57,
+      "size": [
+        768,
+        1152
+      ]
+    },
+    "image_path": "C:\\AI\\ComfyUI\\output\\MRB8-06_SDXL_RIMIX_CHAISE_00001_.png",
+    "note": "aMix+Ri-mix chaise variant, warm/cool lighting and simpler pose."
+  },
+  {
+    "state": "complete",
+    "elapsed": 32.1,
+    "images": [
+      "MRB8-07_ONEOBS_LOCKED_VARIANT_00001_.png"
+    ],
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-07_ONEOBS_LOCKED_VARIANT.json",
+    "prefix": "MRB8-07_ONEOBS_LOCKED_VARIANT",
+    "metrics": {
+      "luma": 156.69,
+      "contrast": 66.82,
+      "edge": 11.92,
+      "size": [
+        832,
+        1216
+      ]
+    },
+    "image_path": "C:\\AI\\ComfyUI\\output\\MRB8-07_ONEOBS_LOCKED_VARIANT_00001_.png",
+    "note": "OneObsession high-impact close style; strongest glossy anime role, not anatomy-neutral."
+  },
+  {
+    "state": "complete",
+    "elapsed": 66.2,
+    "images": [
+      "MRB8-08_ANIMA_RIMIX_ALPHA_00001_.png"
+    ],
+    "workflow": "C:\\AI\\workflows\\MOODY_REALTIME_BATCH8_20260726\\MRB8-08_ANIMA_RIMIX_ALPHA.json",
+    "prefix": "MRB8-08_ANIMA_RIMIX_ALPHA",
+    "metrics": {
+      "luma": 112.46,
+      "contrast": 64.72,
+      "edge": 7.96,
+      "size": [
+        768,
+        1152
+      ]
+    },
+    "image_path": "C:\\AI\\ComfyUI\\output\\MRB8-08_ANIMA_RIMIX_ALPHA_00001_.png",
+    "note": "Ri-mix Alpha Anima HQ cinematic depth; slower but should have richest layering."
+  }
+]

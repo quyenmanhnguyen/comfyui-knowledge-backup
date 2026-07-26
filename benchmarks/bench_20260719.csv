@@ -1,0 +1,13 @@
+ts,phase,scenario,backend,workload,run_type,run_idx,seed,width,height,steps,elapsed_s,sampler_s_per_it,vram_peak_mb,ram_peak_mb,chrome_procs,sha256,output_file,state,notes
+23:13:57,P1_576x800,clean,pytorch,w576x800_12step,cold,1,710001,,,12,88.7,2.03,12849,21492,23,2af7b3c4843e657b,CB-A-PYT-COLD_00001_.png,completed,
+23:15:07,P1_576x800,clean,pytorch,w576x800_12step,warm,1,710002,,,12,32.1,2.02,12802,5999,22,b8a99d2e1a5b7202,CB-B1-PYT-WARM_00001_.png,completed,
+23:24:22,P1_576x800,clean,pytorch,w576x800_12step,warm,2,710003,,,12,34.2,2.03,12625,5291,25,e6e368b9a2bbfba4,CB-B2-PYT-WARM_00001_.png,completed,
+23:24:36,P1_576x800,clean,pytorch,w576x800_12step,warm,2,710003,,,12,2.0,2.03,10126,3939,25,fe80eea64586b595,CB-B2-PYT-WARM-R_00001_.png,completed,rerun_after_recorder_timeout
+23:25:27,P1_576x800,clean,pytorch,w576x800_12step,warm,2,710005,,,12,34.1,2.12,12663,3934,28,37ac3165ec659544,CB-B2-PYT-WARM-VALID_00001_.png,completed,valid_replacement_seed_for_cached_row
+23:26:15,P1_576x800,clean,pytorch,w576x800_12step,warm,3,710006,,,12,36.2,2.28,12625,4581,26,4ee97546575af162,CB-B3-PYT-WARM-VALID_00001_.png,completed,
+23:32:52,P1_576x800,actual_load,sage,w576x800_12step,cold,1,710001,,,12,96.3,2.05,12650,20042,29,e405b5546a28f7f2,CB-C-SAGE-COLD_00001_.png,completed,
+23:33:44,P1_576x800,actual_load,sage,w576x800_12step,warm,1,710002,,,12,36.1,2.33,12612,3401,28,2816755298c39664,CB-D1-SAGE-WARM_00001_.png,completed,
+23:34:26,P1_576x800,actual_load,sage,w576x800_12step,warm,2,710005,,,12,30.2,1.85,12629,3376,26,5d7b3a7737c4ba7d,CB-D2-SAGE-WARM-VALID_00001_.png,completed,
+23:35:15,P1_576x800,actual_load,sage,w576x800_12step,warm,3,710006,,,12,30.0,1.85,12591,3376,28,01d14d27159b9af8,CB-D3-SAGE-WARM-VALID_00001_.png,completed,
+23:35:58,P1_576x800,actual_load,sage,w576x800_12step,warm,1,710007,,,12,30.2,1.84,12794,3377,28,b14b02dc84e35dee,CB-D1-SAGE-WARM-VALID_00001_.png,completed,
+23:42:27,P2_768x1152,actual_load,sage,w768x1152_12step,warm,1,710101,768,1152,12,301.0,48.75,13150,3372,28,,,timeout,

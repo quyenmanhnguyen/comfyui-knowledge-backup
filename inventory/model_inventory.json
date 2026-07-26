@@ -1,0 +1,1530 @@
+{
+  "checkpoints": [
+    {
+      "name": "aMixIllustrious_aMix.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\aMixIllustrious_aMix.metadata.json",
+      "size_bytes": 754,
+      "size_gb": 0.0,
+      "mtime": "2026-07-25T22:12:34"
+    },
+    {
+      "name": "aMixIllustrious_aMix.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\aMixIllustrious_aMix.safetensors",
+      "size_bytes": 7105348060,
+      "size_gb": 6.617,
+      "mtime": "2026-06-07T21:11:51"
+    },
+    {
+      "name": "comix_b3.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\comix_b3.metadata.json",
+      "size_bytes": 711,
+      "size_gb": 0.0,
+      "mtime": "2026-06-07T22:16:23"
+    },
+    {
+      "name": "comix_b3.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\comix_b3.safetensors",
+      "size_bytes": 7105348576,
+      "size_gb": 6.617,
+      "mtime": "2026-07-24T20:07:39"
+    },
+    {
+      "name": "fabricatedXL_v70.civitai.info",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\fabricatedXL_v70.civitai.info",
+      "size_bytes": 27438,
+      "size_gb": 0.0,
+      "mtime": "2026-07-12T19:08:10"
+    },
+    {
+      "name": "fabricatedXL_v70.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\fabricatedXL_v70.metadata.json",
+      "size_bytes": 750,
+      "size_gb": 0.0,
+      "mtime": "2026-07-13T21:14:47"
+    },
+    {
+      "name": "fabricatedXL_v70.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\fabricatedXL_v70.safetensors",
+      "size_bytes": 6938040674,
+      "size_gb": 6.462,
+      "mtime": "2026-07-12T19:00:53"
+    },
+    {
+      "name": "fabricatedXL_v70.sha256",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\fabricatedXL_v70.sha256",
+      "size_bytes": 64,
+      "size_gb": 0.0,
+      "mtime": "2026-07-12T19:08:09"
+    },
+    {
+      "name": "hassakuXLIllustrious_v13StyleA.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\hassakuXLIllustrious_v13StyleA.metadata.json",
+      "size_bytes": 777,
+      "size_gb": 0.0,
+      "mtime": "2026-06-07T21:06:55"
+    },
+    {
+      "name": "hassakuXLIllustrious_v34.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\hassakuXLIllustrious_v34.safetensors",
+      "size_bytes": 6938065408,
+      "size_gb": 6.462,
+      "mtime": "2026-07-24T20:05:19"
+    },
+    {
+      "name": "intorealismUltra_sdxlV1NoLightning.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\intorealismUltra_sdxlV1NoLightning.safetensors",
+      "size_bytes": 7105403036,
+      "size_gb": 6.617,
+      "mtime": "2026-07-21T20:10:07"
+    },
+    {
+      "name": "oneObsession_v23.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\oneObsession_v23.metadata.json",
+      "size_bytes": 750,
+      "size_gb": 0.0,
+      "mtime": "2026-07-14T20:51:14"
+    },
+    {
+      "name": "oneObsession_v23.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\oneObsession_v23.safetensors",
+      "size_bytes": 6938040682,
+      "size_gb": 6.462,
+      "mtime": "2026-07-14T20:16:16"
+    },
+    {
+      "name": "photanima_v21Turbo.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\photanima_v21Turbo.metadata.json",
+      "size_bytes": 677,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:10"
+    },
+    {
+      "name": "put_checkpoints_here",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\put_checkpoints_here",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "mtime": "2026-07-11T20:12:23"
+    },
+    {
+      "name": "RealVisXL_V5.0_fp16.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\RealVisXL_V5.0_fp16.safetensors",
+      "size_bytes": 6938065488,
+      "size_gb": 6.462,
+      "mtime": "2026-07-20T21:09:06"
+    },
+    {
+      "name": "sam3.1_multiplex_fp16.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\sam3.1_multiplex_fp16.metadata.json",
+      "size_bytes": 686,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:10"
+    },
+    {
+      "name": "waiIllustriousSDXL_v170.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\waiIllustriousSDXL_v170.metadata.json",
+      "size_bytes": 756,
+      "size_gb": 0.0,
+      "mtime": "2026-06-07T21:08:37"
+    },
+    {
+      "name": "waiIllustriousSDXL_v170.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\checkpoints\\waiIllustriousSDXL_v170.safetensors",
+      "size_bytes": 6938040682,
+      "size_gb": 6.462,
+      "mtime": "2026-07-24T19:46:42"
+    }
+  ],
+  "diffusion_models": [
+    {
+      "name": ".gitignore",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\_downloads\\REDCraft-DarkBeast-Z-Image-TURBO\\.cache\\huggingface\\.gitignore",
+      "size_bytes": 1,
+      "size_gb": 0.0,
+      "mtime": "2026-06-13T08:17:01"
+    },
+    {
+      "name": ".gitignore",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\.cache\\huggingface\\.gitignore",
+      "size_bytes": 1,
+      "size_gb": 0.0,
+      "mtime": "2026-05-10T10:41:19"
+    },
+    {
+      "name": "anima_baseV10.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\anima_baseV10.metadata.json",
+      "size_bytes": 732,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:10"
+    },
+    {
+      "name": "anima_baseV10.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\anima_baseV10.safetensors",
+      "size_bytes": 4182218328,
+      "size_gb": 3.895,
+      "mtime": "2026-06-01T21:18:48"
+    },
+    {
+      "name": "animayume_v10.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\animayume_v10.metadata.json",
+      "size_bytes": 667,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:10"
+    },
+    {
+      "name": "animayume_v10.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\animayume_v10.safetensors",
+      "size_bytes": 4182218328,
+      "size_gb": 3.895,
+      "mtime": "2026-06-21T20:42:57"
+    },
+    {
+      "name": "BEYOND_REALITY_SUPER_Z_IMAGE_3.0_BF16.safetensors.part",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\china_community\\BEYOND_REALITY_SUPER_Z_IMAGE_3.0_BF16.safetensors.part",
+      "size_bytes": 3851975268,
+      "size_gb": 3.587,
+      "mtime": "2026-07-18T23:07:59"
+    },
+    {
+      "name": "beyondREALITY_V30_CIVITAI_BF16.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\china_community\\beyondREALITY_V30_CIVITAI_BF16.metadata.json",
+      "size_bytes": 806,
+      "size_gb": 0.0,
+      "mtime": "2026-07-25T19:52:40"
+    },
+    {
+      "name": "beyondREALITY_V30_CIVITAI_BF16.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\china_community\\beyondREALITY_V30_CIVITAI_BF16.safetensors",
+      "size_bytes": 12309881296,
+      "size_gb": 11.464,
+      "mtime": "2026-07-19T19:03:32"
+    },
+    {
+      "name": "CACHEDIR.TAG",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\_downloads\\REDCraft-DarkBeast-Z-Image-TURBO\\.cache\\huggingface\\CACHEDIR.TAG",
+      "size_bytes": 195,
+      "size_gb": 0.0,
+      "mtime": "2026-06-13T08:17:01"
+    },
+    {
+      "name": "CACHEDIR.TAG",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\.cache\\huggingface\\CACHEDIR.TAG",
+      "size_bytes": 195,
+      "size_gb": 0.0,
+      "mtime": "2026-05-10T10:41:19"
+    },
+    {
+      "name": "cyberrealisticZImage_v20NSFW_BF16_CIVITAI.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\china_community\\cyberrealisticZImage_v20NSFW_BF16_CIVITAI.safetensors",
+      "size_bytes": 12566044072,
+      "size_gb": 11.703,
+      "mtime": "2026-07-19T19:08:57"
+    },
+    {
+      "name": "cyberrealisticZImage_v60.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\cyberrealisticZImage_v60.safetensors",
+      "size_bytes": 6539236680,
+      "size_gb": 6.09,
+      "mtime": "2026-07-14T20:33:45"
+    },
+    {
+      "name": "darkBeastINT8Convrot2_darkBeastKREA2FP8.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\darkBeastINT8Convrot2_darkBeastKREA2FP8.metadata.json",
+      "size_bytes": 812,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:10"
+    },
+    {
+      "name": "DarkBeastZ8-SDA@Fok-ScaledFP8-mixed-ComfyUI.safetensors.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\_downloads\\REDCraft-DarkBeast-Z-Image-TURBO\\.cache\\huggingface\\download\\DarkBeast-ZImageTurbo\\DarkBeastZ8-SDA@Fok-ScaledFP8-mixed-ComfyUI.safetensors.metadata",
+      "size_bytes": 128,
+      "size_gb": 0.0,
+      "mtime": "2026-06-13T08:18:35"
+    },
+    {
+      "name": "divingZImageTurbo_v70Fp16.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\divingZImageTurbo_v70Fp16.metadata.json",
+      "size_bytes": 775,
+      "size_gb": 0.0,
+      "mtime": "2026-07-25T19:16:54"
+    },
+    {
+      "name": "divingZImageTurbo_v70Fp16.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\divingZImageTurbo_v70Fp16.safetensors",
+      "size_bytes": 12309896312,
+      "size_gb": 11.464,
+      "mtime": "2026-07-18T21:37:20"
+    },
+    {
+      "name": "ecocoro-preview-1-fp8.safetensors.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\.cache\\huggingface\\download\\ecocoro-preview-1-fp8.safetensors.metadata",
+      "size_bytes": 128,
+      "size_gb": 0.0,
+      "mtime": "2026-07-05T20:59:03"
+    },
+    {
+      "name": "Flux2-Klein-9B-True-v2-Q6_K.gguf.lock",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\.cache\\huggingface\\download\\Flux2-Klein-9B-True-v2-Q6_K.gguf.lock",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "mtime": "2026-07-12T07:40:20"
+    },
+    {
+      "name": "Flux2-Klein-9B-True-v2-Q6_K.gguf.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\.cache\\huggingface\\download\\Flux2-Klein-9B-True-v2-Q6_K.gguf.metadata",
+      "size_bytes": 124,
+      "size_gb": 0.0,
+      "mtime": "2026-07-12T07:40:20"
+    },
+    {
+      "name": "fluxedUpFluxNSFW_112BF16FP8.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\flux_community_top\\fluxedUpFluxNSFW_112BF16FP8.safetensors",
+      "size_bytes": 11901558080,
+      "size_gb": 11.084,
+      "mtime": "2026-07-13T18:31:33"
+    },
+    {
+      "name": "ideogram4_fp8_scaled.safetensors.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\.cache\\huggingface\\download\\diffusion_models\\ideogram4_fp8_scaled.safetensors.metadata",
+      "size_bytes": 128,
+      "size_gb": 0.0,
+      "mtime": "2026-07-07T20:00:16"
+    },
+    {
+      "name": "ideogram4_unconditional_fp8_scaled.safetensors.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\.cache\\huggingface\\download\\diffusion_models\\ideogram4_unconditional_fp8_scaled.safetensors.metadata",
+      "size_bytes": 128,
+      "size_gb": 0.0,
+      "mtime": "2026-07-07T20:01:48"
+    },
+    {
+      "name": "Krea2-Turbo-HD-V1-int4_convrot.safetensorsZone.Identifier",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\Krea2-Turbo-HD-V1-int4_convrot.safetensorsZone.Identifier",
+      "size_bytes": 1138,
+      "size_gb": 0.0,
+      "mtime": "2026-07-12T08:22:27"
+    },
+    {
+      "name": "krea2_raw_int8_convrot.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\krea2_raw_int8_convrot.metadata.json",
+      "size_bytes": 695,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:10"
+    },
+    {
+      "name": "krea2_turbo_fp8_scaled.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\krea2_turbo_fp8_scaled.safetensors",
+      "size_bytes": 13141730784,
+      "size_gb": 12.239,
+      "mtime": "2026-07-18T21:15:52"
+    },
+    {
+      "name": "moodyAnimaMix_v10.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\moodyAnimaMix_v10.safetensors",
+      "size_bytes": 4182230672,
+      "size_gb": 3.895,
+      "mtime": "2026-07-24T18:30:59"
+    },
+    {
+      "name": "moodyProMix_zitV13.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\moodyProMix_zitV13.metadata.json",
+      "size_bytes": 754,
+      "size_gb": 0.0,
+      "mtime": "2026-07-16T21:50:35"
+    },
+    {
+      "name": "moodyProMix_zitV13.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\moodyProMix_zitV13.safetensors",
+      "size_bytes": 12309876384,
+      "size_gb": 11.464,
+      "mtime": "2026-07-13T18:34:29"
+    },
+    {
+      "name": "moodyRealMix_xhsEdition.safetensorsZone.Identifier",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\moodyRealMix_xhsEdition.safetensorsZone.Identifier",
+      "size_bytes": 590,
+      "size_gb": 0.0,
+      "mtime": "2026-07-12T18:08:46"
+    },
+    {
+      "name": "photanima_v21Turbo.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\photanima_v21Turbo.safetensors",
+      "size_bytes": 4182268256,
+      "size_gb": 3.895,
+      "mtime": "2026-06-11T20:23:31"
+    },
+    {
+      "name": "put_diffusion_model_files_here",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\put_diffusion_model_files_here",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "mtime": "2026-07-11T20:12:23"
+    },
+    {
+      "name": "redcraft22INT8Convrot_2Krea2Edition.safetensorsZone.Identifier",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\redcraft22INT8Convrot_2Krea2Edition.safetensorsZone.Identifier",
+      "size_bytes": 593,
+      "size_gb": 0.0,
+      "mtime": "2026-07-12T12:33:22"
+    },
+    {
+      "name": "redcraft23INT8INT4FP8_redzit222026HD.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\redcraft23INT8INT4FP8_redzit222026HD.safetensors",
+      "size_bytes": 7183059059,
+      "size_gb": 6.69,
+      "mtime": "2026-07-18T21:34:49"
+    },
+    {
+      "name": "riMixIllustriousAnima_riMixAnima.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\riMixIllustriousAnima_riMixAnima.safetensors",
+      "size_bytes": 4182219798,
+      "size_gb": 3.895,
+      "mtime": "2026-07-25T22:13:59"
+    },
+    {
+      "name": "ultrarealFineTune_v4.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\flux_community_top\\ultrarealFineTune_v4.metadata.json",
+      "size_bytes": 787,
+      "size_gb": 0.0,
+      "mtime": "2026-07-14T21:24:24"
+    },
+    {
+      "name": "ultrarealFineTune_v4.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\flux_community_top\\ultrarealFineTune_v4.safetensors",
+      "size_bytes": 11901542512,
+      "size_gb": 11.084,
+      "mtime": "2026-07-13T18:31:40"
+    },
+    {
+      "name": "z_image_turbo_bf16.safetensors.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\diffusion_models\\.cache\\huggingface\\download\\split_files\\diffusion_models\\z_image_turbo_bf16.safetensors.metadata",
+      "size_bytes": 128,
+      "size_gb": 0.0,
+      "mtime": "2026-05-10T10:50:11"
+    }
+  ],
+  "loras": [
+    {
+      "name": ".gitignore",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage\\.cache\\huggingface\\.gitignore",
+      "size_bytes": 1,
+      "size_gb": 0.0,
+      "mtime": "2026-06-13T08:17:01"
+    },
+    {
+      "name": ".gitignore",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\.cache\\huggingface\\.gitignore",
+      "size_bytes": 1,
+      "size_gb": 0.0,
+      "mtime": "2026-05-10T10:50:13"
+    },
+    {
+      "name": "748cmSDXL.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\748cmSDXL.metadata.json",
+      "size_bytes": 702,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:12"
+    },
+    {
+      "name": "748cmSDXL.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\748cmSDXL.safetensors",
+      "size_bytes": 255025442,
+      "size_gb": 0.238,
+      "mtime": "2026-05-31T19:48:00"
+    },
+    {
+      "name": "_PUT_LORAS_HERE_README.txt",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\_PUT_LORAS_HERE_README.txt",
+      "size_bytes": 334,
+      "size_gb": 0.0,
+      "mtime": "2026-06-07T20:45:33"
+    },
+    {
+      "name": "aidmaImageUprader-FLUX-v0.3.corrupt_20260714.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\flux_community_top\\aidmaImageUprader-FLUX-v0.3.corrupt_20260714.safetensors",
+      "size_bytes": 59464898,
+      "size_gb": 0.055,
+      "mtime": "2026-07-13T18:09:02"
+    },
+    {
+      "name": "aidmaImageUprader-FLUX-v0.3.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\flux_community_top\\aidmaImageUprader-FLUX-v0.3.safetensors",
+      "size_bytes": 76734872,
+      "size_gb": 0.071,
+      "mtime": "2026-07-14T19:33:16"
+    },
+    {
+      "name": "anima-highres-aesthetic-boost.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\anima-highres-aesthetic-boost.metadata.json",
+      "size_bytes": 761,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:13"
+    },
+    {
+      "name": "anima-highres-aesthetic-boost.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\anima-highres-aesthetic-boost.safetensors",
+      "size_bytes": 138662176,
+      "size_gb": 0.129,
+      "mtime": "2026-06-21T20:09:45"
+    },
+    {
+      "name": "anima-turbo-lora-v0.2.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\anima-turbo-lora-v0.2.metadata.json",
+      "size_bytes": 738,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:14"
+    },
+    {
+      "name": "anima-turbo-lora-v0.2.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\anima-turbo-lora-v0.2.safetensors",
+      "size_bytes": 148902616,
+      "size_gb": 0.139,
+      "mtime": "2026-06-21T16:15:02"
+    },
+    {
+      "name": "anima_context_detailer_base10.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\anima_context_detailer_base10.metadata.json",
+      "size_bytes": 761,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:16"
+    },
+    {
+      "name": "anima_context_detailer_base10.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\anima_context_detailer_base10.safetensors",
+      "size_bytes": 91851400,
+      "size_gb": 0.086,
+      "mtime": "2026-06-21T20:10:19"
+    },
+    {
+      "name": "AnimaMythC0lorL1nes.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\AnimaMythC0lorL1nes.metadata.json",
+      "size_bytes": 732,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:15"
+    },
+    {
+      "name": "AnimaMythC0lorL1nes.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\AnimaMythC0lorL1nes.safetensors",
+      "size_bytes": 138663776,
+      "size_gb": 0.129,
+      "mtime": "2026-06-21T21:13:12"
+    },
+    {
+      "name": "AnimaMythD4rkL1nes.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\AnimaMythD4rkL1nes.metadata.json",
+      "size_bytes": 727,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:16"
+    },
+    {
+      "name": "AnimaMythD4rkL1nes.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\AnimaMythD4rkL1nes.safetensors",
+      "size_bytes": 69460624,
+      "size_gb": 0.065,
+      "mtime": "2026-06-21T21:53:37"
+    },
+    {
+      "name": "AnimaMythP0rtr4itStyleV1.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\AnimaMythP0rtr4itStyleV1.safetensors",
+      "size_bytes": 138663759,
+      "size_gb": 0.129,
+      "mtime": "2026-07-24T20:03:28"
+    },
+    {
+      "name": "background_detailer_v1-step00000200.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\background_detailer_v1-step00000200.metadata.json",
+      "size_bytes": 779,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:17"
+    },
+    {
+      "name": "background_detailer_v1-step00000200.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\background_detailer_v1-step00000200.safetensors",
+      "size_bytes": 91852272,
+      "size_gb": 0.086,
+      "mtime": "2026-06-28T16:25:58"
+    },
+    {
+      "name": "BunnySlop_Anima.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\BunnySlop_Anima.metadata.json",
+      "size_bytes": 720,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:25"
+    },
+    {
+      "name": "BunnySlop_Anima.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\BunnySlop_Anima.safetensors",
+      "size_bytes": 138663695,
+      "size_gb": 0.129,
+      "mtime": "2026-05-31T19:35:50"
+    },
+    {
+      "name": "BunnySlop_v404.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\BunnySlop_v404.safetensors",
+      "size_bytes": 138663751,
+      "size_gb": 0.129,
+      "mtime": "2026-07-24T20:03:32"
+    },
+    {
+      "name": "CACHEDIR.TAG",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage\\.cache\\huggingface\\CACHEDIR.TAG",
+      "size_bytes": 195,
+      "size_gb": 0.0,
+      "mtime": "2026-06-13T08:17:01"
+    },
+    {
+      "name": "CACHEDIR.TAG",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\.cache\\huggingface\\CACHEDIR.TAG",
+      "size_bytes": 195,
+      "size_gb": 0.0,
+      "mtime": "2026-05-10T10:50:13"
+    },
+    {
+      "name": "cinematic photography detailed illu xl v5.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\cinematic photography detailed illu xl v5.metadata.json",
+      "size_bytes": 798,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:27"
+    },
+    {
+      "name": "cinematic photography detailed illu xl v5.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\cinematic photography detailed illu xl v5.safetensors",
+      "size_bytes": 456489828,
+      "size_gb": 0.425,
+      "mtime": "2026-06-21T21:36:13"
+    },
+    {
+      "name": "control-lora-canny-rank256.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\control-lora-canny-rank256.safetensors",
+      "size_bytes": 774450192,
+      "size_gb": 0.721,
+      "mtime": "2026-07-12T18:18:54"
+    },
+    {
+      "name": "Creating_Realistic_CCD_v1.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\civitai_20260719\\Creating_Realistic_CCD_v1.safetensors",
+      "size_bytes": 560410892,
+      "size_gb": 0.522,
+      "mtime": "2026-07-19T18:31:11"
+    },
+    {
+      "name": "dark_art_style_Anima-step00002750.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\dark_art_style_Anima-step00002750.metadata.json",
+      "size_bytes": 774,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:28"
+    },
+    {
+      "name": "dark_art_style_Anima-step00002750.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\dark_art_style_Anima-step00002750.safetensors",
+      "size_bytes": 138720248,
+      "size_gb": 0.129,
+      "mtime": "2026-06-01T21:17:00"
+    },
+    {
+      "name": "DarkBlitZ6_extracted_lora_r256.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage\\DarkBeast-ZImageTurbo\\DarkBlitZ6_extracted_lora_r256.metadata.json",
+      "size_bytes": 795,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:33"
+    },
+    {
+      "name": "DarkBlitZ6_extracted_lora_r256.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage\\DarkBeast-ZImageTurbo\\DarkBlitZ6_extracted_lora_r256.safetensors",
+      "size_bytes": 1136437632,
+      "size_gb": 1.058,
+      "mtime": "2026-06-13T08:17:49"
+    },
+    {
+      "name": "DarkBlitZ6_extracted_lora_r256.safetensors.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage\\.cache\\huggingface\\download\\DarkBeast-ZImageTurbo\\DarkBlitZ6_extracted_lora_r256.safetensors.metadata",
+      "size_bytes": 128,
+      "size_gb": 0.0,
+      "mtime": "2026-06-13T08:17:49"
+    },
+    {
+      "name": "depth-control-lora.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\depth-control-lora.metadata.json",
+      "size_bytes": 729,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:32"
+    },
+    {
+      "name": "depth-control-lora.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\depth-control-lora.safetensors",
+      "size_bytes": 861995928,
+      "size_gb": 0.803,
+      "mtime": "2026-07-05T09:00:20"
+    },
+    {
+      "name": "detailed hand focus style illustriousXL v1.1.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\detailed hand focus style illustriousXL v1.1.metadata.json",
+      "size_bytes": 807,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:36"
+    },
+    {
+      "name": "detailed hand focus style illustriousXL v1.1.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\detailed hand focus style illustriousXL v1.1.safetensors",
+      "size_bytes": 456485084,
+      "size_gb": 0.425,
+      "mtime": "2026-06-21T21:36:01"
+    },
+    {
+      "name": "Dori-zib-v2_clean.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Dori-zib-v2_clean.metadata.json",
+      "size_bytes": 725,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:38"
+    },
+    {
+      "name": "Dori-zib-v2_clean.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Dori-zib-v2_clean.safetensors",
+      "size_bytes": 170127808,
+      "size_gb": 0.158,
+      "mtime": "2026-05-31T20:43:41"
+    },
+    {
+      "name": "EnchantingEyesAnima.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\EnchantingEyesAnima.metadata.json",
+      "size_bytes": 731,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:38"
+    },
+    {
+      "name": "EnchantingEyesAnima.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\EnchantingEyesAnima.safetensors",
+      "size_bytes": 57464720,
+      "size_gb": 0.054,
+      "mtime": "2026-06-28T16:35:27"
+    },
+    {
+      "name": "exposure_Lighting-step00000300.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\exposure_Lighting-step00000300.metadata.json",
+      "size_bytes": 764,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:39"
+    },
+    {
+      "name": "exposure_Lighting-step00000300.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\exposure_Lighting-step00000300.safetensors",
+      "size_bytes": 91852264,
+      "size_gb": 0.086,
+      "mtime": "2026-06-28T16:35:31"
+    },
+    {
+      "name": "famegrid_spice_v2_z_image_fp32.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\famegrid_spice_v2_z_image_fp32.metadata.json",
+      "size_bytes": 766,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:51"
+    },
+    {
+      "name": "famegrid_spice_v2_z_image_fp32.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\famegrid_spice_v2_z_image_fp32.safetensors",
+      "size_bytes": 1522875376,
+      "size_gb": 1.418,
+      "mtime": "2026-06-13T06:58:49"
+    },
+    {
+      "name": "girlslike_zi_mzy.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage\\girlslike_zi_mzy.metadata.json",
+      "size_bytes": 729,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:33"
+    },
+    {
+      "name": "girlslike_zi_mzy.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage\\girlslike_zi_mzy.safetensors",
+      "size_bytes": 41654316,
+      "size_gb": 0.039,
+      "mtime": "2026-06-13T08:20:10"
+    },
+    {
+      "name": "girlslike_zi_mzy.safetensors.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage\\.cache\\huggingface\\download\\girlslike_zi_mzy.safetensors.metadata",
+      "size_bytes": 127,
+      "size_gb": 0.0,
+      "mtime": "2026-06-13T08:20:10"
+    },
+    {
+      "name": "GothicNeonAnima.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\GothicNeonAnima.metadata.json",
+      "size_bytes": 719,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:51"
+    },
+    {
+      "name": "GothicNeonAnima.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\GothicNeonAnima.safetensors",
+      "size_bytes": 33232032,
+      "size_gb": 0.031,
+      "mtime": "2026-06-21T21:13:13"
+    },
+    {
+      "name": "hana-zib-v7.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\hana-zib-v7.metadata.json",
+      "size_bytes": 707,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:52"
+    },
+    {
+      "name": "hana-zib-v7.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\hana-zib-v7.safetensors",
+      "size_bytes": 170127808,
+      "size_gb": 0.158,
+      "mtime": "2026-06-21T19:53:05"
+    },
+    {
+      "name": "Hands v2.1.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Hands v2.1.metadata.json",
+      "size_bytes": 705,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:53"
+    },
+    {
+      "name": "Hands v2.1.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Hands v2.1.safetensors",
+      "size_bytes": 170127808,
+      "size_gb": 0.158,
+      "mtime": "2026-06-21T21:35:25"
+    },
+    {
+      "name": "Hands zib v1.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Hands zib v1.metadata.json",
+      "size_bytes": 711,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:44:54"
+    },
+    {
+      "name": "Hands zib v1.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Hands zib v1.safetensors",
+      "size_bytes": 170127808,
+      "size_gb": 0.158,
+      "mtime": "2026-06-27T18:59:09"
+    },
+    {
+      "name": "klein_9B_Turbo_r128.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\klein_9B_Turbo_r128.metadata.json",
+      "size_bytes": 733,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:45:04"
+    },
+    {
+      "name": "KNP_V2_copy_copy.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\KNP_V2_copy_copy.metadata.json",
+      "size_bytes": 723,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:45:06"
+    },
+    {
+      "name": "KNP_V2_copy_copy.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\KNP_V2_copy_copy.safetensors",
+      "size_bytes": 228587776,
+      "size_gb": 0.213,
+      "mtime": "2026-06-27T20:08:59"
+    },
+    {
+      "name": "Kook_Zimage_Zshx_Turbo.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Kook_Zimage_Zshx_Turbo.metadata.json",
+      "size_bytes": 741,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:45:07"
+    },
+    {
+      "name": "Kook_Zimage_Zshx_Turbo.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Kook_Zimage_Zshx_Turbo.safetensors",
+      "size_bytes": 170128264,
+      "size_gb": 0.158,
+      "mtime": "2026-06-13T08:19:29"
+    },
+    {
+      "name": "Kook_Zimage_真实幻想_Turbo.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Kook_Zimage_真实幻想_Turbo.metadata.json",
+      "size_bytes": 765,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:45:09"
+    },
+    {
+      "name": "Kook_Zimage_真实幻想_Turbo.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Kook_Zimage_真实幻想_Turbo.safetensors",
+      "size_bytes": 170128264,
+      "size_gb": 0.158,
+      "mtime": "2026-06-13T08:17:17"
+    },
+    {
+      "name": "Kook_Zimage_真实幻想_Turbo.safetensors.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\.cache\\huggingface\\download\\Kook_Zimage_真实幻想_Turbo.safetensors.metadata",
+      "size_bytes": 127,
+      "size_gb": 0.0,
+      "mtime": "2026-06-13T08:17:17"
+    },
+    {
+      "name": "Krea2-realism-V1.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Krea2-realism-V1.metadata.json",
+      "size_bytes": 724,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:46:50"
+    },
+    {
+      "name": "Krea2-realism-V2.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Krea2-realism-V2.metadata.json",
+      "size_bytes": 723,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:50:59"
+    },
+    {
+      "name": "Krea2-realism-V2.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Krea2-realism-V2.safetensors",
+      "size_bytes": 1562410344,
+      "size_gb": 1.455,
+      "mtime": "2026-07-12T09:31:20"
+    },
+    {
+      "name": "Krea2-realism-V2.safetensorsZone.Identifier",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Krea2-realism-V2.safetensorsZone.Identifier",
+      "size_bytes": 1106,
+      "size_gb": 0.0,
+      "mtime": "2026-07-12T09:31:20"
+    },
+    {
+      "name": "krea2_turbo_lora_rank_64_bf16.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\krea2_turbo_lora_rank_64_bf16.metadata.json",
+      "size_bytes": 762,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:01"
+    },
+    {
+      "name": "krea2_turbo_lora_rank_64_bf16.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\krea2_turbo_lora_rank_64_bf16.safetensors",
+      "size_bytes": 469423778,
+      "size_gb": 0.437,
+      "mtime": "2026-06-24T19:45:40"
+    },
+    {
+      "name": "Lenovo_UltraReal_ZImage.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\china_community\\Lenovo_UltraReal_ZImage.safetensors",
+      "size_bytes": 85094800,
+      "size_gb": 0.079,
+      "mtime": "2026-07-18T22:30:17"
+    },
+    {
+      "name": "lili-v5_clean.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\lili-v5_clean.metadata.json",
+      "size_bytes": 714,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:02"
+    },
+    {
+      "name": "lili-v5_clean.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\lili-v5_clean.safetensors",
+      "size_bytes": 211782804,
+      "size_gb": 0.197,
+      "mtime": "2026-06-21T19:51:50"
+    },
+    {
+      "name": "Mystic-XXX-ZIT-V7.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage\\Mystic-XXX-ZIT-V7.metadata.json",
+      "size_bytes": 733,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:34"
+    },
+    {
+      "name": "Mystic-XXX-ZIT-V7.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage\\Mystic-XXX-ZIT-V7.safetensors",
+      "size_bytes": 207384968,
+      "size_gb": 0.193,
+      "mtime": "2026-06-13T08:20:16"
+    },
+    {
+      "name": "Mystic-XXX-ZIT-V7.safetensors.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage\\.cache\\huggingface\\download\\Mystic-XXX-ZIT-V7.safetensors.metadata",
+      "size_bytes": 128,
+      "size_gb": 0.0,
+      "mtime": "2026-06-13T08:20:16"
+    },
+    {
+      "name": "niji_and_midj_mix217.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\niji_and_midj_mix217.metadata.json",
+      "size_bytes": 735,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:03"
+    },
+    {
+      "name": "niji_and_midj_mix217.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\niji_and_midj_mix217.safetensors",
+      "size_bytes": 228487884,
+      "size_gb": 0.213,
+      "mtime": "2026-05-31T19:48:25"
+    },
+    {
+      "name": "Niji_semi_realism_v5.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Niji_semi_realism_v5.metadata.json",
+      "size_bytes": 735,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:04"
+    },
+    {
+      "name": "Niji_semi_realism_v5.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Niji_semi_realism_v5.safetensors",
+      "size_bytes": 277207600,
+      "size_gb": 0.258,
+      "mtime": "2026-06-27T18:59:17"
+    },
+    {
+      "name": "Ouyenm.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Ouyenm.metadata.json",
+      "size_bytes": 693,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:05"
+    },
+    {
+      "name": "Ouyenm.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Ouyenm.safetensors",
+      "size_bytes": 228468468,
+      "size_gb": 0.213,
+      "mtime": "2026-05-31T19:48:34"
+    },
+    {
+      "name": "PHM_style_IL_v3.3.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\PHM_style_IL_v3.3.metadata.json",
+      "size_bytes": 725,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:05"
+    },
+    {
+      "name": "PHM_style_IL_v3.3.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\PHM_style_IL_v3.3.safetensors",
+      "size_bytes": 57464516,
+      "size_gb": 0.054,
+      "mtime": "2026-05-31T19:48:13"
+    },
+    {
+      "name": "PhotoBOX_Aperture.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\PhotoBOX_Aperture.metadata.json",
+      "size_bytes": 725,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:05"
+    },
+    {
+      "name": "PhotoBOX_Aperture.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\PhotoBOX_Aperture.safetensors",
+      "size_bytes": 42577736,
+      "size_gb": 0.04,
+      "mtime": "2026-05-17T22:53:28"
+    },
+    {
+      "name": "Professional_Photographer_3500.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\civitai_20260719\\Professional_Photographer_3500.safetensors",
+      "size_bytes": 680327016,
+      "size_gb": 0.634,
+      "mtime": "2026-07-19T18:31:40"
+    },
+    {
+      "name": "put_loras_here",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\put_loras_here",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "mtime": "2026-07-11T20:12:23"
+    },
+    {
+      "name": "Radiant_Realism_v2.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\civitai_20260719\\Radiant_Realism_v2.safetensors",
+      "size_bytes": 170129464,
+      "size_gb": 0.158,
+      "mtime": "2026-07-19T18:27:02"
+    },
+    {
+      "name": "realism-anima-v2.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\realism-anima-v2.metadata.json",
+      "size_bytes": 721,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:06"
+    },
+    {
+      "name": "realism-anima-v2.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\realism-anima-v2.safetensors",
+      "size_bytes": 138809016,
+      "size_gb": 0.129,
+      "mtime": "2026-06-28T16:35:37"
+    },
+    {
+      "name": "RealisticSnapshot-Zimage-Turbov5.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\RealisticSnapshot-Zimage-Turbov5.metadata.json",
+      "size_bytes": 771,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:07"
+    },
+    {
+      "name": "RealisticSnapshot-Zimage-Turbov5.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\RealisticSnapshot-Zimage-Turbov5.safetensors",
+      "size_bytes": 170127768,
+      "size_gb": 0.158,
+      "mtime": "2026-05-17T14:55:17"
+    },
+    {
+      "name": "rendering_detailer_base10-000400.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\rendering_detailer_base10-000400.metadata.json",
+      "size_bytes": 770,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:07"
+    },
+    {
+      "name": "rendering_detailer_base10-000400.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\rendering_detailer_base10-000400.safetensors",
+      "size_bytes": 91851392,
+      "size_gb": 0.086,
+      "mtime": "2026-06-21T20:10:53"
+    },
+    {
+      "name": "rimixao5050.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\rimixao5050.safetensors",
+      "size_bytes": 528653464,
+      "size_gb": 0.492,
+      "mtime": "2026-07-24T18:58:17"
+    },
+    {
+      "name": "rimixxO2.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\rimixxO2.metadata.json",
+      "size_bytes": 699,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:09"
+    },
+    {
+      "name": "rimixxO2.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\rimixxO2.safetensors",
+      "size_bytes": 696232700,
+      "size_gb": 0.648,
+      "mtime": "2026-06-07T21:10:19"
+    },
+    {
+      "name": "S1_Dramatic Lighting Anima_V1.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\S1_Dramatic Lighting Anima_V1.metadata.json",
+      "size_bytes": 762,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:10"
+    },
+    {
+      "name": "S1_Dramatic Lighting Anima_V1.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\S1_Dramatic Lighting Anima_V1.safetensors",
+      "size_bytes": 138663776,
+      "size_gb": 0.129,
+      "mtime": "2026-06-27T18:59:13"
+    },
+    {
+      "name": "S1_Dramatic Lighting Anima_V2.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\S1_Dramatic Lighting Anima_V2.safetensors",
+      "size_bytes": 138663784,
+      "size_gb": 0.129,
+      "mtime": "2026-07-24T19:45:05"
+    },
+    {
+      "name": "skin texture Photorealistic style v4.5.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\skin texture Photorealistic style v4.5.metadata.json",
+      "size_bytes": 789,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:11"
+    },
+    {
+      "name": "skin texture Photorealistic style v4.5.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\skin texture Photorealistic style v4.5.safetensors",
+      "size_bytes": 170127808,
+      "size_gb": 0.158,
+      "mtime": "2026-06-21T21:13:08"
+    },
+    {
+      "name": "skin texture style zib v2.1.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\skin texture style zib v2.1.metadata.json",
+      "size_bytes": 756,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:12"
+    },
+    {
+      "name": "skin texture style zib v2.1.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\skin texture style zib v2.1.safetensors",
+      "size_bytes": 170128320,
+      "size_gb": 0.158,
+      "mtime": "2026-06-21T21:13:04"
+    },
+    {
+      "name": "Smooth_Booster_v5.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Smooth_Booster_v5.metadata.json",
+      "size_bytes": 726,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:13"
+    },
+    {
+      "name": "Smooth_Booster_v5.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Smooth_Booster_v5.safetensors",
+      "size_bytes": 197086960,
+      "size_gb": 0.184,
+      "mtime": "2026-06-07T21:12:06"
+    },
+    {
+      "name": "snofs_krea_v1_1.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\snofs_krea_v1_1.metadata.json",
+      "size_bytes": 721,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:23"
+    },
+    {
+      "name": "Sun_direction_LoRA_Flux_2_Klein_9b_v1.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Sun_direction_LoRA_Flux_2_Klein_9b_v1.metadata.json",
+      "size_bytes": 786,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:25"
+    },
+    {
+      "name": "Sun_direction_LoRA_Flux_2_Klein_9b_v1.safetensors.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\.cache\\huggingface\\download\\Sun_direction_LoRA_Flux_2_Klein_9b_v1.safetensors.metadata",
+      "size_bytes": 128,
+      "size_gb": 0.0,
+      "mtime": "2026-07-05T09:02:57"
+    },
+    {
+      "name": "ultra_real_krea2_v1.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\ultra_real_krea2_v1.metadata.json",
+      "size_bytes": 732,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:26"
+    },
+    {
+      "name": "ultra_real_krea2_v1.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\ultra_real_krea2_v1.safetensors",
+      "size_bytes": 228588920,
+      "size_gb": 0.213,
+      "mtime": "2026-07-05T09:00:39"
+    },
+    {
+      "name": "yoki-zib-v1.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage base\\char\\yoki-zib-v1.metadata.json",
+      "size_bytes": 725,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:35"
+    },
+    {
+      "name": "yoki-zib-v1.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zimage base\\char\\yoki-zib-v1.safetensors",
+      "size_bytes": 170127808,
+      "size_gb": 0.158,
+      "mtime": "2026-05-30T23:54:47"
+    },
+    {
+      "name": "Z-Image-Fun-Lora-Distill-8-Steps-2603-ComfyUI.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\Z-Image-Fun-Lora-Distill-8-Steps-2603-ComfyUI.safetensors",
+      "size_bytes": 568275120,
+      "size_gb": 0.529,
+      "mtime": "2026-07-12T13:32:47"
+    },
+    {
+      "name": "Zed_Turbo_Lightning.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\civitai_20260719\\Zed_Turbo_Lightning.safetensors",
+      "size_bytes": 35180808,
+      "size_gb": 0.033,
+      "mtime": "2026-07-19T18:31:30"
+    },
+    {
+      "name": "ZIB-Aesthetic-Ultra-v1_c2-st10000.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\ZIB-Aesthetic-Ultra-v1_c2-st10000.metadata.json",
+      "size_bytes": 773,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:28"
+    },
+    {
+      "name": "ZIB-Aesthetic-Ultra-v1_c2-st10000.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\ZIB-Aesthetic-Ultra-v1_c2-st10000.safetensors",
+      "size_bytes": 198509464,
+      "size_gb": 0.185,
+      "mtime": "2026-06-28T16:25:55"
+    },
+    {
+      "name": "ZImage_Aesthetic_Turbo_v1.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\civitai_20260719\\ZImage_Aesthetic_Turbo_v1.safetensors",
+      "size_bytes": 467951720,
+      "size_gb": 0.436,
+      "mtime": "2026-07-19T18:31:38"
+    },
+    {
+      "name": "zit_fdpo_v1.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zit_fdpo_v1.safetensors",
+      "size_bytes": 169691320,
+      "size_gb": 0.158,
+      "mtime": "2026-07-12T13:32:29"
+    },
+    {
+      "name": "zit_sda_v1.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\zit_sda_v1.safetensors",
+      "size_bytes": 169691344,
+      "size_gb": 0.158,
+      "mtime": "2026-07-12T07:40:44"
+    },
+    {
+      "name": "zit_sda_v1.safetensors.lock",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\.cache\\huggingface\\download\\zit_sda_v1.safetensors.lock",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "mtime": "2026-07-12T07:40:44"
+    },
+    {
+      "name": "zit_sda_v1.safetensors.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\.cache\\huggingface\\download\\zit_sda_v1.safetensors.metadata",
+      "size_bytes": 124,
+      "size_gb": 0.0,
+      "mtime": "2026-07-12T07:40:44"
+    },
+    {
+      "name": "ZiTAn1meL1nes.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\ZiTAn1meL1nes.metadata.json",
+      "size_bytes": 714,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:36"
+    },
+    {
+      "name": "ZiTAn1meL1nes.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\ZiTAn1meL1nes.safetensors",
+      "size_bytes": 170127768,
+      "size_gb": 0.158,
+      "mtime": "2026-06-21T21:53:54"
+    },
+    {
+      "name": "ZiTD3tailed4nime.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\ZiTD3tailed4nime.metadata.json",
+      "size_bytes": 723,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:36"
+    },
+    {
+      "name": "ZiTD3tailed4nime.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\ZiTD3tailed4nime.safetensors",
+      "size_bytes": 170127768,
+      "size_gb": 0.158,
+      "mtime": "2026-06-21T21:53:50"
+    },
+    {
+      "name": "ZiTMythG0thicL1nes.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\ZiTMythG0thicL1nes.metadata.json",
+      "size_bytes": 729,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:37"
+    },
+    {
+      "name": "ZiTMythG0thicL1nes.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\ZiTMythG0thicL1nes.safetensors",
+      "size_bytes": 170129464,
+      "size_gb": 0.158,
+      "mtime": "2026-06-21T21:53:42"
+    },
+    {
+      "name": "ZiTMythR3alisticF.metadata.json",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\ZiTMythR3alisticF.metadata.json",
+      "size_bytes": 726,
+      "size_gb": 0.0,
+      "mtime": "2026-07-10T20:51:38"
+    },
+    {
+      "name": "ZiTMythR3alisticF.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\loras\\ZiTMythR3alisticF.safetensors",
+      "size_bytes": 170127768,
+      "size_gb": 0.158,
+      "mtime": "2026-06-21T21:53:45"
+    }
+  ],
+  "vae": [
+    {
+      "name": ".gitignore",
+      "path": "C:\\AI\\ComfyUI\\models\\vae\\.cache\\huggingface\\.gitignore",
+      "size_bytes": 1,
+      "size_gb": 0.0,
+      "mtime": "2026-05-10T10:43:15"
+    },
+    {
+      "name": "ae.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\vae\\ae.safetensors",
+      "size_bytes": 335304388,
+      "size_gb": 0.312,
+      "mtime": "2026-05-10T10:43:23"
+    },
+    {
+      "name": "ae.safetensors.metadata",
+      "path": "C:\\AI\\ComfyUI\\models\\vae\\.cache\\huggingface\\download\\split_files\\vae\\ae.safetensors.metadata",
+      "size_bytes": 128,
+      "size_gb": 0.0,
+      "mtime": "2026-05-10T10:50:12"
+    },
+    {
+      "name": "CACHEDIR.TAG",
+      "path": "C:\\AI\\ComfyUI\\models\\vae\\.cache\\huggingface\\CACHEDIR.TAG",
+      "size_bytes": 195,
+      "size_gb": 0.0,
+      "mtime": "2026-05-10T10:43:15"
+    },
+    {
+      "name": "flux1_vae_bf16.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\vae\\flux1_vae_bf16.safetensors",
+      "size_bytes": 167664710,
+      "size_gb": 0.156,
+      "mtime": "2026-06-24T19:27:09"
+    },
+    {
+      "name": "flux2-vae.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\vae\\flux2-vae.safetensors",
+      "size_bytes": 336213556,
+      "size_gb": 0.313,
+      "mtime": "2026-06-08T23:07:34"
+    },
+    {
+      "name": "Krea2-HD-vae.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\vae\\Krea2-HD-vae.safetensors",
+      "size_bytes": 507591324,
+      "size_gb": 0.473,
+      "mtime": "2026-07-12T08:30:27"
+    },
+    {
+      "name": "put_vae_here",
+      "path": "C:\\AI\\ComfyUI\\models\\vae\\put_vae_here",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "mtime": "2026-07-11T20:12:23"
+    },
+    {
+      "name": "qwen_image_vae.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\vae\\qwen_image_vae.safetensors",
+      "size_bytes": 253806246,
+      "size_gb": 0.236,
+      "mtime": "2026-06-21T16:22:00"
+    },
+    {
+      "name": "sdxl.vae.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\vae\\sdxl.vae.safetensors",
+      "size_bytes": 334641162,
+      "size_gb": 0.312,
+      "mtime": "2026-05-18T20:33:07"
+    }
+  ],
+  "clip": [
+    {
+      "name": "put_clip_or_text_encoder_models_here",
+      "path": "C:\\AI\\ComfyUI\\models\\clip\\put_clip_or_text_encoder_models_here",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "mtime": "2026-07-11T20:12:23"
+    }
+  ],
+  "upscale_models": [
+    {
+      "name": "4x-UltraSharp.pth",
+      "path": "C:\\AI\\ComfyUI\\models\\upscale_models\\4x-UltraSharp.pth",
+      "size_bytes": 66961958,
+      "size_gb": 0.062,
+      "mtime": "2026-06-11T07:59:33"
+    },
+    {
+      "name": "4x_foolhardy_Remacri.pth",
+      "path": "C:\\AI\\ComfyUI\\models\\upscale_models\\4x_foolhardy_Remacri.pth",
+      "size_bytes": 67025055,
+      "size_gb": 0.062,
+      "mtime": "2026-06-13T17:37:59"
+    },
+    {
+      "name": "4x_IllustrationJaNai_V1_DAT2_190k.pth",
+      "path": "C:\\AI\\ComfyUI\\models\\upscale_models\\4x_IllustrationJaNai_V1_DAT2_190k.pth",
+      "size_bytes": 140402790,
+      "size_gb": 0.131,
+      "mtime": "2026-06-13T18:04:46"
+    },
+    {
+      "name": "put_esrgan_and_other_upscale_models_here",
+      "path": "C:\\AI\\ComfyUI\\models\\upscale_models\\put_esrgan_and_other_upscale_models_here",
+      "size_bytes": 0,
+      "size_gb": 0.0,
+      "mtime": "2026-07-11T20:12:23"
+    },
+    {
+      "name": "RealESRGAN_x2plus.pth",
+      "path": "C:\\AI\\ComfyUI\\models\\upscale_models\\RealESRGAN_x2plus.pth",
+      "size_bytes": 67061725,
+      "size_gb": 0.062,
+      "mtime": "2026-07-05T21:26:44"
+    },
+    {
+      "name": "RealESRGAN_x4plus.pth",
+      "path": "C:\\AI\\ComfyUI\\models\\upscale_models\\RealESRGAN_x4plus.pth",
+      "size_bytes": 67040989,
+      "size_gb": 0.062,
+      "mtime": "2026-06-03T20:15:36"
+    },
+    {
+      "name": "RealESRGAN_x4plus.safetensors",
+      "path": "C:\\AI\\ComfyUI\\models\\upscale_models\\RealESRGAN_x4plus.safetensors",
+      "size_bytes": 67040989,
+      "size_gb": 0.062,
+      "mtime": "2026-06-03T20:15:36"
+    }
+  ],
+  "bbox": [
+    {
+      "name": "Eyeful_v2-Individual.pt",
+      "path": "C:\\AI\\ComfyUI\\models\\ultralytics\\bbox\\Eyeful_v2-Individual.pt",
+      "size_bytes": 22545748,
+      "size_gb": 0.021,
+      "mtime": "2026-06-13T17:38:10"
+    },
+    {
+      "name": "Eyeful_v2-Paired.pt",
+      "path": "C:\\AI\\ComfyUI\\models\\ultralytics\\bbox\\Eyeful_v2-Paired.pt",
+      "size_bytes": 22559956,
+      "size_gb": 0.021,
+      "mtime": "2026-05-10T12:15:39"
+    },
+    {
+      "name": "face_yolov8m.pt",
+      "path": "C:\\AI\\ComfyUI\\models\\ultralytics\\bbox\\face_yolov8m.pt",
+      "size_bytes": 51996128,
+      "size_gb": 0.048,
+      "mtime": "2026-05-10T12:15:27"
+    },
+    {
+      "name": "face_yolov9c.pt",
+      "path": "C:\\AI\\ComfyUI\\models\\ultralytics\\bbox\\face_yolov9c.pt",
+      "size_bytes": 51648019,
+      "size_gb": 0.048,
+      "mtime": "2026-06-11T07:59:00"
+    },
+    {
+      "name": "hand_yolov8s.pt",
+      "path": "C:\\AI\\ComfyUI\\models\\ultralytics\\bbox\\hand_yolov8s.pt",
+      "size_bytes": 22484536,
+      "size_gb": 0.021,
+      "mtime": "2026-05-10T12:15:47"
+    },
+    {
+      "name": "hand_yolov9c.pt",
+      "path": "C:\\AI\\ComfyUI\\models\\ultralytics\\bbox\\hand_yolov9c.pt",
+      "size_bytes": 51633747,
+      "size_gb": 0.048,
+      "mtime": "2026-06-13T17:38:04"
+    },
+    {
+      "name": "vagina-v4.2.pt",
+      "path": "C:\\AI\\ComfyUI\\models\\ultralytics\\bbox\\vagina-v4.2.pt",
+      "size_bytes": 52003222,
+      "size_gb": 0.048,
+      "mtime": "2024-05-04T16:40:42"
+    }
+  ],
+  "segm": [
+    {
+      "name": "ntd11_anime_nsfw_segm_v5-variant1.pt",
+      "path": "C:\\AI\\ComfyUI\\models\\ultralytics\\segm\\ntd11_anime_nsfw_segm_v5-variant1.pt",
+      "size_bytes": 20585444,
+      "size_gb": 0.019,
+      "mtime": "2026-07-12T18:18:29"
+    },
+    {
+      "name": "person_yolov8m-seg.pt",
+      "path": "C:\\AI\\ComfyUI\\models\\ultralytics\\segm\\person_yolov8m-seg.pt",
+      "size_bytes": 54827683,
+      "size_gb": 0.051,
+      "mtime": "2026-07-22T22:19:53"
+    }
+  ]
+}

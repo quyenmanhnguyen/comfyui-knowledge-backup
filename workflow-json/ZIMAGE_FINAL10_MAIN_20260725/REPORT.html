@@ -1,0 +1,42 @@
+<!doctype html><meta charset="utf-8"><title>Z-Image Final 10 — Main Workflow</title>
+<style>
+body{margin:26px;background:#101114;color:#eee;font:15px system-ui;max-width:1550px}
+h1,h2{color:#fff}.lead{background:#153323;border:1px solid #35d07f;padding:16px;border-radius:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{background:#1a1c21;border:1px solid #343740;border-radius:12px;padding:13px}
+.winner{border-color:#35d07f}.fast{border-color:#55b9ff}.down{opacity:.82}
+img{width:100%;height:560px;object-fit:contain;background:#08090b;border-radius:8px}
+table{border-collapse:collapse;width:100%;margin:18px 0}th,td{border:1px solid #3d414b;padding:8px;text-align:left}
+code{color:#8bd5ff}.good{color:#60e89d}.blue{color:#67c5ff}.warn{color:#ffd166}
+</style>
+<h1>Z-Image Final 10 — 25/07/2026</h1>
+<div class="lead">
+<h2>Workflow chính: MoodyPro v13.2 — res_2s / beta57</h2>
+<p>Thắng cân bằng: mặt trẻ tự nhiên, da vẫn còn texture, ánh sáng sạch, tay ổn và vượt qua cả SFW/NSFW. 
+SFW 82,3 s; NSFW 86,3 s trong tiến trình sạch.</p>
+<p><code>MAIN_ZIMAGE_MOODY_RES2S.json</code> · bản NSFW: <code>MAIN_ZIMAGE_MOODY_RES2S_NSFW.json</code></p>
+<p class="blue">Preset nhanh phụ: Moody EulerFlow H4 / ZIT8 — 68,2 / 66,4 s; đẹp sáng hơn nhưng da mịn kiểu beauty-filter.</p>
+</div>
+<table>
+<tr><th>Hạng</th><th>Recipe</th><th>SFW / NSFW</th><th>Nhận xét</th></tr>
+<tr><td>1</td><td>Moody res_2s</td><td>82,3 / 86,3 s</td><td class="good">Cân bằng chất lượng tốt nhất</td></tr>
+<tr><td>2</td><td>Moody Euler H4</td><td>68,2 / 66,4 s</td><td class="blue">Nhanh, trẻ, sáng; texture da thấp hơn</td></tr>
+<tr><td>3</td><td>Diving res_2s</td><td>80,3 / 84,3 s</td><td>Chi tiết tốt; tay phải NSFW hơi kéo dài</td></tr>
+<tr><td>4</td><td>Beyond res_2s</td><td>87,8 / 84,4 s</td><td>Da tự nhiên nhất; mặt SFW trưởng thành hơn yêu cầu</td></tr>
+<tr><td>5</td><td>Beyond X21</td><td>72,3 / 70,3 s</td><td>Nhanh và sạch nhưng da/mặt mịn hơn, ít cá tính</td></tr>
+</table>
+<h2>10 ảnh kiểm chứng</h2>
+<div class="grid">
+<div class="card"><h3>1 · Diving res_2s SFW — 80,3 s</h3><img src="../../ComfyUI/output/ZFINAL10-01_Z1_DIVING_RES2S_SFW_00001_.png"></div>
+<div class="card"><h3>2 · Diving res_2s NSFW — 84,3 s</h3><img src="../../ComfyUI/output/ZFINAL10-02_Z1_DIVING_RES2S_NSFW_00001_.png"><p class="warn">Tay phải hơi kéo dài.</p></div>
+<div class="card down"><h3>3 · Beyond res_2s SFW — 87,8 s</h3><img src="../../ComfyUI/output/ZFINAL10-03_Z2_BEYOND_RES2S_SFW_00001_.png"><p>Mặt già hơn target.</p></div>
+<div class="card"><h3>4 · Beyond res_2s NSFW — 84,4 s</h3><img src="../../ComfyUI/output/ZFINAL10-04_Z2_BEYOND_RES2S_NSFW_00001_.png"></div>
+<div class="card winner"><h3>5 · Moody res_2s SFW — WINNER</h3><img src="../../ComfyUI/output/ZFINAL10-05_Z3_MOODY_RES2S_SFW_00001_.png"></div>
+<div class="card winner"><h3>6 · Moody res_2s NSFW — WINNER</h3><img src="../../ComfyUI/output/ZFINAL10-06_Z3_MOODY_RES2S_NSFW_00001_.png"></div>
+<div class="card fast"><h3>7 · Moody Euler H4 SFW — FAST</h3><img src="../../ComfyUI/output/ZFINAL10-07_Z4_MOODY_EULER_H4_SFW_00001_.png"></div>
+<div class="card fast"><h3>8 · Moody Euler H4 NSFW — FAST</h3><img src="../../ComfyUI/output/ZFINAL10-08_Z4_MOODY_EULER_H4_NSFW_00001_.png"></div>
+<div class="card down"><h3>9 · Beyond X21 SFW — 72,3 s</h3><img src="../../ComfyUI/output/ZFINAL10-09_Z5_BEYOND_X21_SFW_00001_.png"></div>
+<div class="card down"><h3>10 · Beyond X21 NSFW — 70,3 s</h3><img src="../../ComfyUI/output/ZFINAL10-10_Z5_BEYOND_X21_NSFW_00001_.png"></div>
+</div>
+<h2>Thiết lập winner</h2>
+<p>MoodyPro v13.2; 576×800; ModelSamplingAuraFlow shift 3; res_2s; beta57; 10 bước; CFG 1; Qwen 3 4B; VAE ae; không LoRA, detailer hay upscale.</p>

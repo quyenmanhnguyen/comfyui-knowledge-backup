@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Advanced Cinematic — Telegram + Civitai</title>
+  <style>
+    :root { color-scheme:dark; --bg:#0b0d11; --card:#171a20; --line:#2b313b;
+      --text:#f3f5f8; --muted:#aeb7c4; --good:#4ade80; --warn:#fbbf24; --bad:#fb7185; }
+    * { box-sizing:border-box } body { margin:0; background:var(--bg); color:var(--text);
+      font:15px/1.55 system-ui,sans-serif } main { max-width:1540px; margin:auto; padding:28px }
+    h1 { margin:0 0 7px; font-size:30px } h2 { margin:30px 0 12px } p { color:var(--muted) }
+    .summary { display:grid; grid-template-columns:repeat(auto-fit,minmax(225px,1fr)); gap:12px }
+    .metric,.card { background:var(--card); border:1px solid var(--line); border-radius:14px }
+    .metric { padding:14px 16px }.metric b { display:block; font-size:21px; color:var(--good) }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(330px,1fr)); gap:16px }
+    .card { overflow:hidden }.card.good{border-color:#2d8f52}.card.warn{border-color:#9a7420}
+    .card.bad{border-color:#9d4051;opacity:.78}.card img{width:100%;height:620px;object-fit:contain;
+      background:#07080a;display:block}.body{padding:14px 16px 17px}.body h3{margin:0 0 6px;font-size:18px}
+    .tag{display:inline-block;padding:2px 8px;border-radius:999px;margin:0 5px 7px 0;
+      background:#252b34;color:#dbe2ec;font-size:12px}.yes{color:var(--good)}.maybe{color:var(--warn)}
+    .no{color:var(--bad)} table{width:100%;border-collapse:collapse;background:var(--card);
+      border-radius:12px;overflow:hidden}th,td{padding:10px 12px;border-bottom:1px solid var(--line);
+      text-align:left;vertical-align:top}th{background:#1e2229}a{color:#77c7ff}
+  </style>
+</head>
+<body><main>
+  <h1>Advanced cinematic: Anima + SDXL/Illustrious</h1>
+  <p>Telegram/Civitai prompt grammar · RX 7800 XT · native resolution · PyTorch cross-attention · mỗi ảnh một tiến trình sạch · không upscale/detailer.</p>
+  <div class="summary">
+    <div class="metric"><b>10 ảnh</b>8 ảnh chính + 2 lượt sửa có kiểm soát.</div>
+    <div class="metric"><b>12–66 giây</b>Thời gian API sau khi server sẵn sàng.</div>
+    <div class="metric"><b>3 hướng giữ</b>Anima Ri‑mix, aMix Ri‑mix, Moody Anima.</div>
+    <div class="metric"><b>1 hướng dừng</b>OneObsession cinematic toàn cảnh tái diễn POV.</div>
+  </div>
+
+  <h2>Kết quả chính nên giữ</h2>
+  <div class="grid">
+    <article class="card good">
+      <img src="../../ComfyUI/output/ADV8-A3_ANIMA_RIMIX_ALPHA_SFW_00001_.png">
+      <div class="body">
+        <h3 class="yes">A3 · Anima + Ri‑mix α — 66,1 s</h3>
+        <span class="tag">768×1152</span><span class="tag">ER‑SDE</span><span class="tag">32 bước · CFG 3</span>
+        <p>Ảnh cinematic SFW tốt nhất: chiều sâu rõ, phản chiếu mưa đẹp, cyan/amber có chủ đích, vải và tóc giàu chi tiết. Có ký tự trang trí trên đèn nên tránh biển/đèn có chữ khi cần ảnh hoàn toàn sạch.</p>
+        <a href="A3_ANIMA_RIMIX_ALPHA_SFW.json">Workflow</a>
+      </div>
+    </article>
+
+    <article class="card good">
+      <img src="../../ComfyUI/output/ADV8-A4B_ANIMA_RIMIX_ALPHA_NSFW_CLEAN_00001_.png">
+      <div class="body">
+        <h3 class="yes">A4B · Anima + Ri‑mix α NSFW sửa — 66,2 s</h3>
+        <span class="tag">768×1152</span><span class="tag">pose khóa tay</span><span class="tag">không restraint</span>
+        <p>Bản sửa sạch dây cổ tay, đủ hai tay, thân hình và ánh sáng cửa sổ tốt. Mặt hơi tối hơn mục tiêu “sáng”, nhưng gradient màu và không gian phim rõ ràng.</p>
+        <a href="A4B_ANIMA_RIMIX_ALPHA_NSFW_CLEAN.json">Workflow</a>
+      </div>
+    </article>
+
+    <article class="card good">
+      <img src="../../ComfyUI/output/ADV8-S1_AMIX_RIMIX_CINEMATIC_SFW_00001_.png">
+      <div class="body">
+        <h3 class="yes">S1 · aMix + Ri‑mix Ω cinematic — 32,1 s</h3>
+        <span class="tag">768×1152</span><span class="tag">Euler A</span><span class="tag">30 bước</span>
+        <p>Cân bằng nhất giữa mặt, nhân vật, ánh sáng và bối cảnh. Mưa, trăng, đèn và mặt đường tạo chiều sâu thật; tay trái khá ổn, tay phải chuyển thành cầm túi nhưng hợp cảnh.</p>
+        <a href="S1_AMIX_RIMIX_CINEMATIC_SFW.json">Workflow</a>
+      </div>
+    </article>
+
+    <article class="card good">
+      <img src="../../ComfyUI/output/ADV8-S2_AMIX_RIMIX_CINEMATIC_NSFW_00001_.png">
+      <div class="body">
+        <h3 class="yes">S2 · aMix + Ri‑mix Ω cinematic NSFW — 26,1 s</h3>
+        <span class="tag">768×1152</span><span class="tag">smooth light</span><span class="tag">stable pair</span>
+        <p>Sạch, sáng, mượt và rõ nhân vật. Bối cảnh cửa sổ/bokeh giữ được mood phim; hai tay nằm sát mép ghế nên không phải preset kiểm tra ngón tay toàn phần.</p>
+        <a href="S2_AMIX_RIMIX_CINEMATIC_NSFW.json">Workflow</a>
+      </div>
+    </article>
+
+    <article class="card good">
+      <img src="../../ComfyUI/output/ADV8-A2_MOODY_ANIMA_CINEMATIC_NSFW_00001_.png">
+      <div class="body">
+        <h3 class="yes">A2 · Moody Anima cinematic NSFW — 12,0 s</h3>
+        <span class="tag">832×1216</span><span class="tag">ER‑SDE</span><span class="tag">4 bước</span>
+        <p>Preset nhanh đẹp nhất: bố cục sạch, da sáng và bokeh tốt. Chi tiết vật liệu/không khí kém Ri‑mix α nhưng nhanh hơn hơn năm lần.</p>
+        <a href="A2_MOODY_ANIMA_CINEMATIC_NSFW.json">Workflow</a>
+      </div>
+    </article>
+
+    <article class="card warn">
+      <img src="../../ComfyUI/output/ADV8-A1_MOODY_ANIMA_CINEMATIC_SFW_00001_.png">
+      <div class="body">
+        <h3 class="maybe">A1 · Moody Anima cinematic SFW — 16,1 s</h3>
+        <span class="tag">832×1216</span><span class="tag">fast draft</span>
+        <p>Cảnh mưa/đèn đúng mood và bố cục sạch, nhưng mặt và vật liệu phẳng hơn rõ rệt so với Anima + Ri‑mix α. Giữ làm draft nhanh.</p>
+        <a href="A1_MOODY_ANIMA_CINEMATIC_SFW.json">Workflow</a>
+      </div>
+    </article>
+  </div>
+
+  <h2>Giữ có điều kiện</h2>
+  <div class="grid">
+    <article class="card warn">
+      <img src="../../ComfyUI/output/ADV8-S4_ONEOBSESSION_CINEMATIC_NSFW_00001_.png">
+      <div class="body">
+        <h3 class="maybe">S4 · OneObsession NSFW — 28,1 s</h3>
+        <p>Màu, tóc và độ bóng rất ấn tượng, nhưng tự thêm vải ở miệng, trang sức và chồng tay. Chỉ giữ cho nhánh stylized mạnh, không dùng làm cinematic sạch mặc định.</p>
+        <a href="S4_ONEOBSESSION_CINEMATIC_NSFW.json">Workflow</a>
+      </div>
+    </article>
+  </div>
+
+  <h2>Ảnh bị loại và nguyên nhân</h2>
+  <div class="grid">
+    <article class="card bad">
+      <img src="../../ComfyUI/output/ADV8-A4_ANIMA_RIMIX_ALPHA_NSFW_00001_.png">
+      <div class="body">
+        <h3 class="no">A4 · Anima Ri‑mix NSFW đầu — loại</h3>
+        <p>Tự thêm dây buộc cổ tay. Khắc phục được ở A4B bằng cách mô tả riêng vị trí tay trái/tay phải và loại rõ rope/restraint/bondage.</p>
+      </div>
+    </article>
+    <article class="card bad">
+      <img src="../../ComfyUI/output/ADV8-S3_ONEOBSESSION_CINEMATIC_SFW_00001_.png">
+      <div class="body">
+        <h3 class="no">S3 · OneObsession SFW đầu — loại</h3>
+        <p>Sinh thêm hai bàn tay POV ở tiền cảnh dù chủ thể đã có đủ tay.</p>
+      </div>
+    </article>
+    <article class="card bad">
+      <img src="../../ComfyUI/output/ADV8-S3B_ONEOBSESSION_CINEMATIC_SFW_CLEAN_00001_.png">
+      <div class="body">
+        <h3 class="no">S3B · OneObsession sửa — vẫn loại</h3>
+        <p>Đã cấm POV/foreground hands nhưng model đổi sang đôi chân POV. Lỗi bố cục tái diễn nên dừng nhánh thay vì quay seed đến khi may mắn.</p>
+      </div>
+    </article>
+  </div>
+
+  <h2>Kết luận kỹ thuật và prompt</h2>
+  <table>
+    <thead><tr><th>Phát hiện</th><th>Áp dụng lần sau</th></tr></thead>
+    <tbody>
+      <tr><td>“Cinematic” hiệu quả khi có lớp cảnh, nguồn sáng có lý do và màu đối ứng.</td><td>Dùng foreground môi trường + subject midground + background bokeh; amber practical key, cool rim, broad face fill, smooth roll-off, halation nhẹ và film grain vừa phải.</td></tr>
+      <tr><td>Anima + Ri‑mix α tăng chiều sâu thật nhưng tốn 64–66 s.</td><td>Dùng làm HQ cinematic. Moody Anima 4 bước dùng cho draft 12–16 s.</td></tr>
+      <tr><td>aMix + Ri‑mix Ω phản hồi ổn định nhất với prompt cinematic dạng tag có cấu trúc.</td><td>Giữ làm preset SDXL cinematic mặc định.</td></tr>
+      <tr><td>OneObsession v23 mạnh ở cảnh cận/high-contrast, không ổn cho toàn cảnh đi bộ ở seed này.</td><td>Không dùng mặc định cho wide cinematic; quay về cảnh cận model-native thay vì thêm node.</td></tr>
+      <tr><td>“Exactly two hands visible” không phải khóa giải phẫu tuyệt đối.</td><td>Mô tả quan hệ sở hữu/vị trí riêng: “her left hand on…; her right hand on…”, tránh foreground human parts và POV.</td></tr>
+    </tbody>
+  </table>
+
+  <p><a href="SOURCES.md">Nguồn và quyết định test</a> · File thời gian: <a href="results.csv">results.csv</a> / <a href="retest_results.csv">retest_results.csv</a></p>
+</main></body>
+</html>

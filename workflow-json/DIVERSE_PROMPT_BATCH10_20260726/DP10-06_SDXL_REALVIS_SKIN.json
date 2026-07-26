@@ -1,0 +1,99 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "RealVisXL_V5.0_fp16.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "Natural high-resolution beauty photograph, one clearly adult East Asian woman age 31, seated near a large white window in a modern studio, fresh youthful mature face, clear eyes, soft smile, black hair in loose waves, healthy fuller figure, white silk robe loosely tied, left hand on lap, right hand on window sill, exact two hands visible, realistic skin pores, soft peach fuzz, subtle tonal variation, bright diffused daylight, 70mm lens, clean composition"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "child, teen, underage, elderly, gaunt face, grey skin, dark tan cast, harsh shadow, underexposed, waxy skin, plastic skin, blur, extra fingers, fused fingers, missing fingers, extra limbs, duplicate person, malformed feet, text, logo, watermark, worst quality, low quality, bad anatomy, child, teen, loli, young-looking, old face, grey skin, muddy skin, oily blur, waxy skin, plastic skin, smeared skin, bad eyes, crossed eyes, malformed face, bad hands, fused fingers, extra fingers, extra hands, disembodied hands, pov hands, fake text, watermark"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 1024,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "5",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 72629106,
+      "steps": 36,
+      "cfg": 4,
+      "sampler_name": "dpmpp_sde",
+      "scheduler": "karras",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "DP10-06_SDXL_REALVIS_SKIN"
+    }
+  },
+  "5": {
+    "class_type": "FreeU_V2",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "b1": 1.08,
+      "b2": 1.12,
+      "s1": 0.95,
+      "s2": 0.35
+    }
+  }
+}

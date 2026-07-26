@@ -1,0 +1,17 @@
+Stopping PID=29156
+All ComfyUI processes stopped
+Started PID=22212 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~8s
+{'candidate': 'SDXL_INTO_AUTHOR', 'state': 'ok', 'elapsed_s': 40.2, 'image': 'RECOVER-SDXL_INTO_AUTHOR_00001_.png', 'source_workflow': 'C:\\AI\\workflows\\DISCOVERY20_PAIR_20260721\\S11_INTO_AUTHOR_NSFW.json', 'recovery_workflow': 'C:\\AI\\workflows\\HISTORICAL_WINNER_RECOVERY_20260722\\SDXL_INTO_AUTHOR.json', 'note': ''}
+{'candidate': 'SDXL_INTO_NATIVE', 'state': 'ok', 'elapsed_s': 42.2, 'image': 'RECOVER-SDXL_INTO_NATIVE_00001_.png', 'source_workflow': 'C:\\AI\\workflows\\REBAlANCE_SDXL_Z_20260721\\R01_INTO_NATIVE_NSFW.json', 'recovery_workflow': 'C:\\AI\\workflows\\HISTORICAL_WINNER_RECOVERY_20260722\\SDXL_INTO_NATIVE.json', 'note': ''}
+{'candidate': 'SDXL_INTO_FIXED', 'state': 'ok', 'elapsed_s': 42.2, 'image': 'RECOVER-SDXL_INTO_FIXED_00001_.png', 'source_workflow': 'C:\\AI\\workflows\\KEEP_MAIN_SDXL_REBUILD_20260721\\05_INTOREALISM_FIXED_NSFW.json', 'recovery_workflow': 'C:\\AI\\workflows\\HISTORICAL_WINNER_RECOVERY_20260722\\SDXL_INTO_FIXED.json', 'note': ''}
+{'candidate': 'SDXL_REALVIS_SDE', 'state': 'ok', 'elapsed_s': 42.2, 'image': 'RECOVER-SDXL_REALVIS_SDE_00001_.png', 'source_workflow': 'C:\\AI\\workflows\\DISCOVERY20_PAIR_20260721\\S13_REALVIS_SDE_NSFW.json', 'recovery_workflow': 'C:\\AI\\workflows\\HISTORICAL_WINNER_RECOVERY_20260722\\SDXL_REALVIS_SDE.json', 'note': ''}
+Stopping PID=22212
+All ComfyUI processes stopped
+Started PID=34020 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~8s
+{'candidate': 'Z_MOODY_RES2S', 'state': 'ok', 'elapsed_s': 80.3, 'image': 'RECOVER-Z_MOODY_RES2S_00001_.png', 'source_workflow': 'C:\\AI\\workflows\\COMMUNITY_TEST_20260717\\FINAL_TOP10_PAIR_20260719\\01_MOODY_RES2S_NSFW.json', 'recovery_workflow': 'C:\\AI\\workflows\\HISTORICAL_WINNER_RECOVERY_20260722\\Z_MOODY_RES2S.json', 'note': ''}
+{'candidate': 'Z_DIVING_RES2S', 'state': 'ok', 'elapsed_s': 68.3, 'image': 'RECOVER-Z_DIVING_RES2S_00001_.png', 'source_workflow': 'C:\\AI\\workflows\\FINAL_SFW_NSFW_20260722\\Z03_DIVING_NSFW.json', 'recovery_workflow': 'C:\\AI\\workflows\\HISTORICAL_WINNER_RECOVERY_20260722\\Z_DIVING_RES2S.json', 'note': ''}
+{'candidate': 'Z_BEYOND_RES2S', 'state': 'ok', 'elapsed_s': 56.9, 'image': 'RECOVER-Z_BEYOND_RES2S_00001_.png', 'source_workflow': 'C:\\AI\\workflows\\FINAL_SFW_NSFW_20260722\\Z01_BEYOND_NSFW.json', 'recovery_workflow': 'C:\\AI\\workflows\\HISTORICAL_WINNER_RECOVERY_20260722\\Z_BEYOND_RES2S.json', 'note': ''}
+Stopping PID=34020
+All ComfyUI processes stopped

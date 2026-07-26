@@ -1,0 +1,38 @@
+{"event": "starting", "index": 1, "name": "01_SEATED_THREEQUARTER"}
+Stopping PID=32608
+All ComfyUI processes stopped
+Started PID=15484 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~8s
+{"index": 1, "name": "01_SEATED_THREEQUARTER", "seed": 72429301, "elapsed_s": 66.2, "image": "ARUP6-01_SEATED_THREEQUARTER_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 162.29, \"contrast\": 65.62, \"edge_score\": 702.34, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\ARUP6_01_SEATED_THREEQUARTER.json"}
+{"event": "starting", "index": 2, "name": "02_STANDING_BODYCON"}
+Stopping PID=15484
+All ComfyUI processes stopped
+Started PID=9308 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~6s
+{"index": 2, "name": "02_STANDING_BODYCON", "seed": 72429302, "elapsed_s": 64.3, "image": "ARUP6-02_STANDING_BODYCON_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 168.6, \"contrast\": 68.09, \"edge_score\": 490.53, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\ARUP6_02_STANDING_BODYCON.json"}
+{"event": "starting", "index": 3, "name": "03_REAR_THREEQUARTER"}
+Stopping PID=9308
+All ComfyUI processes stopped
+Started PID=13692 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~8s
+{"index": 3, "name": "03_REAR_THREEQUARTER", "seed": 72429303, "elapsed_s": 64.2, "image": "ARUP6-03_REAR_THREEQUARTER_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 113.69, \"contrast\": 78.65, \"edge_score\": 551.39, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\ARUP6_03_REAR_THREEQUARTER.json"}
+{"event": "starting", "index": 4, "name": "04_RECLINED_DIAGONAL"}
+Stopping PID=13692
+All ComfyUI processes stopped
+Started PID=14000 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~8s
+{"index": 4, "name": "04_RECLINED_DIAGONAL", "seed": 72429304, "elapsed_s": 64.1, "image": "ARUP6-04_RECLINED_DIAGONAL_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 154.89, \"contrast\": 50.63, \"edge_score\": 659.96, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\ARUP6_04_RECLINED_DIAGONAL.json"}
+{"event": "starting", "index": 5, "name": "05_KNEELING_SIDE"}
+Stopping PID=14000
+All ComfyUI processes stopped
+Started PID=4956 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~6s
+{"index": 5, "name": "05_KNEELING_SIDE", "seed": 72429305, "elapsed_s": 64.2, "image": "ARUP6-05_KNEELING_SIDE_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 197.05, \"contrast\": 57.04, \"edge_score\": 793.08, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\ARUP6_05_KNEELING_SIDE.json"}
+{"event": "starting", "index": 6, "name": "06_CLOSE_CURVE_BALANCED"}
+Stopping PID=4956
+All ComfyUI processes stopped
+Started PID=13252 mode=pytorch attn=--use-pytorch-cross-attention
+API ready after ~6s
+{"index": 6, "name": "06_CLOSE_CURVE_BALANCED", "seed": 72429306, "elapsed_s": 64.2, "image": "ARUP6-06_CLOSE_CURVE_BALANCED_00001_.png", "technical_pass": true, "gate": "{\"pass\": true, \"reasons\": [], \"mean_luma\": 160.26, \"contrast\": 74.1, \"edge_score\": 780.54, \"size\": [768, 1152]}", "workflow": "C:\\AI\\workflows\\STYLE_EXPANSION_CIVITAI_TG_20260724\\ARUP6_06_CLOSE_CURVE_BALANCED.json"}
+Stopping PID=13252
+All ComfyUI processes stopped

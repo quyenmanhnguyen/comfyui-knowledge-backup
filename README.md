@@ -18,3 +18,5 @@ It intentionally excludes:
 - Python embedded runtime and installed packages
 
 Use this repo as the recovery source if the local Codex skill/evidence gets lost.
+
+Start with [RESTORE_GUIDE.md](RESTORE_GUIDE.md) if rebuilding the memory on a fresh machine or after a reset.

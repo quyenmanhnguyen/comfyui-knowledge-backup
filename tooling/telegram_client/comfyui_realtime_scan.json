@@ -1,0 +1,1579 @@
+{
+  "scanned_at": "2026-07-26T05:22:17.803347+00:00",
+  "dialogs_seen": 75,
+  "matching_dialogs": [
+    {
+      "title": "ComfyUI - Stable diffusion - Generative AI",
+      "id": -1001490836023,
+      "unread": 1140,
+      "title_hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ]
+    },
+    {
+      "title": "ComfyUI | Ламповое комьюнити",
+      "id": -1002408422685,
+      "unread": 3533,
+      "title_hits": [
+        "comfy",
+        "comfyui"
+      ]
+    },
+    {
+      "title": "Z-Image文生图案例分享(SFW)",
+      "id": -1002524497656,
+      "unread": 0,
+      "title_hits": [
+        "z-image"
+      ]
+    }
+  ],
+  "top_candidates": [
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42143,
+      "date": "2026-07-24T10:42:27+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 4,
+      "has_media": false,
+      "has_document": false,
+      "score": 63,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "sdxl",
+        "flux",
+        "anima",
+        "pony",
+        "workflow",
+        "lora",
+        "checkpoint",
+        "diffusion"
+      ],
+      "text_preview": "ComfyUI Workflow Specialist (AI Film & Video Generation) Position ComfyUI Workflow Specialist / AI Video Pipeline Engineer Objective Develop a fully automated ComfyUI workflow that converts a story idea into a polished cinematic video using AI. Main Responsibilities 1. Script Generation • Build workflow using LLM APIs (OpenAI, Gemini, Claude, or local LLMs) • Generate: • Story outline • Screenplay • Dialogue • Scene descriptions • Camera directions • Shot list • Support multiple genres (Drama, H"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42114,
+      "date": "2026-07-23T03:17:48+00:00",
+      "views": 6293,
+      "forwards": 57,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": true,
+      "score": 60,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "flux",
+        "diffusion"
+      ],
+      "text_preview": "Тизер Flux 3 из предыдущего поста https://x.com/robrombach/status/2079679239847047480 @cgevent"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42136,
+      "date": "2026-07-24T05:15:50+00:00",
+      "views": 17634,
+      "forwards": 1181,
+      "reactions": 2,
+      "has_media": true,
+      "has_document": true,
+      "score": 59,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Suno больше не нужен — нашли SongGeneration Studio: удобный интерфейс для бесплатной генерации музыки 😇 Проект позволяет создавать полноценные песни с вокалом и инструментальной аранжировкой. Промтом можно задать текст, жанр, настроение, тембр голоса, инструменты и темп — нейросеть собирает из этого готовый трек. Стать ИИ-музыкантом — просто."
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42107,
+      "date": "2026-07-22T18:46:36+00:00",
+      "views": 12309,
+      "forwards": 74,
+      "reactions": 1,
+      "has_media": true,
+      "has_document": true,
+      "score": 57,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "👍 ИИ теперь понимает ваши каракули. На GitHub появилась PenEcho — бесконечная доска, которая распознаёт рукописный текст, формулы, наброски и схемы. Пишете вопрос прямо на холсте, а сервис решает примеры, строит графики, дополняет диаграммы и создаёт анимации. Поддерживает Codex, Claude Code, Kimi и другие модели. PenEcho бесплатна, но расходует лимиты подключённого сервиса. • Попробовать @aiaiai"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42113,
+      "date": "2026-07-23T03:17:48+00:00",
+      "views": 5968,
+      "forwards": 62,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 57,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "flux",
+        "diffusion"
+      ],
+      "text_preview": "FLUX 3 засветили раньше времени - и это похоже, не просто генератор картинок За последние сутки вокруг FLUX 3 разгорелся прям хайпхайп. На сайте Black Forest Labs ненадолго появилась страница /models/flux-3 с обещанием единой мультимодальной модели, которая генерирует изображения, видео, звук и даже «действия»(?!), а заодно обладает пониманием мира. Страницу быстро удалили, но интернет, но копия осталась в Wayback Machine. Почти одновременно глава BFL Робин Ромбах опубликовал загадочный видеотиз"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42164,
+      "date": "2026-07-24T19:33:53+00:00",
+      "views": 109089,
+      "forwards": 1869,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": true,
+      "score": 55,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "⚡️ Fable 5 внезапно УНИЖЕН, при чем младшим братом: Anthropic без предупреждения выкатила Claude Opus 5 😁 Новая модель обходит Fable 5 в кодинге, агентной работе, бизнес-задачах и knowledge work, но стоит вдвое дешевле — $5/$25 за миллион токенов. А на ARC-AGI-3 результат вообще втрое выше ближайшего конкурента в лице GPT 5.6 Sol. Первые юзеры отдельно отмечают, что Opus настоящий AGI зверь в 3D — текстуры и детали получаются просто безумные. Прощай Fable, ты был хорош 🤨"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42137,
+      "date": "2026-07-24T05:18:23+00:00",
+      "views": 19898,
+      "forwards": 346,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": true,
+      "score": 55,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Opus 5 пока запаздывает, но зато обновление Codex уже здесь В приложение завезли ChatGPT Voice на основе той самой недавно выпущенной GPT-Live. Модель может одновременно говорить, слушать и координировать работу агентов в приложении. Напоминаем, что под капотом архитектура заменили на Full-Duplex. Это как раз и означает, что вместо последовательности «юзер -> обработка -> ответ» GPT-Live слушает, обновляется и думает одновременно. В частности, раз в несколько секунд она принимает решение: продол"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42163,
+      "date": "2026-07-24T19:33:22+00:00",
+      "views": 15161,
+      "forwards": 158,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": true,
+      "score": 55,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Роботов научат тренироваться в копии реального мира — Bifrost показали технологию, которая превращает обычное видео в фотореалистичную 3D-среду 😮 Достаточно снять помещение на камеру, после чего ИИ автоматически создаст виртуальный полигон для тестирования роботов. По словам разработчиков, на генерацию такой среды требуется всего 30 минут. Это позволит проверять роботов в реалистичных условиях без ручного моделирования помещений и риска повредить технику."
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42106,
+      "date": "2026-07-22T18:36:42+00:00",
+      "views": 14168,
+      "forwards": 89,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": true,
+      "score": 55,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "\"ИИ-компании слишком зациклены на самих моделях.\" — глава Kimi Ян Чжилинь По его мнению, решающее преимущество даёт не только архитектура или количество параметров, а то, как устроена команда, которая всё это создаёт. Именно организация людей, процессов и решений в итоге определяет результат. Moonshot показала этот подход и на практике. Когда спрос на K3 превысил доступные мощности, компания остановила продажу новых подписок, но не стала урезать лимиты действующим пользователям. То есть предпочл"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42116,
+      "date": "2026-07-23T05:46:39+00:00",
+      "views": 13062,
+      "forwards": 374,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": true,
+      "score": 55,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Плагин Claude Security для Claude Code теперь доступен в бета-версии. Теперь можно прямо из терминала проверять код на уязвимости: запускать анализ изменений перед коммитом или выполнять полноценное сканирование всей кодовой базы, используя тот же Claude inference, который уже работает в Claude Code. 🎉"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42148,
+      "date": "2026-07-24T12:55:45+00:00",
+      "views": 14987,
+      "forwards": 262,
+      "reactions": 1,
+      "has_media": true,
+      "has_document": false,
+      "score": 54,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Sakana AI релизнули Fugu-Ultra 1.1. Это система оркестрации агентов, которая превосходит Fable и Sol Про первую версию системы мы рассказывали здесь: https://t.me/data_secrets/9104. В открытый доступ ее выпустили месяц назад. А сегодня уже выходит следующее поколение. Новая версия выжимает еще больше качества: смотрите бенчмарки и обратите внимание на Terminal Bench. Во-первых, конечно, за счет появления более свежих и способных моделей, которыми Fugu может пользоваться. Во-вторых, за счет улучш"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42188,
+      "date": "2026-07-25T16:56:54+00:00",
+      "views": 8846,
+      "forwards": 202,
+      "reactions": 1,
+      "has_media": true,
+      "has_document": false,
+      "score": 54,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "В основе Kimi 3 лежит новый механизм под названием delta attention, который не хранит постоянно растущий KV-кеш. Именно поэтому модель может работать с контекстом в миллион токенов без взрывного роста потребления памяти. Но прежде чем разбираться в delta attention, нужно понять, как работает обычный attention. По сути, это поиск по таблице. Каждый токен хранит: - key — что-то вроде адреса; - value — содержимое по этому адресу. Чтобы сформировать выход, токен отправляет query, сравнивает его со в"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42165,
+      "date": "2026-07-24T19:33:53+00:00",
+      "views": 114677,
+      "forwards": 1815,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 52,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42166,
+      "date": "2026-07-24T19:33:53+00:00",
+      "views": 112935,
+      "forwards": 1809,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 52,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42122,
+      "date": "2026-07-23T11:30:59+00:00",
+      "views": 19744,
+      "forwards": 236,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 52,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42123,
+      "date": "2026-07-23T11:30:59+00:00",
+      "views": 19658,
+      "forwards": 236,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 52,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42121,
+      "date": "2026-07-23T11:30:59+00:00",
+      "views": 19063,
+      "forwards": 245,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 52,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "В Cursor появился мощный режим автоматического выбора модели под задачу Фичу назвали Router. Нужно просто выбрать Auto mode и задать параметр оптимизации: качество, стоимость или баланс. Система будет анализировать каждый запрос и перенаправлять его наиболее подходящей модели. Разработчики утверждают, что с помощью режима можно здорово сэкономить без просадки по качеству. Смотрите первый график: это A/B на реальном трафике, по одной оси стоимость, по другой user satisfaction. Так вот режим Intel"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42171,
+      "date": "2026-07-25T04:51:21+00:00",
+      "views": 15980,
+      "forwards": 398,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 52,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "С пылу с жару: Anthropic дропнули официальный гайд по работе с Claude Opus 5 💃 Самый главный совет: сразу давайте готовое ТЗ, а не заставляйте модель работать по шагам. Opus 5 лучше справляется с задачей, если видит всю картину целиком. Разбираемся в новой модели — здесь."
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42129,
+      "date": "2026-07-23T16:02:33+00:00",
+      "views": 12441,
+      "forwards": 118,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 52,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42130,
+      "date": "2026-07-23T16:02:33+00:00",
+      "views": 10704,
+      "forwards": 118,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 52,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42128,
+      "date": "2026-07-23T16:02:33+00:00",
+      "views": 9860,
+      "forwards": 119,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 52,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Samsung показала первые умные очки — они работают на Google Gemini. Компания сделала их совместно с Google и Gentle Monster. Новая модель смарт-очков умеет звонить, делать фото, проигрывать музыку, переводить речь в реальном времени, строить маршруты и отвечать на вопросы с помощью ИИ. Самое интересное, что никакого экрана в очках нет. Одного заряда хватает примерно на 9 часов работы. Релиз ожидается уже этой осенью."
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42152,
+      "date": "2026-07-24T15:05:54+00:00",
+      "views": 6291,
+      "forwards": 156,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 52,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Приходите лечицца в Чатджипитицце. ChatGPT официально заводит медкарту подьзователя. Спойлер: 18+ и US Only. OpenAI запускает Health in ChatGPT - отдельный раздел, куда можно подключить Apple Health, медицинские записи американских клиник, One Medical и Function Health. После этого ChatGPT сможет сопоставлять новые анализы с предыдущими, собирать историю болезни в понятную хронологию, отслеживать изменения после визита к врачу и учитывать сон, активность, тренировки, лекарства и диагнозы в обычн"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42127,
+      "date": "2026-07-23T16:00:21+00:00",
+      "views": 4861,
+      "forwards": 74,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 52,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "В Weavy AI добавлен узел извлечения цвета для сохранения цветовой идентичности в генерациях."
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42154,
+      "date": "2026-07-24T15:09:44+00:00",
+      "views": 3544,
+      "forwards": 42,
+      "reactions": 1,
+      "has_media": false,
+      "has_document": false,
+      "score": 52,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42145,
+      "date": "2026-07-24T11:20:03+00:00",
+      "views": 1464,
+      "forwards": 49,
+      "reactions": 1,
+      "has_media": true,
+      "has_document": true,
+      "score": 41,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Опубликован в опенсорс интерактивный генератор миров AlayaWorld В базе - LTX-2.3 Гитхаб HF Демо #world #text2world #imagw2world #interactive #realtime"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42155,
+      "date": "2026-07-24T15:14:39+00:00",
+      "views": 1086,
+      "forwards": 22,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": true,
+      "score": 40,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "flux",
+        "diffusion"
+      ],
+      "text_preview": "📼 У Seedance появился новый конкурент — FLUX 3. Black Forest Labs представила единую модель для генерации изображений, видео и звука. Что умеет: 🟡 Создавать ролики со звуком до 20 секунд в 720p; 🟡 Генерировать по промпту, картинке или готовому клипу; 🟡 Продолжать загруженное видео вместе с аудио; 🟡 Переносить персонажей в новое окружение; 🟡 Соединять ключевые кадры; 🟡 Создавать диалоги на разных языках; 🟡 Генерировать надписи внутри сцены; 🟡 Собирать несколько клипов в длинную последовательность"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42132,
+      "date": "2026-07-23T19:21:25+00:00",
+      "views": 490,
+      "forwards": 14,
+      "reactions": 3,
+      "has_media": true,
+      "has_document": true,
+      "score": 40,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "flux",
+        "diffusion"
+      ],
+      "text_preview": "FLUX 3 объединяет видео, звук и изображения 🎬 Black Forest Labs представила FLUX 3 — единую мультимодальную модель для создания и редактирования изображений, видео и звука. Ранний доступ уже открыт для FLUX 3 Video. Модель создаёт ролики длительностью до 20 секунд сразу со звуком. Она поддерживает генерацию по тексту и изображениям, преобразование видео, переходы между ключевыми кадрами и диалоги на разных языках. Та же архитектура станет основой для генерации изображений и систем, которые предс"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42117,
+      "date": "2026-07-23T07:07:40+00:00",
+      "views": 1534,
+      "forwards": 43,
+      "reactions": 1,
+      "has_media": true,
+      "has_document": false,
+      "score": 39,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "4-шаговые модели Cosmos 3 Super от Nvidia генерируют видео и картинки в 25 раз быстрее базовой модели Демо #t2i #i2v"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42153,
+      "date": "2026-07-24T15:06:59+00:00",
+      "views": 1495,
+      "forwards": 51,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": true,
+      "score": 39,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Вышел в опенсорс генератор-редактор 3D сцен на гауссианах GaussianGPT Гитхаб Спасибо @Dmitriy_Ru6ts0v #gaussian #AR #text2scene #text2gaussian #3dediting"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42131,
+      "date": "2026-07-23T16:04:37+00:00",
+      "views": 1327,
+      "forwards": 42,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": true,
+      "score": 38,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "🎶 ElevenLabs научила нейронку петь вашим голосом. В ElevenMusic появилась функция Vocals. Загружаете одну запись или несколько своих треков, а Music v2 запоминает тембр, манеру и подачу, после чего генерирует новые песни с вашим вокалом. Также можно выбрать готового исполнителя из библиотеки или обучить модель на своём музыкальном стиле. Все загрузки проверяют на нарушение авторских прав. Теперь для музыкальной карьеры осталось придумать только псевдоним. 😀 NEUROHUB"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42169,
+      "date": "2026-07-24T21:13:09+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 1,
+      "has_media": false,
+      "has_document": false,
+      "score": 37,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "sdxl",
+        "z-image",
+        "anima",
+        "diffusion"
+      ],
+      "text_preview": "мое мнение - все эти легкие модели (SD1.5, SDXL, Anima) совершенно не годятся для нескольких персонажей одновременно, их тренят на соло, максимум нормально разделяется когда два разнополых перса, и то условно. Нормальный промптинг разных персов начинается с z-image и далее все что покрупней ideogram-4. krea-2 и т.п. мое мнение. у мелких моделей просто очень слабый CLIP, нормальный это уже когда стали брать для него полноценную LLM 4b, 8b уровня учитывая то что krea-2 генерят даже имея 3050 4Gb н"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42118,
+      "date": "2026-07-23T07:07:40+00:00",
+      "views": 1493,
+      "forwards": 41,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 36,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42158,
+      "date": "2026-07-24T15:14:39+00:00",
+      "views": 1149,
+      "forwards": 22,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": true,
+      "score": 36,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42157,
+      "date": "2026-07-24T15:14:39+00:00",
+      "views": 1149,
+      "forwards": 22,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": true,
+      "score": 36,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42156,
+      "date": "2026-07-24T15:14:39+00:00",
+      "views": 1145,
+      "forwards": 22,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": true,
+      "score": 36,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42141,
+      "date": "2026-07-24T06:17:39+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 1,
+      "has_media": true,
+      "has_document": true,
+      "score": 32,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "lora",
+        "diffusion"
+      ],
+      "text_preview": "Немного игрался с IC-LoRA. Тут дорисован стеклянный шарик"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42133,
+      "date": "2026-07-23T19:58:50+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 1,
+      "has_media": false,
+      "has_document": false,
+      "score": 32,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "sdxl",
+        "lora",
+        "diffusion"
+      ],
+      "text_preview": "Всем привет !) кто нибудь может показать как прикручивать Lora в txt2img. Для генерации аниме тян SDXL. И второй вопрос. Пытался из нескольких промтов для каждого персонажа соединять в одну картинку, чтоб Промт не перемешивался в кашу и не путался, т па отдельно промт на 1 персонажа , на 2 персонаж . общий промт. Area делал, но чёт какой то салат получится все равно ."
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42120,
+      "date": "2026-07-23T10:27:33+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 4,
+      "has_media": true,
+      "has_document": false,
+      "score": 30,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42119,
+      "date": "2026-07-23T10:19:44+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 2,
+      "has_media": false,
+      "has_document": false,
+      "score": 29,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "sdxl",
+        "diffusion"
+      ],
+      "text_preview": "Всё зависит от задачи,времени,затратах, возможностец,мне например удобней вообще зитку например,кто то sdxl в н проходов херачит,кто то креа2 турбо в стандартных двух семплерах после первой модели и т.д...."
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42149,
+      "date": "2026-07-24T12:59:35+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 1,
+      "has_media": true,
+      "has_document": false,
+      "score": 29,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "anima",
+        "diffusion"
+      ],
+      "text_preview": "https://registry.comfy.org/?nodes_index%5Bquery%5D=HunyuanImage-3.0%20CPU"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42142,
+      "date": "2026-07-24T06:38:03+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 1,
+      "has_media": false,
+      "has_document": false,
+      "score": 27,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "anima",
+        "diffusion"
+      ],
+      "text_preview": "Anima, так и называется модель"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42194,
+      "date": "2026-07-25T21:23:20+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 25,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "flux",
+        "diffusion"
+      ],
+      "text_preview": "Может какие то на flux есть? С flux vae"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42147,
+      "date": "2026-07-24T12:12:16+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 25,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "anima",
+        "diffusion"
+      ],
+      "text_preview": "Подскажите, HunyuanImage-3.0 можно на CPU запустить?"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42138,
+      "date": "2026-07-24T05:38:24+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 25,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "lora",
+        "diffusion"
+      ],
+      "text_preview": "подскажите, никогда не пробовал делать видео по референсу мне через IC LORA это творить в LTX я пробовал в LTX Director но чёт он мне не хочет брать за основу картинку которую я ему скармливаю а остальные воркфлоу какой то мусор"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42199,
+      "date": "2026-07-26T00:32:20+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 22,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42198,
+      "date": "2026-07-26T00:04:34+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 22,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42196,
+      "date": "2026-07-25T22:00:37+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 22,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42195,
+      "date": "2026-07-25T21:30:48+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 22,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "как снять пин с группы?"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42186,
+      "date": "2026-07-25T14:50:56+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 22,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Это так не работает. Текст сперва в свою речь перегоните. По образцу склонируйте хотя бы этим - https://t.me/derni108/218 . Не с первого так со второго расставит ударения. Потом звуковой файл в ворк с лтх-липсинк (липдуб). - и постарайтесь первый кадр сделать крупно лицо - а последний уже общий план, а то в лтх общие планы поплыть могут."
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42176,
+      "date": "2026-07-25T10:10:32+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 22,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "есть такая картинка нужно оживить текстом.. использую ltx то картинку портит то говорит с ошибками подскажите самую эффективную приблуду чтобы и голос был мой и качество картинки классное"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42167,
+      "date": "2026-07-24T20:40:50+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 22,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Согласно консенсус-прогнозам ведущих исследовательских лабораторий и платформ предсказаний, искусственный интеллект может достигнуть планки 95% точности на бенчмарке Humanity's Last Exam (HLE) в период с конца 2027 по середину 2028 года. Учитывая, что профессиональные эксперты-люди в среднем набирают на этом тесте около 90% в своих профильных дисциплинах, планка в 95% фактически будет означать достижение сверхчеловеческого мультидисциплинарного уровня мышления."
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42150,
+      "date": "2026-07-24T13:02:07+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": true,
+      "has_document": false,
+      "score": 22,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": ""
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42201,
+      "date": "2026-07-26T02:41:58+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "I want to learn how to change characters in video by comfyui"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42200,
+      "date": "2026-07-26T02:39:31+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Hello"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42197,
+      "date": "2026-07-25T22:01:18+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "да. спасибо. уже показали. а хоткея нет?"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42193,
+      "date": "2026-07-25T21:22:47+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Krea2 сильный polkadot с wan2.1 vae 32fp"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42192,
+      "date": "2026-07-25T21:15:53+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "но и ресурсов много надо,читайте ,пробуйте,"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42191,
+      "date": "2026-07-25T21:15:07+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "что то универсальное посередине qwen,krea 2"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42190,
+      "date": "2026-07-25T21:14:33+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "совершенно разные задачи,инфографика,иллюстрации,фото"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42189,
+      "date": "2026-07-25T21:13:32+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Если не для людей, а просто обычные фото, иллюстрации, графика?"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42184,
+      "date": "2026-07-25T14:15:04+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "IPAdapter (для верности оригиналу) ControlNet (для управления позой персонажа в каждом кадре), в любом случае пройдет месяц пока получишь нормальные результаты при упорном труде"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42183,
+      "date": "2026-07-25T13:32:19+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Спасибо"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42178,
+      "date": "2026-07-25T12:12:22+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Сиденс"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42177,
+      "date": "2026-07-25T10:16:07+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Текст сохранить самое сложное. Я бы не пробовал пытаться сделать все за один проход одной моделью. Работать по слоям. Убрать человека из кадра и сохранить эту подложку. Взять образец голоса, клонировать. Начитать текст самому с нужной интонацией, не генерить его, положить сверху на это образец. Будет лучше и чище, без кривых ударений и ошибок в произшении. Взять картинку, взять готовый звук, закинуть в инфиниттолк, сгенерировать говорящего персонажа. Последним этапом сунуть его на заготовленный "
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42173,
+      "date": "2026-07-25T07:01:26+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Просто мозг плывёт, я реально не понимаю даже как изучать это всё)"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42172,
+      "date": "2026-07-25T06:50:36+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Волшебной кнопки сделать все сразу и красиво пока нет. Ждём. 🤝"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42170,
+      "date": "2026-07-25T00:06:18+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "задача с face tracking и stable consistency эффектов , это отдельный вызов, тут важно чтобы ControlNet правильно цеплялся за keypoints лица на каждом кадре и не плыл при повороте. для таких вещей нужен нормальный GPU с достаточным VRAM, чтобы не ждать по 10 минут на кадр. я для похожих задач держу GPU-инстанс на regcloud , почасовая тарификация выручает когда не 24/7 генерируешь, а только под конкретный проект. какой GPU в итоге планируешь использовать под это?"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42162,
+      "date": "2026-07-24T18:34:06+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Раньше делал сторителлинг вручную, и видео через клинг, но как-то слишком много времени уходит на это, думаю на Комфи юай попробовать, только это очень сложно и не понятно, скачал сегодня какой-то воркфлоу один, провозился долго, ошибки сплошные и выдает совсем не то, что надо, поэтому может быть для новичка есть какие-то наставления с чего начать и как в этом разобраться вообще"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42161,
+      "date": "2026-07-24T18:27:27+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Ребят подскажите пожалуйста, если в сивитаи взять готовый воркфлоу для классического конвейера контента, сторителлинга, генерация фото+короткие видео из них, по сценарию заданному, в одном стиле чтобы поддерживался один персонаж и не менялся из кадра в кадр. Такой же можно найти? Только вот не понимаю как правильно их искать под мою задачу"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42160,
+      "date": "2026-07-24T18:02:30+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Да, только медленно будет очень"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42159,
+      "date": "2026-07-24T16:53:14+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Ого"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42151,
+      "date": "2026-07-24T13:03:31+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "щас поставил Анима модель, воркфлоу от туда забрал готовый, либо промтинг мой хренов, либо все же как то надо разделять промты и писать под каждого персонажа и соединять потом воедино (хз как пока что ), либо в одно окно пытаться добиться успеха"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42146,
+      "date": "2026-07-24T11:30:19+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Здарова, по первому у тебя что стоит comfyui, автоматик?"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42140,
+      "date": "2026-07-24T05:44:28+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Например каких моделей анима"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42139,
+      "date": "2026-07-24T05:43:09+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "А в новой это где ?"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42135,
+      "date": "2026-07-24T05:07:55+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "У тебя именно сдхл? Потому что в новой анима промптинг персонажа замечательный, но можешь попробовать похожее в сдхл"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42134,
+      "date": "2026-07-24T01:50:08+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "может знает кто где сиданс 2.0 дешевле всего юзать?"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42126,
+      "date": "2026-07-23T15:52:49+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Я проверю, спасибо!"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42125,
+      "date": "2026-07-23T15:50:59+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "стандартный воркфлоу ltx 2.3 с первым и последним кадром не справляется?"
+    },
+    {
+      "chat_title": "ComfyUI - Stable diffusion - Generative AI",
+      "chat_id": -1001490836023,
+      "message_id": 42124,
+      "date": "2026-07-23T15:48:14+00:00",
+      "views": 0,
+      "forwards": 0,
+      "reactions": 0,
+      "has_media": false,
+      "has_document": false,
+      "score": 20,
+      "hits": [
+        "comfy",
+        "comfyui",
+        "stable diffusion",
+        "diffusion"
+      ],
+      "text_preview": "Всем доброго дня! Хотел бы уточнить есть ли у кого то хороший воркфлоу для генерации видео с персонажем в идеале до 15-20 секунд, чтобы консистеность лица сохранялась ?"
+    }
+  ]
+}

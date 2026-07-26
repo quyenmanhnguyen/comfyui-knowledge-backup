@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\AI\workflows\STYLE_EXPANSION_CIVITAI_TG_20260724\download_civitai.py", line 68, in <module>
+    download(*job)
+  File "C:\AI\workflows\STYLE_EXPANSION_CIVITAI_TG_20260724\download_civitai.py", line 62, in download
+    raise RuntimeError(f"hash mismatch for {target.name}: {digest}")
+RuntimeError: hash mismatch for S1_Dramatic Lighting Anima_V2.safetensors: c34e48705de77c294eb697fb6671c63970850bfa238218c6620a995992a42a50

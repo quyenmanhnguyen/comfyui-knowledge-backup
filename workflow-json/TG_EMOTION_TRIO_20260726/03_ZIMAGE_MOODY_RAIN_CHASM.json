@@ -1,0 +1,110 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "moodyProMix_zitV13.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen_3_4b.safetensors",
+      "type": "lumina2",
+      "device": "cpu"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "ae.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "text": "Premium intimate cinematic editorial photograph, vertical close three-quarter composition, one clearly adult Vietnamese woman age 27, solo, reclining diagonally on a deep cream velvet sofa beside a rain-streaked blue-hour window. Youthful soft oval adult face, long natural dark hair, coherent dark eyes looking directly into the camera, faint blush, slightly parted lips and a tender breathless expression that feels intimate and emotionally present. Very full soft curvy mature proportions with natural gravity, large natural breasts, rounded hips and thick thighs, tasteful nude adult figure with an ivory satin sheet loosely draped below the hips and a fine pearl necklace. Her left arm extends along the sofa back with the complete relaxed hand visible; her right hand rests open on her outer thigh, exactly two separated hands and natural fingers. Warm lamp glow behind her, cool rainy city bokeh through the window, broad clean white face fill, subtle cool rim on hair, luminous neutral-warm skin with fine pores, peach fuzz, natural tonal variation and restrained highlights, realistic velvet, satin, glass and hair, layered foreground cushion and softly blurred background, 70mm lens at f/4, photographic realism, no oil-paint smearing, no waxy skin, no writing or watermark."
+    }
+  },
+  "5": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "4",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 576,
+      "height": 800,
+      "batch_size": 1
+    }
+  },
+  "7": {
+    "class_type": "ModelSamplingAuraFlow",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "shift": 3
+    }
+  },
+  "8": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "7",
+        0
+      ],
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "6",
+        0
+      ],
+      "seed": 72626133,
+      "steps": 10,
+      "cfg": 1,
+      "sampler_name": "res_2s",
+      "scheduler": "beta57",
+      "denoise": 1
+    }
+  },
+  "9": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "8",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    }
+  },
+  "10": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "9",
+        0
+      ],
+      "filename_prefix": "TGTRIO-03-ZIMAGE-RAININTIMATE"
+    }
+  }
+}

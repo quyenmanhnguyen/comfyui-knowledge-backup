@@ -1,0 +1,110 @@
+{
+  "1": {
+    "inputs": {
+      "weight_dtype": "default",
+      "unet_name": "moodyProMix_zitV13.safetensors"
+    },
+    "class_type": "UNETLoader"
+  },
+  "2": {
+    "inputs": {
+      "device": "cpu",
+      "clip_name": "qwen_3_4b.safetensors",
+      "type": "lumina2"
+    },
+    "class_type": "CLIPLoader"
+  },
+  "3": {
+    "inputs": {
+      "vae_name": "ae.safetensors"
+    },
+    "class_type": "VAELoader"
+  },
+  "4": {
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "text": "Premium intimate editorial photograph, vertical three-quarter composition, one clearly adult Vietnamese woman age 27, solo, reclining diagonally on a pale ivory linen chaise with her face and torso turned toward camera. Clearly mature adult anatomy and facial proportions, soft oval face, natural direct gaze, long dark hair flowing separately over the back cushion. Tasteful nude adult figure study, full soft curvy proportions, natural breasts and hips, realistic gravity and body folds. Her left forearm rests along the upper cushion with the complete hand open and separated from her hair; her right hand rests flat on her outer thigh with five visible relaxed fingers; no crossed or hidden hands. Broad diffused daylight through a sheer window at camera left, clean white bounce fill on the face, subtle warm lamp behind and restrained cool rim, luminous neutral-warm skin with fine pores, peach fuzz, subtle blush and natural tonal variation, crisp eyes and hair strands without waxy smoothing. Layered foreground cushion, subject, and softly blurred apartment background, 70 mm portrait lens at f/4, realistic photographic finish, clean anatomy, no text, logo or watermark."
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "5": {
+    "inputs": {
+      "conditioning": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "ConditioningZeroOut"
+  },
+  "6": {
+    "inputs": {
+      "batch_size": 1,
+      "width": 576,
+      "height": 800
+    },
+    "class_type": "EmptyLatentImage"
+  },
+  "10": {
+    "inputs": {
+      "images": [
+        "9",
+        0
+      ],
+      "filename_prefix": "ADVNSFW-Z-MOODY-NATIVE"
+    },
+    "class_type": "SaveImage"
+  },
+  "7": {
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "shift": 3
+    },
+    "class_type": "ModelSamplingAuraFlow"
+  },
+  "8": {
+    "inputs": {
+      "denoise": 1,
+      "seed": 72626031,
+      "negative": [
+        "5",
+        0
+      ],
+      "cfg": 1,
+      "sampler_name": "res_2s",
+      "latent_image": [
+        "6",
+        0
+      ],
+      "scheduler": "beta57",
+      "model": [
+        "7",
+        0
+      ],
+      "steps": 10,
+      "positive": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "KSampler"
+  },
+  "9": {
+    "inputs": {
+      "samples": [
+        "8",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "VAEDecode"
+  }
+}

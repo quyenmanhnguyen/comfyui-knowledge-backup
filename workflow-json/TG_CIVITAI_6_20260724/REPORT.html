@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Telegram + Civitai — Anima, Z-Image, SDXL/Illustrious</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0d0f12; --card:#171a1f; --line:#2b3038;
+      --text:#f2f4f7; --muted:#aeb6c2; --good:#4ade80; --warn:#fbbf24; --bad:#fb7185; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:15px/1.55 system-ui,sans-serif; }
+    main { max-width:1500px; margin:auto; padding:28px; }
+    h1 { margin:0 0 8px; font-size:30px; }
+    h2 { margin:30px 0 12px; }
+    p { color:var(--muted); }
+    .summary { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+    .metric,.card { background:var(--card); border:1px solid var(--line); border-radius:14px; }
+    .metric { padding:14px 16px; }
+    .metric b { display:block; color:var(--good); font-size:21px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(330px,1fr)); gap:16px; }
+    .card { overflow:hidden; }
+    .card.good { border-color:#2d8f52; }
+    .card.warn { border-color:#9a7420; }
+    .card.bad { border-color:#9d4051; opacity:.78; }
+    .card img { width:100%; height:620px; object-fit:contain; background:#08090b; display:block; }
+    .body { padding:14px 16px 17px; }
+    .body h3 { margin:0 0 6px; font-size:18px; }
+    .tag { display:inline-block; padding:2px 8px; border-radius:999px; margin:0 5px 7px 0;
+      background:#252b34; color:#d9e0ea; font-size:12px; }
+    .yes { color:var(--good); } .maybe { color:var(--warn); } .no { color:var(--bad); }
+    table { width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; }
+    th,td { padding:10px 12px; border-bottom:1px solid var(--line); text-align:left; }
+    th { color:#d8dee8; background:#1e2229; }
+    a { color:#78c8ff; }
+    code { color:#d9e2ef; }
+  </style>
+</head>
+<body><main>
+  <h1>Telegram + Civitai: 6 hướng chính + 1 lượt sửa</h1>
+  <p>Ngày 24/07/2026 · RX 7800 XT gfx1101 · PyTorch cross-attention · mỗi ảnh một tiến trình sạch · native resolution · không upscale.</p>
+
+  <div class="summary">
+    <div class="metric"><b>7/7 pass kỹ thuật</b>Không ảnh đen, trắng, hỏng file hoặc sai kích thước.</div>
+    <div class="metric"><b>3 ảnh nổi bật</b>A1 Moody Anima, S1 Ri-mix, Z1B Moody SDA.</div>
+    <div class="metric"><b>14,1–81,0 s</b>Thời gian API sau khi server đã sẵn sàng.</div>
+    <div class="metric"><b>1 ảnh bị loại</b>Z1 bản đầu thừa tay dù màu và da đẹp.</div>
+  </div>
+
+  <h2>Kết quả nên giữ</h2>
+  <div class="grid">
+    <article class="card good">
+      <img src="../../ComfyUI/output/TGCIV6-A1_MOODY_ANIMA_AUTHOR_NATIVE_00001_.png">
+      <div class="body">
+        <h3 class="yes">A1 · Moody Anima tác giả — 14,1 s</h3>
+        <span class="tag">832×1216</span><span class="tag">ER-SDE</span><span class="tag">4 bước</span>
+        <p>Ấn tượng nhất ở mặt, đường nét và độ đầy đặn; ánh sáng sạch, giải phẫu chính ổn. Model tự chuyển bố cục đứng thành cận quỳ, nên độ bám bố cục chỉ trung bình.</p>
+        <a href="A1_MOODY_ANIMA_AUTHOR_NATIVE.json">Workflow</a>
+      </div>
+    </article>
+
+    <article class="card warn">
+      <img src="../../ComfyUI/output/TGCIV6-A2_ANIMA_NIJI_FULL_00001_.png">
+      <div class="body">
+        <h3 class="maybe">A2 · Anima + Niji 0,60 — 22,1 s</h3>
+        <span class="tag">768×1152</span><span class="tag">16 bước</span><span class="tag">full detail</span>
+        <p>Mặt và vật liệu rất giàu chi tiết, dáng đúng hướng. Ngón tay phía trước còn hơi cứng/dính; giữ làm nhánh giàu chi tiết, chưa nên dùng làm mặc định.</p>
+        <a href="A2_ANIMA_NIJI_FULL.json">Workflow</a>
+      </div>
+    </article>
+
+    <article class="card good">
+      <img src="../../ComfyUI/output/TGCIV6-Z1B_MOODY_SDA49_CLEANPOSE_00001_.png">
+      <div class="body">
+        <h3 class="yes">Z1B · Moody Z + SDA 0,49 — 81,0 s</h3>
+        <span class="tag">640×960</span><span class="tag">DPM++ 2M SDE</span><span class="tag">beta · 9 bước</span>
+        <p>Bản sửa sạch nhất của Moody SDA: đủ hai tay/hai chân, da sáng trung tính, dáng đầy đặn và ảnh toàn thân rõ. Đây là preset Z-Image mới đáng giữ.</p>
+        <a href="Z1B_MOODY_SDA49_CLEANPOSE.json">Workflow</a>
+      </div>
+    </article>
+
+    <article class="card good">
+      <img src="../../ComfyUI/output/TGCIV6-Z2_DIVING_RES2S_PROVEN_00001_.png">
+      <div class="body">
+        <h3 class="yes">Z2 · Diving res_2s — 78,3 s</h3>
+        <span class="tag">576×800</span><span class="tag">res_2s/beta57</span><span class="tag">10 bước</span>
+        <p>Da tự nhiên hơn Moody SDA, mặt trẻ/sáng và hình thể cân đối. Ít “wow” hơn anime nhưng ổn định, đúng hướng ảnh thật.</p>
+        <a href="Z2_DIVING_RES2S_PROVEN.json">Workflow</a>
+      </div>
+    </article>
+
+    <article class="card good">
+      <img src="../../ComfyUI/output/TGCIV6-S1_AMIX_RIMIX065_FULL_00001_.png">
+      <div class="body">
+        <h3 class="yes">S1 · aMix + Ri-mix 0,65 — 28,1 s</h3>
+        <span class="tag">768×1152</span><span class="tag">Euler A</span><span class="tag">30 bước</span>
+        <p>Cân bằng tốt nhất giữa anime, giải phẫu, da và bố cục. Tay rõ, tư thế quỳ hợp lý, đường nét sạch; lựa chọn SDXL/Illustrious mặc định.</p>
+        <a href="S1_AMIX_RIMIX065_FULL.json">Workflow</a>
+      </div>
+    </article>
+
+    <article class="card good">
+      <img src="../../ComfyUI/output/TGCIV6-S2_ONEOBSESSION_FULL_00001_.png">
+      <div class="body">
+        <h3 class="yes">S2 · OneObsession v2.3 — 28,2 s</h3>
+        <span class="tag">832×1216</span><span class="tag">DPM++ 2M Karras</span><span class="tag">32 bước</span>
+        <p>Phong cách bóng, căng và táo bạo nhất; mặt/đường tóc tốt. Bố cục cận và hình thể phóng đại, phù hợp nhánh stylized hơn là anatomy trung tính.</p>
+        <a href="S2_ONEOBSESSION_FULL.json">Workflow</a>
+      </div>
+    </article>
+  </div>
+
+  <h2>Lượt bị loại nhưng có giá trị chẩn đoán</h2>
+  <div class="grid">
+    <article class="card bad">
+      <img src="../../ComfyUI/output/TGCIV6-Z1_MOODY_SDA49_AUTHOR_00001_.png">
+      <div class="body">
+        <h3 class="no">Z1 · Moody SDA tư thế xoay — loại</h3>
+        <p>Màu, mặt và da tốt nhưng sinh thừa tay ở bố cục ngồi xoay. SDA 0,49 không phải bộ sửa giải phẫu; prompt đơn giản hóa tư thế mới giải quyết được.</p>
+        <a href="Z1_MOODY_SDA49_AUTHOR.json">Workflow để đối chiếu</a>
+      </div>
+    </article>
+  </div>
+
+  <h2>Thiết lập và nguồn</h2>
+  <table>
+    <thead><tr><th>Nhánh</th><th>Lõi thiết lập</th><th>Nguồn/độ tin cậy</th><th>Kết luận</th></tr></thead>
+    <tbody>
+      <tr><td>Moody Anima</td><td>Model v1.0, ER-SDE, simple, 4 bước, không upscale</td><td><a href="https://civitai.com/models/2700077">model</a> + <a href="https://civitai.com/models/2700120">workflow tác giả</a>, Telegram export</td><td class="yes">Giữ</td></tr>
+      <tr><td>Anima Niji</td><td>Anima base + Turbo + Niji 0,60, 16 bước</td><td>Workflow đã tái lập tốt cục bộ</td><td class="maybe">Giữ phụ</td></tr>
+      <tr><td>Moody Z SDA</td><td>SDA 0,49, shift 3, DPM++ 2M SDE beta, 9 bước</td><td><a href="https://civitai.com/models/2253524">workflow tác giả v7 + SDA</a>, thích nghi checkpoint V13 cục bộ</td><td class="yes">Giữ với pose đơn giản</td></tr>
+      <tr><td>Diving Z</td><td>res_2s/beta57, shift 3, 10 bước</td><td>Đã tái lập nhiều lần trên máy</td><td class="yes">Giữ</td></tr>
+      <tr><td>aMix + Ri-mix</td><td>LoRA 0,65, Euler A, 30 bước</td><td>Đã tái lập nhiều lần trên máy</td><td class="yes">Mặc định SDXL</td></tr>
+      <tr><td>OneObsession</td><td>DPM++ 2M Karras, 32 bước</td><td>Đã tái lập nhiều lần trên máy</td><td class="yes">Nhánh stylized</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Kết luận ngắn</h2>
+  <p><strong>Anime mặc định:</strong> aMix + Ri-mix 0,65. <strong>Anime gây ấn tượng:</strong> Moody Anima 4 bước hoặc OneObsession. <strong>Z-Image ảnh thật:</strong> Moody SDA với pose đứng đơn giản; Diving khi ưu tiên da tự nhiên. Không bật upscale và không dùng pose xoắn/phức tạp cho Moody SDA nếu muốn ổn định tay chân.</p>
+</main></body>
+</html>
