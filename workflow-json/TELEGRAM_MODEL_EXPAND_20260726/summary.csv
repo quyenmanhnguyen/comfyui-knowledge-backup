@@ -1,0 +1,9 @@
+prefix,elapsed,state,image,note
+TME-01_Z_MOODY_SPECIAL_HANDS_ZIB,,,TME-01_Z_MOODY_SPECIAL_HANDS_ZIB_00001_.png,"Z loader m?i ch?y ???c nh?ng qu? ch?m; da s?ng, tay ch?a premium; kh?ng v??t Moody native."
+TME-02_Z_MOODY_GIRLSLIKE_LIGHT,,,TME-02_Z_MOODY_GIRLSLIKE_LIGHT_00001_.png,"Z LoRA girlslike ch?y ???c; m?t/da h?i m?m, runtime qu? l?u."
+TME-03_Z_DIVING_MYTH_REALISTICF,,,TME-03_Z_DIVING_MYTH_REALISTICF_00001_.png,Diving + MythRealisticF kh? s?ng nh?ng tay/pose ch?a thuy?t ph?c; ch?m h?n native.
+TME-04_ANIMA_MOODY_PLUS_MYTHPORTRAIT,,,TME-04_ANIMA_MOODY_PLUS_MYTHPORTRAIT_00001_.png,"Gi? th?: anime s?ng, b?t m?t, m??t h?n; h?i glossy nh?ng ??ng h??ng Telegram h?n."
+TME-05_ANIMA_RIMIXA_EXPOSURE_LIGHT,,,TME-05_ANIMA_RIMIXA_EXPOSURE_LIGHT_00001_.png,"Gi? t?t nh?t v?ng n?y: cinematic, da/?nh s?ng s?ch, d?ng ?n, kh?ng nh?e."
+TME-06_SDXL_HASSAKU_RIMIX_AUTHORISH,,,TME-06_SDXL_HASSAKU_RIMIX_AUTHORISH_00001_.png,"Lo?i: m? s??ng/soft, kh?ng n?n d?ng l?m h??ng ch?nh."
+TME-07_Z_REALSTAGRAM_018,,,TME-07_Z_REALSTAGRAM_018_00001_.png,Realstagram t?i m?i ch?y ???c nh?ng Z LoRA v?n n?ng; texture/candid ch?a ?? th?ng native.
+TME-08_Z_REALSTAGRAM_028,,,,"Timeout, kh?ng output; strength 0.28 qu? n?ng/kh?ng ?n."

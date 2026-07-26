@@ -1,0 +1,112 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "hassakuXLIllustrious_v34.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ],
+      "lora_name": "rimixxO2.safetensors",
+      "strength_model": 0.85,
+      "strength_clip": 0.85
+    }
+  },
+  "3": {
+    "class_type": "CLIPSetLastLayer",
+    "inputs": {
+      "clip": [
+        "2",
+        1
+      ],
+      "stop_at_clip_layer": -2
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "text": "masterpiece, best quality, very aesthetic, detailed cinematic anime illustration, one clearly adult East Asian woman age 28, solo, beautiful youthful adult face with coherent eyes, glossy black hair, soft full curvy healthy adult proportions, close three-quarter seated portrait beside a bright window, ivory sofa, pale satin dress, her left hand rests separately on the sofa arm, her right hand rests separately on her right thigh, exactly two complete hands visible, warm lamp glow, cool rainy window rim, clean face fill, crisp eyes, detailed hair strands, detailed satin folds, luminous skin shading, layered background bokeh, adult, aged up"
+    }
+  },
+  "5": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "text": "masterpiece, best quality, very aesthetic, detailed cinematic anime illustration, one clearly adult East Asian woman age 28, solo, beautiful youthful adult face with coherent eyes, glossy black hair, soft full curvy healthy adult proportions, close three-quarter seated portrait beside a bright window, ivory sofa, pale satin dress, her left hand rests separately on the sofa arm, her right hand rests separately on her right thigh, exactly two complete hands visible, warm lamp glow, cool rainy window rim, clean face fill, crisp eyes, detailed hair strands, detailed satin folds, luminous skin shading, layered background bokeh, adult, aged up"
+    }
+  },
+  "6": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "7": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "6",
+        0
+      ],
+      "seed": 72643006,
+      "steps": 28,
+      "cfg": 6,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "7",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "TME-06_SDXL_HASSAKU_RIMIX_AUTHORISH"
+    }
+  }
+}
