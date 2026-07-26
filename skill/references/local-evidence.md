@@ -1,5 +1,15 @@
 # Local workflow evidence
 
+## Civitai/Telegram adult Anima + SDXL pose batch -- 2026-07-26
+
+- Evidence/report: `C:\AI\workflows\CIVITAI_ANIMA_NSFW_POSES_20260726\REPORT.html`; selected outputs copied to `C:\AI\workflows\CIVITAI_ANIMA_NSFW_POSES_20260726\SELECTED`.
+- Eight native-resolution adult NSFW candidates were generated with no upscale: four Ri-mix alpha Anima ER-SDE/simple workflows and four SDXL/Illustrious workflows based on locked OneObsession, aMix+Ri-mix, Hassaku and WAI presets. All completed without node error or crash.
+- Best current high-impact adult-anime continuation: `CANP-05_ONEOBS_LOCKED_SOFA` (OneObsession v23, 832x1216, DPM++ 2M/Karras, 32 steps, CFG 5.5, CLIP skip 2, 32.1 s). It best matches the approved S4 direction: glossy luminous skin, strong curvy body design, ornate sofa, rainy blue window and warm lamp. Continue this branch for "hở/căng/ấn tượng" close compositions.
+- Strong Anima cinematic variants: `CANP-01_ANIMA_WINDOW_CHAISE` and `CANP-03_ANIMA_MIRROR_STAND` (Ri-mix alpha Anima + exposure lighting LoRA 0.45, ER-SDE/simple, 32 steps, CFG 3). They preserve the Telegram-style rain/window/lamp grammar with better cinematic depth than generic SDXL, but remain more illustrated than photoreal.
+- Balanced clean SDXL/Illustrious variant: `CANP-06_AMIX_RIMIX_SILK_SOFA` (aMix + rimixxO2 0.65, Euler A/normal, 30 steps, CFG 7) is cleaner and less extreme than OneObsession; use when the user wants elegant rather than maximal.
+- Secondary: `CANP-07_HASSAKU_BRIGHT_LOUNGE` is bright and curvy but simpler/flatter. `CANP-08_WAI_CLEAN_MIRROR` is clean but less premium. `CANP-02_ANIMA_KNEEL_WINDOW` is acceptable but too mild. `CANP-04_ANIMA_EDGE_BED` is visually strong but more game-like/plastic and should not be the main recommendation unless the user asks for harder anime rendering.
+- Community/Civitai triage for this pass found no small newly-downloadable LoRA with stronger reproducible settings than the already-installed Ri-mix/OneObsession/Hassaku/WAI/Anima stack. Do not download random character LoRAs merely because they rank in Civitai search; prefer model-author settings and local winners.
+
 ## Moody realtime Telegram learning -- 2026-07-26
 
 - Realtime read-only Telethon scan succeeded for `Moody小圆脸同好会`: 6 forum topics and 338 recent messages were scanned. Output: `C:\AI\telegram_client\moody_realtime_scan.json`; working synthesis: `C:\AI\workflows\MOODY_REALTIME_LEARNING_20260726.md`.
