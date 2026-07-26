@@ -1,0 +1,50 @@
+[
+  {
+    "idx": "01",
+    "title": "ANIMA BASE clean",
+    "file": "DRETEST-01_ANIMA_BASE_CLEAN_00001_.png",
+    "time": "68.2s",
+    "verdict": "KEEP as clean Anima control",
+    "note": "Kh?ng d?ng LoRA anatomy; s?ch h?n, kh?ng chrome/text, nh?ng v?n anime-smooth."
+  },
+  {
+    "idx": "02",
+    "title": "ANIMA + Hentai Studio 0.06",
+    "file": "DRETEST-02_ANIMA_STUDIO006_00001_.png",
+    "time": "60.3s",
+    "verdict": "STYLE-ONLY",
+    "note": "?? h?t ?en/chrome, nh?ng da/tay c?n plastic; d?ng cho anime glossy, kh?ng l?m main natural."
+  },
+  {
+    "idx": "03",
+    "title": "ANIMA + Inspection 0.04",
+    "file": "DRETEST-03_ANIMA_INSPECT004_00001_.png",
+    "time": "60.3s",
+    "verdict": "STYLE-ONLY",
+    "note": "T?t h?n l?n tr??c nhi?u, kh?ng fake text; v?n game/plastic."
+  },
+  {
+    "idx": "04",
+    "title": "Z + female anatomy 0.06",
+    "file": "DRETEST-04_Z_FEMALE006_00001_.png",
+    "time": "153.2s",
+    "verdict": "KEEP research",
+    "note": "S?ng s?ch, t? nhi?n nh?t trong LoRA m?i; runtime ch?m, tay ch?a ho?n h?o."
+  },
+  {
+    "idx": "05",
+    "title": "Z + better pose 0.05",
+    "file": "DRETEST-05_Z_POSE005_00001_.png",
+    "time": "128.3s",
+    "verdict": "SECONDARY",
+    "note": "M?t/da ?n nh?ng kh?ng h?n female anatomy; th?n h?i l?ch."
+  },
+  {
+    "idx": "06",
+    "title": "OneObsession clean control",
+    "file": "DRETEST-06_ONEOBS_CLEAN_MAIN_00001_.png",
+    "time": "46.7s",
+    "verdict": "MAIN anime winner",
+    "note": "??p/?n t??ng nh?t; gi? l?m workflow ch?nh anime c?ng, kh?ng c?n anatomy LoRA."
+  }
+]

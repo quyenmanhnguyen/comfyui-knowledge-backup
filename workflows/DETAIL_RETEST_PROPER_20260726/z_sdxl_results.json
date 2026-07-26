@@ -1,0 +1,112 @@
+[
+  {
+    "elapsed": 153.2,
+    "outputs": [
+      "DRETEST-04_Z_FEMALE006_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "56dbd013-9ac9-448c-8fd4-08c32a2b8b8e",
+            "timestamp": 1785070830800
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "56dbd013-9ac9-448c-8fd4-08c32a2b8b8e",
+            "timestamp": 1785070830801
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "56dbd013-9ac9-448c-8fd4-08c32a2b8b8e",
+            "timestamp": 1785070983159
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\DETAIL_RETEST_PROPER_20260726\\workflows\\04_Z_FEMALE006.json"
+  },
+  {
+    "elapsed": 128.3,
+    "outputs": [
+      "DRETEST-05_Z_POSE005_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "4852176f-de65-4023-98f1-f7fbf099f58e",
+            "timestamp": 1785070984026
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "6"
+            ],
+            "prompt_id": "4852176f-de65-4023-98f1-f7fbf099f58e",
+            "timestamp": 1785070984027
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "4852176f-de65-4023-98f1-f7fbf099f58e",
+            "timestamp": 1785071111311
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\DETAIL_RETEST_PROPER_20260726\\workflows\\05_Z_POSE005.json"
+  },
+  {
+    "elapsed": 46.7,
+    "outputs": [
+      "DRETEST-06_ONEOBS_CLEAN_MAIN_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "a5f425cc-37c7-4a2b-a678-a11d11248d22",
+            "timestamp": 1785071112337
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "a5f425cc-37c7-4a2b-a678-a11d11248d22",
+            "timestamp": 1785071112339
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "a5f425cc-37c7-4a2b-a678-a11d11248d22",
+            "timestamp": 1785071157993
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\DETAIL_RETEST_PROPER_20260726\\workflows\\06_ONEOBS_CLEAN_MAIN.json"
+  }
+]

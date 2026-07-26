@@ -1,0 +1,119 @@
+[
+  {
+    "elapsed": 68.2,
+    "outputs": [
+      "DRETEST-01_ANIMA_BASE_CLEAN_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "e7ff5be9-6740-42c9-867e-9cf49e57b64c",
+            "timestamp": 1785070590378
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "e7ff5be9-6740-42c9-867e-9cf49e57b64c",
+            "timestamp": 1785070590380
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "e7ff5be9-6740-42c9-867e-9cf49e57b64c",
+            "timestamp": 1785070657246
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\DETAIL_RETEST_PROPER_20260726\\workflows\\01_ANIMA_BASE_CLEAN.json"
+  },
+  {
+    "elapsed": 60.3,
+    "outputs": [
+      "DRETEST-02_ANIMA_STUDIO006_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "0b0fe51c-b781-4b13-9de1-0433b0b624ba",
+            "timestamp": 1785070658615
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "6",
+              "11"
+            ],
+            "prompt_id": "0b0fe51c-b781-4b13-9de1-0433b0b624ba",
+            "timestamp": 1785070658616
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "0b0fe51c-b781-4b13-9de1-0433b0b624ba",
+            "timestamp": 1785070718587
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\DETAIL_RETEST_PROPER_20260726\\workflows\\02_ANIMA_STUDIO006.json"
+  },
+  {
+    "elapsed": 60.3,
+    "outputs": [
+      "DRETEST-03_ANIMA_INSPECT004_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "936a55cd-380d-4c5e-a812-59ef9dc0c2e9",
+            "timestamp": 1785070718911
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "6",
+              "11"
+            ],
+            "prompt_id": "936a55cd-380d-4c5e-a812-59ef9dc0c2e9",
+            "timestamp": 1785070718912
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "936a55cd-380d-4c5e-a812-59ef9dc0c2e9",
+            "timestamp": 1785070778224
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\DETAIL_RETEST_PROPER_20260726\\workflows\\03_ANIMA_INSPECT004.json"
+  }
+]
