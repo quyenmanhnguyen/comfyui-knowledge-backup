@@ -1,0 +1,115 @@
+[
+  {
+    "elapsed": 60.3,
+    "outputs": [
+      "FEDIT-01B_ANIMA_INSPECTION_LOW016_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "6adc072d-bce3-4956-8569-384e9fc7621f",
+            "timestamp": 1785069689591
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "6",
+              "11"
+            ],
+            "prompt_id": "6adc072d-bce3-4956-8569-384e9fc7621f",
+            "timestamp": 1785069689593
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "6adc072d-bce3-4956-8569-384e9fc7621f",
+            "timestamp": 1785069749656
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_EDIT_DETAIL_PACK_20260726\\workflows\\01B_ANIMA_INSPECTION_LOW016.json"
+  },
+  {
+    "elapsed": 30.2,
+    "outputs": [
+      "FEDIT-03B_AMIX_DETAIL_SAFE_LOW_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "d068f57b-73d6-43ba-bd51-5c74f37097e1",
+            "timestamp": 1785069749964
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "6"
+            ],
+            "prompt_id": "d068f57b-73d6-43ba-bd51-5c74f37097e1",
+            "timestamp": 1785069749966
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "d068f57b-73d6-43ba-bd51-5c74f37097e1",
+            "timestamp": 1785069779357
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_EDIT_DETAIL_PACK_20260726\\workflows\\03B_AMIX_DETAIL_SAFE_LOW.json"
+  },
+  {
+    "elapsed": 88.3,
+    "outputs": [
+      "FEDIT-05B_Z_BETTERPOSE_LOW010_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "06092c90-6a10-4de1-9043-499e14c18023",
+            "timestamp": 1785069780089
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "06092c90-6a10-4de1-9043-499e14c18023",
+            "timestamp": 1785069780093
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "06092c90-6a10-4de1-9043-499e14c18023",
+            "timestamp": 1785069866375
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_EDIT_DETAIL_PACK_20260726\\workflows\\05B_Z_BETTERPOSE_LOW010.json"
+  }
+]

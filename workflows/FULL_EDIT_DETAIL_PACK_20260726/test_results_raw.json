@@ -1,0 +1,45 @@
+[
+  {
+    "elapsed": 68.1,
+    "outputs": [
+      "FEDIT-01_ANIMA_STUDIO_NIPPLE_LOW_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "d5a34757-01e8-4332-887a-f4427979dc5d",
+            "timestamp": 1785069477730
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "d5a34757-01e8-4332-887a-f4427979dc5d",
+            "timestamp": 1785069477731
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "d5a34757-01e8-4332-887a-f4427979dc5d",
+            "timestamp": 1785069544489
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_EDIT_DETAIL_PACK_20260726\\workflows\\01_ANIMA_STUDIO_NIPPLE_LOW.json"
+  },
+  {
+    "file": "C:\\AI\\workflows\\FULL_EDIT_DETAIL_PACK_20260726\\workflows\\03_AMIX_RIMIX_DETAIL_LOW.json",
+    "error": "<HTTPError 400: 'Bad Request'>"
+  },
+  {
+    "file": "C:\\AI\\workflows\\FULL_EDIT_DETAIL_PACK_20260726\\workflows\\05_Z_BETTERPOSE_LOW012.json",
+    "error": "<HTTPError 400: 'Bad Request'>"
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "elapsed": 54.2,
+    "outputs": [
+      "FEDIT-06B_Z_FEMALEANATOMY_LOW008_00001_.png"
+    ],
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "f103b47f-e998-46c7-9429-cbda90c8dda2",
+            "timestamp": 1785069957289
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "1",
+              "2",
+              "3",
+              "6"
+            ],
+            "prompt_id": "f103b47f-e998-46c7-9429-cbda90c8dda2",
+            "timestamp": 1785069957290
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "f103b47f-e998-46c7-9429-cbda90c8dda2",
+            "timestamp": 1785070010275
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_EDIT_DETAIL_PACK_20260726\\workflows\\06B_Z_FEMALEANATOMY_LOW008.json"
+  },
+  {
+    "elapsed": 14.6,
+    "outputs": [],
+    "status": {
+      "status_str": "error",
+      "completed": false,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "c9416995-1cad-4f16-98bb-17a1b4f6da97",
+            "timestamp": 1785070011530
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [],
+            "prompt_id": "c9416995-1cad-4f16-98bb-17a1b4f6da97",
+            "timestamp": 1785070011532
+          }
+        ],
+        [
+          "execution_error",
+          {
+            "prompt_id": "c9416995-1cad-4f16-98bb-17a1b4f6da97",
+            "node_id": "1",
+            "node_type": "CheckpointLoaderSimple",
+            "executed": [],
+            "exception_message": "list index out of range\n",
+            "exception_type": "IndexError",
+            "traceback": [
+              "  File \"C:\\AI\\ComfyUI\\execution.py\", line 543, in execute\n    output_data, output_ui, has_subgraph, has_pending_tasks = await get_output_data(prompt_id, unique_id, obj, input_data_all, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb, v3_data=v3_data)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+              "  File \"C:\\AI\\ComfyUI\\execution.py\", line 342, in get_output_data\n    return_values = await _async_map_node_over_list(prompt_id, unique_id, obj, input_data_all, obj.FUNCTION, allow_interrupt=True, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb, v3_data=v3_data)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+              "  File \"C:\\AI\\ComfyUI\\custom_nodes\\comfyui-lora-manager\\py\\metadata_collector\\metadata_hook.py\", line 171, in async_map_node_over_list_with_metadata\n    results = await original_map_node_over_list(\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+              "  File \"C:\\AI\\ComfyUI\\execution.py\", line 316, in _async_map_node_over_list\n    await process_inputs(input_dict, i)\n",
+              "  File \"C:\\AI\\ComfyUI\\execution.py\", line 304, in process_inputs\n    result = f(**inputs)\n             ^^^^^^^^^^^\n",
+              "  File \"C:\\AI\\ComfyUI\\nodes.py\", line 629, in load_checkpoint\n    out = comfy.sd.load_checkpoint_guess_config(ckpt_path, output_vae=True, output_clip=True, embedding_directory=folder_paths.get_folder_paths(\"embeddings\"))\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+              "  File \"C:\\AI\\ComfyUI\\comfy\\sd.py\", line 1860, in load_checkpoint_guess_config\n    out = load_state_dict_guess_config(sd, output_vae, output_clip, output_clipvision, embedding_directory, output_model, model_options, te_model_options=te_model_options, metadata=metadata, disable_dynamic=disable_dynamic)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+              "  File \"C:\\AI\\ComfyUI\\comfy\\sd.py\", line 2023, in load_state_dict_guess_config\n    model_management.load_models_gpu([model_patcher], force_full_load=True)\n",
+              "  File \"C:\\AI\\ComfyUI\\comfy\\model_management.py\", line 922, in load_models_gpu\n    free_memory(total_memory_required[device] * 1.1 + extra_mem,\n",
+              "  File \"C:\\AI\\ComfyUI\\comfy\\model_management.py\", line 835, in free_memory\n    if current_loaded_models[i].model.is_dynamic() and for_dynamic:\n       ~~~~~~~~~~~~~~~~~~~~~^^^\n"
+            ],
+            "current_inputs": {
+              "ckpt_name": [
+                "intorealismUltra_sdxlV1NoLightning.safetensors"
+              ]
+            },
+            "current_outputs": [
+              "21",
+              "8",
+              "20",
+              "4",
+              "7",
+              "3",
+              "23",
+              "9",
+              "25",
+              "2",
+              "6",
+              "24",
+              "1",
+              "22"
+            ],
+            "timestamp": 1785070024932
+          }
+        ]
+      ]
+    },
+    "file": "C:\\AI\\workflows\\FULL_EDIT_DETAIL_PACK_20260726\\workflows\\04_INTO_FACE_HAND_RESCUE.json"
+  }
+]
