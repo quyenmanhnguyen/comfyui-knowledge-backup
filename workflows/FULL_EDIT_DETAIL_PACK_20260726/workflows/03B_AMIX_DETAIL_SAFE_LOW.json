@@ -1,0 +1,144 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "aMixIllustrious_aMix.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ],
+      "lora_name": "rimixxO2.safetensors",
+      "strength_model": 0.65,
+      "strength_clip": 0.65
+    }
+  },
+  "3": {
+    "class_type": "CLIPSetLastLayer",
+    "inputs": {
+      "clip": [
+        "11",
+        1
+      ],
+      "stop_at_clip_layer": -2
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "text": "masterwork, masterpiece, best quality, detailed, high detail, very aesthetic, adult, aged up, one clearly adult East Asian woman age 30, semi-real anime glamour portrait, white window lounge, close upper-body composition, voluptuous curvy body, sheer satin drape, full rounded chest, soft hips, separated hands, gentle confident expression, clean symmetrical eyes, glossy dark hair, warm daylight and white bounce fill, crisp satin folds, luminous skin texture, no fake text. Negative: lowres, worst quality, low quality, bad anatomy, bad hands, extra fingers, fused fingers, missing fingers, extra limbs, duplicated body, deformed face, asymmetrical eyes, muddy skin, grey skin, waxy plastic skin, oil paint smear, blurry, fake text, watermark, signature, logo, child, teen, loli, underage"
+    }
+  },
+  "5": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "text": "lowres, worst quality, low quality, blurry, bad anatomy, bad hands, extra hands, extra fingers, fused fingers, missing fingers, extra limbs, duplicate person, malformed feet, cropped hands, fake text, logo, watermark, child, teen, loli, dark muddy skin, waxy plastic skin, oil paint smear, lifeless face, cross-eye, lazy eye, neon eyes, overexposed face, crushed blacks, rope, bondage, gag, cloth in mouth"
+    }
+  },
+  "6": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "7": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "11",
+        0
+      ],
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "6",
+        0
+      ],
+      "seed": 72662006,
+      "steps": 30,
+      "cfg": 7,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "7",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "FEDIT-03B_AMIX_DETAIL_SAFE_LOW"
+    }
+  },
+  "10": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "clip": [
+        "2",
+        1
+      ],
+      "lora_name": "civitai_nsfw_detail_20260726\\Hentai_Studio_Quality_Anima-step00001300.safetensors",
+      "strength_model": 0.12,
+      "strength_clip": 0
+    }
+  },
+  "11": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "10",
+        0
+      ],
+      "clip": [
+        "10",
+        1
+      ],
+      "lora_name": "civitai_nsfw_detail_20260726\\nipple_pull_anima_V1.0.safetensors",
+      "strength_model": 0.08,
+      "strength_clip": 0
+    }
+  }
+}

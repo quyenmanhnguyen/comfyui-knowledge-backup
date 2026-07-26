@@ -1,0 +1,242 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "intorealismUltra_sdxlV1NoLightning.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "Premium editorial fine-art photograph, one clearly adult East Asian woman age 30, youthful soft oval face, natural confident expression, seated three-quarter adult figure study on cream chaise beside large white window, voluptuous curvy body, clean natural proportions, both hands visible and separated, left hand on cushion, right hand on thigh, bright diffused daylight, white bounce fill, 85mm lens, shallow depth of field, luminous neutral-warm skin with fine pores and peach fuzz, realistic hair strands, soft room shadows, no text."
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "Premium editorial fine-art photograph, one clearly adult East Asian woman age 30, youthful soft oval face, natural confident expression, seated three-quarter adult figure study on cream chaise beside large white window, voluptuous curvy body, clean natural proportions, both hands visible and separated, left hand on cushion, right hand on thigh, bright diffused daylight, white bounce fill, 85mm lens, shallow depth of field, luminous neutral-warm skin with fine pores and peach fuzz, realistic hair strands, soft room shadows, no text."
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 896,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 72626041,
+      "steps": 35,
+      "cfg": 4.5,
+      "sampler_name": "dpmpp_sde",
+      "scheduler": "karras",
+      "denoise": 1
+    }
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "7",
+        0
+      ],
+      "filename_prefix": "FEDIT-04_INTO_FACE_HAND_RESCUE"
+    }
+  },
+  "8": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "25",
+        0
+      ],
+      "filename_prefix": "FEDIT-04_INTO_FACE_HAND_RESCUE"
+    }
+  },
+  "20": {
+    "class_type": "UltralyticsDetectorProvider",
+    "inputs": {
+      "model_name": "bbox/face_yolov8m.pt"
+    }
+  },
+  "21": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "Premium editorial fine-art photograph, one clearly adult East Asian woman age 30, youthful soft oval face, natural confident expression, seated three-quarter adult figure study on cream chaise beside large white window, voluptuous curvy body, clean natural proportions, both hands visible and separated, left hand on cushion, right hand on thigh, bright diffused daylight, white bounce fill, 85mm lens, shallow depth of field, luminous neutral-warm skin with fine pores and peach fuzz, realistic hair strands, soft room shadows, no text."
+    }
+  },
+  "22": {
+    "class_type": "FaceDetailer",
+    "inputs": {
+      "image": [
+        "7",
+        0
+      ],
+      "model": [
+        "1",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ],
+      "vae": [
+        "1",
+        2
+      ],
+      "positive": [
+        "21",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "bbox_detector": [
+        "20",
+        0
+      ],
+      "guide_size": 512,
+      "guide_size_for": true,
+      "max_size": 896,
+      "seed": 72429501,
+      "steps": 14,
+      "cfg": 4.2,
+      "sampler_name": "dpmpp_sde",
+      "scheduler": "karras",
+      "denoise": 0.2,
+      "feather": 10,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "bbox_threshold": 0.5,
+      "bbox_dilation": 8,
+      "bbox_crop_factor": 2.8,
+      "sam_detection_hint": "center-1",
+      "sam_dilation": 0,
+      "sam_threshold": 0.93,
+      "sam_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7,
+      "sam_mask_hint_use_negative": "False",
+      "drop_size": 10,
+      "wildcard": "",
+      "cycle": 1
+    }
+  },
+  "23": {
+    "class_type": "UltralyticsDetectorProvider",
+    "inputs": {
+      "model_name": "bbox/hand_yolov9c.pt"
+    }
+  },
+  "24": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "Premium editorial fine-art photograph, one clearly adult East Asian woman age 30, youthful soft oval face, natural confident expression, seated three-quarter adult figure study on cream chaise beside large white window, voluptuous curvy body, clean natural proportions, both hands visible and separated, left hand on cushion, right hand on thigh, bright diffused daylight, white bounce fill, 85mm lens, shallow depth of field, luminous neutral-warm skin with fine pores and peach fuzz, realistic hair strands, soft room shadows, no text."
+    }
+  },
+  "25": {
+    "class_type": "FaceDetailer",
+    "inputs": {
+      "image": [
+        "22",
+        0
+      ],
+      "model": [
+        "1",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ],
+      "vae": [
+        "1",
+        2
+      ],
+      "positive": [
+        "24",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "bbox_detector": [
+        "23",
+        0
+      ],
+      "guide_size": 384,
+      "guide_size_for": true,
+      "max_size": 768,
+      "seed": 72429601,
+      "steps": 16,
+      "cfg": 4.2,
+      "sampler_name": "dpmpp_sde",
+      "scheduler": "karras",
+      "denoise": 0.24,
+      "feather": 12,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "bbox_threshold": 0.35,
+      "bbox_dilation": 12,
+      "bbox_crop_factor": 2.2,
+      "sam_detection_hint": "center-1",
+      "sam_dilation": 0,
+      "sam_threshold": 0.93,
+      "sam_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7,
+      "sam_mask_hint_use_negative": "False",
+      "drop_size": 10,
+      "wildcard": "",
+      "cycle": 1
+    }
+  }
+}
